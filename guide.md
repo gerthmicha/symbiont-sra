@@ -65,7 +65,7 @@ This would perform an assembly with SPAdes for each of the fastq files present i
 #### Taxonomy of microbe contigs
 + Combine all contig files, blast all against local copy of the NCBI nt database:
 ```shell
-  blastn -task megablast -query all_contigs.fas -db ~/ncbi_databases/nt/nt -evalue 1e-12 -culling_limit 5 -num_threads 3 -out all_contigs.blast -outfmt '6 qseqid staxids bitscore std sscinames sskingdoms stitle length pident evalue'
+  blastn -task megablast -query all_contigs.fas -db ~/ncbi_databases/nt/nt -evalue 1e-12 -culling_limit 5 -num_threads 3 -out all_contigs.blast -outfmt '6 qseqid staxids bitscore std stitle'
 ```
 + Create taxonomy table from blast results
 ```shell

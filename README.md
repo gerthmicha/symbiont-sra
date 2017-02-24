@@ -1,5 +1,5 @@
 # symbiont-sra
-Data from Gerth &amp; Hurst 2017 (link)
+Data from [Gerth & Hurst 2017](https://github.com/gerthmicha/symbiont-sra/)
 
 This repository was created to enable interested readers to reproduce the steps described in [Gerth & Hurst 2017](https://github.com/gerthmicha/symbiont-sra/). A guide for the steps used to retrieve *Apis* SRA data, and to extract microbial information is given in [guide.md](https://github.com/gerthmicha/symbiont-sra/blob/master/guide.md). All intermediate files that were created using the outlined steps are also found in this repository, and are described in [guide.md](https://github.com/gerthmicha/symbiont-sra/blob/master/guide.md). 
 
