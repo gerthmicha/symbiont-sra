@@ -1,4 +1,4 @@
-# Detailed guide to replicate data retrieval and analyses from [Gerth & Hurst 2017](https://github.com/gerthmicha/symbiont-sra)
+# Guide to replicate data retrieval and analyses from [Gerth & Hurst 2017](https://github.com/gerthmicha/symbiont-sra)
 
 This guide lists the steps we used to screen short read sequencing data from honey bees (*Apis* ssp.) for genomic data of their associated microbes. In general, this is also transferable to retrieving symbiont data from other Eukaryote sequencing projects. All intermediate files mentioned can be accessed via https://github.com/gerthmicha/symbiont-sra. The following tools were used (alternatives in brackets):
 
@@ -65,12 +65,12 @@ This would perform an assembly with SPAdes for each of the fastq files present i
 #### Taxonomy of microbe contigs
 + Combine all contig files, blast all against local copy of the NCBI nt database:
 ```shell
-  blastn -task megablast -query all_contigs.fas -db ~/ncbi_databases/nt/nt -evalue 1e-12 -culling_limit 5 -num_threads 3 -out all_contigs.blast -outfmt '6 qseqid staxid length pident evalue stitle'
+  blastn -task megablast -query all_contigs.fas -db ~/ncbi_databases/nt/nt -evalue 1e-12 -culling_limit 5 -num_threads 3 -out all_contigs.blast -outfmt '6 qseqid staxids bitscore std sscinames sskingdoms stitle length pident evalue'
 ```
 + Create taxonomy table from blast results
 ```shell
 blobtools create -i all_contigs.fas -y spades -t all_contigs.blast --nodes nodes.dmp --names names.dmp
-blobtools view -i BlobDB.json -r all > taxon_table.csv
+blobtools view -i BlobDB.json -r all
 ```
 Blobtools can be used for other interesting summaries and graphs, so it is worthwhile to check out the manual.  
 
