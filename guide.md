@@ -24,13 +24,13 @@ cat sra_accession_list.txt | xargs -n 1 -P 3 -I{} fastq-dump -O reads_folder --g
 ```
 
 #### Compile reference sequences
-+ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S).
++ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: apis_symbiont_reference.fas AND lactobacillus_reference.fas).
 
 #### Mapping
 + Map all downloaded reads to reference sequences.
 + Paired-end mapping of all read files stored in the current folder to the reference fasta file:
 ```shell
-ls *_* | cut -f1 -d'_' | sort -u | xargs -I{} -n 1 ngm --bam --no-unal -1 {}_1.fastq.gz -2 {}_2.fastq.gz -r reference.fas -o mapping/{}.bam -g -t 3 -i 0.95
+ls *_* | cut -f1 -d'_' | sort -u | xargs -I{} -n 1 ngm --bam --no-unal -1 {}_1.fastq.gz -2 {}_2.fastq.gz -r apis_symbiont_reference.fas -o mapping/{}.bam -g -t 3 -i 0.95
 ```
 + Single-end mapping:
 ```shell
