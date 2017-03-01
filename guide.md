@@ -11,6 +11,7 @@ This guide lists the steps we used to screen short read sequencing data from hon
 + [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 + [blobtools](https://github.com/DRL/blobtools)
 + [MEGAHIT](https://github.com/voutcn/megahit) (other assembler)
+
 ---
 ## Workflow
 #### Compile list of SRA experiments
@@ -24,7 +25,7 @@ cat sra_accession_list.txt | xargs -n 1 -P 3 -I{} fastq-dump -O reads_folder --g
 ```
 
 #### Compile reference sequences
-+ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: apis_symbiont_reference.fas AND lactobacillus_reference.fas).
++ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: [apis_symbiont_reference.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/apis_symbiont_reference.fas) AND [lactobacillus_reference.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/lactobacillus_reference.fas)).
 
 #### Mapping
 + Map all downloaded reads to reference sequences.
@@ -46,7 +47,7 @@ for i in *.sort.bam; do samtools view -c ${i} >> mapping_count.txt; done
 ls *.sort.bam >> names.txt
 paste names.txt mapping_count.txt >> mapping_results.txt
 ```
-In this example, all bam files are sorted with a for loop (the unsorted bam files can be discarded afterwards in order to save disk space). Next, another loop will count the mapped reads in each of the bam files. Finally, counts will be written with the names of the corresponding bam files into a new file.
+In this example, all bam files are sorted with a for loop (the unsorted bam files can be discarded afterwards in order to save disk space). Next, another loop will count the mapped reads in each of the bam files. Finally, counts will be written with the names of the corresponding bam files into a new file (here: [mapping_results.txt](https://github.com/gerthmicha/symbiont-sra/blob/master/mapping_results.txt)).
 
 #### Extract microbe reads from mapping files
 + Extract reads from bam files for mappings in which at least 1000 reads were mapped:
@@ -63,11 +64,11 @@ ls *.fq | cut -f1 -d'.' | xargs -n1 -I{} spades.py -s {}.fq -o {} -t 3
 This would perform an assembly with SPAdes for each of the fastq files present in the directory.
 
 #### Taxonomy of microbe contigs
-+ Combine all contig files, blast all against local copy of the NCBI nt database:
++ Combine all contig files (here: [all_contigs.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/all_contigs.fas)), blast all against local copy of the NCBI nt database:
 ```shell
   blastn -task megablast -query all_contigs.fas -db ~/ncbi_databases/nt/nt -evalue 1e-12 -culling_limit 5 -num_threads 3 -out all_contigs.blast -outfmt '6 qseqid staxids bitscore std stitle'
 ```
-+ Create taxonomy table from blast results
++ Create taxonomy table from blast results (here: [all_contigs.blast](https://github.com/gerthmicha/symbiont-sra/blob/master/all_contigs.blast))
 ```shell
 blobtools create -i all_contigs.fas -y spades -t all_contigs.blast --nodes nodes.dmp --names names.dmp
 blobtools view -i BlobDB.json -r all
@@ -76,7 +77,7 @@ Blobtools can be used for other interesting summaries and graphs, so it is worth
 
 
 ## Potential next steps
-+ Hits of interest, perform *de-novo* meta assembly of corresponding sequencing libraries with MEGAHIT.
++ For hits of interest, perform *de-novo* meta assembly of corresponding sequencing libraries with MEGAHIT.
 + Use [anvi'o](https://peerj.com/articles/1319/) to get an overview of the taxonomic composition of you meta-assembly
 + Retrieve draft assembly of your target microbe by
   + Taxonomic assignment of all contigs with BLAST & blobtools (&/or anvi'o)
