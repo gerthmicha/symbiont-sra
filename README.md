@@ -5,4 +5,4 @@ This repository was created to enable interested readers to reproduce the steps 
 
 Other files in this repository: 
 + two alignment files created with [SSU-ALIGN](http://eddylab.org/software/ssu-align/) for *Lactobacillus* 16S phylogenetic analysis
-+ assembly files created with [PROKKA](https://github.com/tseemann/prokka) (.gff, .gbk, .fas) for three novel draft genomes of *Apis* symbionts recovered in our analyses.
++ assembly files created with [PROKKA](https://github.com/tseemann/prokka) (.gff, .gbk, .fsa) for three novel draft genomes of *Apis* symbionts recovered in our analyses.
