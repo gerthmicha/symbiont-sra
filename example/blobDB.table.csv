@@ -1,0 +1,790 @@
+## blobtools v0.9.19
+## assembly	: /home/gerth/Documents/working_directory/mapped_reads_assembled/all_contigs.fas
+## coverage	: spades - /home/gerth/Documents/working_directory/mapped_reads_assembled/all_contigs.fas
+## taxonomy	: tax0 - /home/gerth/Documents/working_directory/mapped_reads_assembled/all_contigs.blast
+## nodesDB	: None
+## taxrule	: bestsum
+##
+# name	length	GC	N	spades	superkingdom.t.6	superkingdom.s.7	superkingdom.c.8	phylum.t.9	phylum.s.10	phylum.c.11	order.t.12	order.s.13	order.c.14	family.t.15	family.s.16	family.c.17	genus.t.18	genus.s.19	genus.c.20	species.t.21	species.s.22	species.c.23
+DRR031484_1_length_1587_cov_3.53982	1587	0.5312	0	3.54	Bacteria	30897.0	0	Proteobacteria	30897.0	0	Rhizobiales	30897.0	0	Bartonellaceae	15673.0	2	Bartonella	15673.0	3	uncultured Rhizobiales bacterium	10552.0	7
+DRR031486_1_length_256_cov_0.686567	256	0.5039	0	0.687	Bacteria	4666.0	0	Firmicutes	4254.0	1	Lactobacillales	4254.0	1	Lactobacillaceae	4254.0	1	Lactobacillus	4254.0	1	Lactobacillus kunkeei	4254.0	1
+DRR031492_1_length_1444_cov_1.89993	1444	0.5007	0	1.9	Bacteria	25478.0	0	Firmicutes	25478.0	0	Lactobacillales	25478.0	0	Lactobacillaceae	25478.0	0	Lactobacillus	23370.0	1	Lactobacillus kunkeei	23370.0	1
+DRR031499_1_length_449_cov_1.39848	449	0.5523	0	1.398	Bacteria	6115.0	0	Proteobacteria	3644.0	1	Rhizobiales	3047.0	2	Bacteria-undef	2471.0	3	Bacteria-undef	2471.0	3	uncultured Rhizobiales bacterium	1863.0	5
+DRR031499_2_length_354_cov_1.22742	354	0.5	0	1.227	Bacteria	5221.0	0	Proteobacteria	5221.0	0	Neisseriales	4683.0	1	Neisseriaceae	4683.0	1	Neisseria	2525.0	3	Neisseria meningitidis	2525.0	4
+DRR031499_3_length_347_cov_1.02397	347	0.5476	0	1.024	Bacteria	5374.0	0	Proteobacteria	3738.0	1	Rhizobiales	2640.0	2	Rhizobiaceae	2640.0	2	Rhizobium	2108.0	3	uncultured bacterium	1091.0	7
+DRR031501_1_length_262_cov_601.71	262	0.4656	0	601.71	Eukaryota	4814.0	0	Arthropoda	4616.0	1	Hymenoptera	3949.0	4	Apidae	2271.0	10	Apis	582.0	16	Apis mellifera	582.0	17
+DRR031502_1_length_210_cov_1.10968	210	0.6095	0	1.11	Bacteria	2917.0	0	Proteobacteria	1732.0	1	Rhizobiales	1732.0	1	Rhizobiaceae	1732.0	1	Rhizobium	1732.0	1	uncultured bacterium	1185.0	2
+DRR031503_1_length_208_cov_1144.56	208	0.4856	0	1144.56	Eukaryota	3678.0	0	Arthropoda	3678.0	0	Hymenoptera	3678.0	0	Apidae	1925.0	4	Apis	770.0	8	Apis mellifera	770.0	8
+DRR031554_1_length_1624_cov_5.98343	1624	0.5271	0	5.983	Bacteria	30901.0	0	Proteobacteria	30901.0	0	Rhizobiales	30901.0	0	Bartonellaceae	15677.0	2	Bartonella	15677.0	3	uncultured Rhizobiales bacterium	10552.0	7
+DRR031554_2_length_995_cov_13.983	995	0.4623	0	13.983	Eukaryota	17939.0	0	Ascomycota	17939.0	0	Eurotiales	16123.0	1	Aspergillaceae	16123.0	1	Penicillium	10825.0	2	Aspergillus niger	5298.0	5
+DRR031554_3_length_657_cov_14.7176	657	0.5023	0	14.718	Eukaryota	9930.0	0	Ascomycota	9930.0	0	Saccharomycetales	3926.0	3	Saccharomycetaceae	3926.0	4	Zygosaccharomyces	2949.0	6	Zygosaccharomyces rouxii	2949.0	7
+DRR031554_4_length_261_cov_0.441748	261	0.5977	0	0.442	Bacteria	4809.0	0	Actinobacteria	4809.0	0	Bifidobacteriales	4809.0	0	Bifidobacteriaceae	4809.0	0	Bifidobacterium	4809.0	0	Bifidobacterium thermophilum	1932.0	5
+DRR031554_5_length_252_cov_2.52792	252	0.5873	0	2.528	Bacteria	4365.0	0	Actinobacteria	4365.0	0	Bifidobacteriales	4365.0	0	Bifidobacteriaceae	4365.0	0	Bifidobacterium	4365.0	0	uncultured Bifidobacterium sp.	2035.0	3
+DRR031554_6_length_235_cov_2.72222	235	0.5447	0	2.722	Bacteria	4180.0	0	Proteobacteria	4180.0	0	Rhodospirillales	3745.0	1	Acetobacteraceae	3745.0	1	Acetobacter	2005.0	2	Acetobacter pasteurianus	2005.0	5
+DRR031555_1_length_948_cov_14.5344	948	0.5148	0	14.534	Bacteria	15961.0	0	Proteobacteria	15961.0	0	Rhizobiales	15961.0	0	Bartonellaceae	9356.0	1	Bartonella	9356.0	1	uncultured Rhizobiales bacterium	6605.0	4
+DRR031555_2_length_665_cov_53.6503	665	0.4767	0	53.65	Eukaryota	11407.0	0	Ascomycota	11407.0	0	Eurotiales	11407.0	0	Aspergillaceae	10256.0	1	Penicillium	8010.0	2	Penicillium namyslowskii	2313.0	6
+DRR031555_3_length_663_cov_42.5302	663	0.4615	0	42.53	Eukaryota	11218.0	0	Ascomycota	10095.0	1	Eurotiales	5585.0	3	Aspergillaceae	5585.0	3	Aspergillus	5585.0	3	Aspergillus niger	4460.0	5
+DRR031555_4_length_634_cov_6.53245	634	0.5252	0	6.532	Bacteria	10235.0	0	Firmicutes	10235.0	0	Lactobacillales	10235.0	0	Lactobacillaceae	10235.0	0	Lactobacillus	6487.0	1	Pediococcus damnosus	3748.0	5
+DRR031555_5_length_508_cov_12.6126	508	0.5472	0	12.613	Bacteria	8616.0	0	Proteobacteria	8616.0	0	Rhizobiales	8616.0	0	Bartonellaceae	8616.0	0	Bartonella	8616.0	0	Bartonella tribocorum	2577.0	5
+DRR031555_6_length_254_cov_1.76018	254	0.5394	0	1.76	Bacteria	3501.0	0	Firmicutes	3501.0	0	Lactobacillales	3227.0	1	Lactobacillaceae	3227.0	1	Lactobacillus	3227.0	1	uncultured Lactobacillus sp.	2012.0	3
+DRR031555_7_length_201_cov_85.2857	201	0.5423	0	85.286	Eukaryota	3454.0	0	Ascomycota	2752.0	1	Eurotiales	2752.0	1	Aspergillaceae	2752.0	1	Penicillium	1741.0	2	Aspergillus niger	1011.0	6
+DRR031555_8_length_190_cov_15.0191	190	0.5789	0	15.019	Bacteria	3393.0	0	Proteobacteria	3393.0	0	Rhizobiales	2691.0	1	Bartonellaceae	1638.0	2	Bartonella	1638.0	2	Bartonella quintana	1638.0	2
+DRR031555_9_length_139_cov_6.14151	139	0.518	0	6.142	Bacteria	2221.0	1	Firmicutes	1476.0	2	Bacillales	1476.0	2	Staphylococcaceae	1476.0	2	Salinicoccus	1476.0	2	uncultured bacterium	745.0	5
+DRR031555_10_length_103_cov_212.786	103	0.5825	0	212.786	Eukaryota	1691.0	0	Ascomycota	1691.0	0	Eurotiales	1031.0	2	Aspergillaceae	860.0	3	Penicillium	684.0	4	unresolved	342.0	7
+DRR031555_11_length_66_cov_119.848	66	0.4545	0	119.848	Eukaryota	1105.0	0	Ascomycota	495.0	2	Saccharomycetales	495.0	2	Moniliellaceae	488.0	3	Moniliella	488.0	3	Saccharomyces cerevisiae	297.0	6
+DRR031555_12_length_57_cov_12.5833	57	0.5439	0	12.583	Eukaryota	1060.0	0	unresolved	424.0	2	Polypodiales	424.0	4	unresolved	318.0	5	Saccharomyces	318.0	7	Saccharomyces cerevisiae	318.0	7
+DRR031555_13_length_45_cov_22.8333	45	0.4667	0	22.833	Eukaryota	842.0	0	Chordata	757.8	1	Rodentia	252.6	5	Muridae	252.6	6	unresolved	168.4	7	unresolved	168.4	7
+DRR031556_1_length_609_cov_182.405	609	0.5304	0	182.405	Bacteria	11070.0	0	Proteobacteria	9961.0	1	Enterobacterales	9961.0	1	Enterobacteriaceae	4446.0	3	Enterobacter	4446.0	3	Pectobacterium carotovorum	3309.0	5
+DRR031556_2_length_203_cov_140.365	203	0.5517	0	140.365	Bacteria	3705.0	0	Proteobacteria	3330.0	1	Enterobacterales	3330.0	1	Enterobacteriaceae	3330.0	1	Salmonella	3330.0	1	Salmonella enterica	2960.0	2
+DRR031556_3_length_201_cov_214.458	201	0.5721	0	214.458	Bacteria	3720.0	0	Proteobacteria	2232.0	1	unresolved	1488.0	2	Bacteria-undef	1488.0	3	Bacteria-undef	1488.0	5	uncultured bacterium	1488.0	6
+DRR031557_1_length_548_cov_181.062	548	0.4672	0	181.062	Eukaryota	10011.0	0	Ascomycota	5061.0	1	Eurotiales	5061.0	1	Aspergillaceae	5061.0	1	Penicillium	5061.0	1	Penicillium expansum	2026.0	8
+DRR031557_2_length_456_cov_123.695	456	0.4539	0	123.695	Eukaryota	8161.0	0	Ascomycota	5691.0	1	Eurotiales	5691.0	1	Aspergillaceae	4870.0	2	Penicillium	4870.0	2	uncultured fungus	1662.0	7
+DRR031557_3_length_352_cov_152.94	352	0.4801	0	152.94	Eukaryota	5698.0	0	Ascomycota	3394.0	1	Eukaryota-undef	2304.0	4	Eukaryota-undef	2304.0	5	Eukaryota-undef	2304.0	5	uncultured fungus	1748.0	7
+DRR031557_4_length_218_cov_1.48649	218	0.5183	0	1.486	Bacteria	3915.0	0	Firmicutes	3915.0	0	Bacillales	3915.0	0	Staphylococcaceae	3915.0	0	Staphylococcus	3915.0	0	Staphylococcus hyicus	1955.0	2
+DRR031557_5_length_195_cov_117.346	195	0.5128	0	117.346	Eukaryota	3503.0	0	Ascomycota	3503.0	0	Eurotiales	3503.0	0	Aspergillaceae	3503.0	0	Penicillium	3503.0	0	Penicillium chrysogenum	722.0	7
+DRR031558_1_length_537_cov_18.6171	537	0.4823	0	18.617	Eukaryota	9652.0	0	Ascomycota	5820.0	1	Eurotiales	5820.0	1	Aspergillaceae	5820.0	1	Aspergillus	5820.0	1	Aspergillus ustus	977.0	9
+DRR031558_2_length_287_cov_100.732	287	0.5157	0	100.732	Bacteria	5306.0	0	Firmicutes	5306.0	0	Bacillales	5306.0	0	Staphylococcaceae	5306.0	0	Staphylococcus	5306.0	0	Staphylococcus epidermidis	3713.0	2
+DRR031558_3_length_274_cov_19.7261	274	0.5365	0	19.726	Eukaryota	4491.0	0	Ascomycota	3596.0	2	Eurotiales	3596.0	2	Aspergillaceae	3596.0	2	Aspergillus	2697.0	4	Aspergillus niger	1332.0	7
+DRR031558_4_length_270_cov_15.1603	270	0.5185	0	15.16	Eukaryota	4916.0	0	Ascomycota	4916.0	0	Eurotiales	4916.0	0	Aspergillaceae	4916.0	0	Aspergillus	4916.0	0	Aspergillus niger	1464.0	6
+DRR031558_5_length_238_cov_64.1707	238	0.5084	0	64.171	Bacteria	4400.0	0	Firmicutes	4400.0	0	Bacillales	4400.0	0	Staphylococcaceae	4400.0	0	Staphylococcus	4400.0	0	Staphylococcus epidermidis	4400.0	0
+DRR031558_6_length_226_cov_21.285	226	0.469	0	21.285	Eukaryota	4017.0	0	Eukaryota-undef	2425.0	1	Eukaryota-undef	2425.0	1	Eukaryota-undef	2425.0	1	Eukaryota-undef	2425.0	1	uncultured fungus	1613.0	2
+DRR031558_7_length_221_cov_43.0213	221	0.5566	0	43.021	Bacteria	4090.0	0	Firmicutes	4090.0	0	Bacillales	4090.0	0	Staphylococcaceae	4090.0	0	Staphylococcus	4090.0	0	Staphylococcus epidermidis	3272.0	2
+DRR031558_8_length_118_cov_107.329	118	0.4576	0	107.329	Eukaryota	2114.0	0	Arthropoda	2114.0	0	Hymenoptera	1246.0	1	Carabidae	868.0	6	unresolved	217.0	9	unresolved	217.0	9
+DRR031558_9_length_86_cov_51.0189	86	0.5349	0	51.019	Eukaryota	1543.0	0	Arthropoda	1543.0	0	Hymenoptera	477.0	6	Formicidae	477.0	7	unresolved	159.0	9	unresolved	159.0	9
+DRR031558_10_length_72_cov_45.3333	72	0.5	0	45.333	Eukaryota	1340.0	0	Arthropoda	1072.0	2	unresolved	268.0	5	unresolved	268.0	7	Bombyx	268.0	8	Bombyx mori	268.0	8
+DRR031559_1_length_378_cov_280.913	378	0.5265	0	280.913	Bacteria	6968.0	0	Proteobacteria	6968.0	0	Enterobacterales	6968.0	0	Morganellaceae	6968.0	0	Providencia	6968.0	0	Providencia alcalifaciens	1398.0	7
+DRR031559_2_length_367_cov_59.3832	367	0.5177	0	59.383	Bacteria	5795.0	0	Proteobacteria	5235.0	1	Rhizobiales	4636.0	2	Rhizobiales-undef	2396.0	4	Rhizobiales-undef	2396.0	4	uncultured Rhizobiales bacterium	2396.0	4
+DRR031559_3_length_332_cov_253.492	332	0.5211	0	253.492	Bacteria	5970.0	0	Proteobacteria	5362.0	1	Enterobacterales	5362.0	1	Morganellaceae	2432.0	3	Providencia	2432.0	4	Providencia alcalifaciens	1216.0	6
+DRR031559_4_length_259_cov_25.5973	259	0.5019	0	25.597	Eukaryota	4424.0	0	Eukaryota-undef	4424.0	0	Kinetoplastida	4424.0	0	Trypanosomatidae	4424.0	0	Leishmania	2784.0	2	Trypanosoma cruzi	1176.0	5
+DRR031559_5_length_241_cov_297.63	241	0.5519	0	297.63	Bacteria	4335.0	0	Proteobacteria	3889.0	1	Enterobacterales	3889.0	1	Morganellaceae	3889.0	1	Providencia	3889.0	1	Providencia rettgeri	1693.0	4
+DRR031559_6_length_241_cov_186.404	241	0.527	0	186.404	Bacteria	4320.0	0	Proteobacteria	4320.0	0	Enterobacterales	4320.0	0	Morganellaceae	3885.0	1	Morganella	3015.0	3	Morganella morganii	2580.0	4
+DRR031559_7_length_232_cov_30.2412	232	0.4957	0	30.241	Eukaryota	3654.0	0	Eukaryota-undef	3654.0	0	Kinetoplastida	3654.0	0	Trypanosomatidae	3654.0	0	Crithidia	1287.0	3	Crithidia mellificae	1287.0	4
+DRR031559_8_length_226_cov_5.1399	226	0.5575	0	5.14	Bacteria	4180.0	0	Proteobacteria	4180.0	0	Rhizobiales	4180.0	0	Bartonellaceae	4180.0	0	Bartonella	4180.0	0	Bartonella sp.	1672.0	3
+DRR031559_9_length_185_cov_30.6711	185	0.4486	0	30.671	Eukaryota	2285.0	0	Eukaryota-undef	2285.0	0	Kinetoplastida	2285.0	0	Trypanosomatidae	2285.0	0	Lotmaria	1710.0	1	Lotmaria passim	1710.0	2
+DRR031560_1_length_1265_cov_5.07386	1265	0.5083	0	5.074	Bacteria	22820.0	0	Firmicutes	22820.0	0	Lactobacillales	22820.0	0	Lactobacillaceae	22820.0	0	Lactobacillus	20954.0	1	Lactobacillus kunkeei	20954.0	1
+DRR031560_2_length_420_cov_14.1034	420	0.4667	0	14.103	Eukaryota	7628.0	0	Ascomycota	7628.0	0	Eurotiales	7628.0	0	Aspergillaceae	6863.0	1	Penicillium	6098.0	2	Penicillium decumbens	1508.0	8
+DRR031560_3_length_360_cov_15.4465	360	0.4444	0	15.447	Eukaryota	6593.0	0	Ascomycota	3298.0	1	Eukaryota-undef	3295.0	2	Eukaryota-undef	3295.0	3	Eukaryota-undef	3295.0	3	Penicillium namyslowskii	1330.0	8
+DRR031560_4_length_301_cov_28.959	301	0.4784	0	28.959	Eukaryota	5370.0	0	Ascomycota	4290.0	1	Eurotiales	3750.0	2	Aspergillaceae	3750.0	2	Penicillium	2148.0	3	Aspergillus niger	1602.0	4
+DRR031560_5_length_182_cov_43.1007	182	0.5385	0	43.101	Eukaryota	3205.0	0	Ascomycota	1935.0	1	Eurotiales	1935.0	1	Aspergillaceae	1297.0	2	Eukaryota-undef	1270.0	4	Aspergillus wentii	654.0	7
+DRR031560_6_length_116_cov_147.084	116	0.4741	0	147.084	Eukaryota	2106.0	0	Arthropoda	2106.0	0	Hymenoptera	2106.0	0	Apidae	1065.0	5	Apis	426.0	8	Apis mellifera	426.0	8
+DRR031560_7_length_59_cov_132.231	59	0.4237	0	132.231	Eukaryota	997.0	0	Arthropoda	649.0	1	Hymenoptera	550.0	2	Eukaryota-undef	348.0	4	Eukaryota-undef	348.0	4	uncultured eukaryote	348.0	4
+DRR031561_1_length_587_cov_1.36278	587	0.4514	0	1.363	Eukaryota	9840.0	0	Ascomycota	7856.0	1	Eurotiales	6864.0	2	Aspergillaceae	5872.0	3	Penicillium	3946.0	4	uncultured fungus	1984.0	6
+DRR031561_2_length_361_cov_0.254902	361	0.446	0	0.255	Eukaryota	6509.0	0	Ascomycota	4559.0	1	Eurotiales	4559.0	1	Aspergillaceae	4559.0	1	Aspergillus	4559.0	1	Aspergillus niger	1941.0	7
+DRR031561_3_length_271_cov_0.277778	271	0.4834	0	0.278	Eukaryota	4603.0	0	Ascomycota	3220.0	1	Eurotiales	2760.0	2	Aspergillaceae	2300.0	3	Aspergillus	2300.0	3	Aspergillus niger	2300.0	4
+DRR031561_4_length_60_cov_13.8	60	0.4167	0	13.8	Eukaryota	1006.7	0	Arthropoda	827.1	1	Hymenoptera	555.0	4	Apidae	333.0	6	Apis	333.0	6	Apis mellifera	333.0	6
+DRR031562_1_length_581_cov_217.962	581	0.4733	0	217.962	Eukaryota	10655.0	0	Ascomycota	8541.0	1	Eurotiales	8541.0	1	Aspergillaceae	8541.0	1	Aspergillus	8541.0	1	Aspergillus niger	3171.0	6
+DRR031562_2_length_307_cov_141.679	307	0.5668	0	141.679	Eukaryota	5491.2	0	Ascomycota	4092.0	3	Eurotiales	4092.0	4	Aspergillaceae	4092.0	5	Aspergillus	3572.0	6	Aspergillus niger	2012.0	10
+DRR031562_3_length_303_cov_224.815	303	0.4818	0	224.815	Eukaryota	5465.0	0	Ascomycota	4927.0	1	Eurotiales	4927.0	1	Aspergillaceae	4927.0	1	Aspergillus	4372.0	2	Aspergillus niger	2152.0	6
+DRR031562_4_length_245_cov_151.217	245	0.5347	0	151.217	Eukaryota	4485.0	0	Ascomycota	3579.0	1	Eurotiales	3579.0	1	Aspergillaceae	3579.0	1	Aspergillus	3579.0	1	Aspergillus niger	1332.0	5
+DRR031563_1_length_464_cov_1.02689	464	0.5323	0	1.027	Bacteria	8380.0	0	Proteobacteria	8380.0	0	Rhizobiales	7523.0	1	Brucellaceae	4095.0	2	Ochrobactrum	4095.0	2	uncultured Rhizobiales bacterium	3428.0	6
+DRR031563_2_length_430_cov_0.552	430	0.5279	0	0.552	Bacteria	7567.0	0	Firmicutes	7567.0	0	Lactobacillales	7567.0	0	Lactobacillaceae	7567.0	0	Lactobacillus	7567.0	0	uncultured Lactobacillus sp.	3156.0	4
+DRR031563_3_length_387_cov_0.843373	387	0.4522	0	0.843	Eukaryota	6638.0	0	Ascomycota	4681.0	1	Xylariales	3380.0	3	Apiosporaceae	2704.0	4	Arthrinium	2704.0	4	Arthrinium phaeospermum	1352.0	7
+DRR031563_4_length_383_cov_1.15549	383	0.4987	0	1.155	Bacteria	5929.0	0	Proteobacteria	5929.0	0	Rhizobiales	5929.0	0	Bartonellaceae	4717.0	1	Bartonella	4717.0	1	Bartonella bacilliformis	2316.0	4
+DRR031563_5_length_329_cov_0.218978	329	0.5441	0	0.219	Bacteria	5035.0	0	Firmicutes	5035.0	0	Lactobacillales	5035.0	0	Lactobacillaceae	5035.0	0	Lactobacillus	5035.0	0	uncultured Lactobacillus sp.	2400.0	3
+DRR031563_6_length_323_cov_0.186567	323	0.5573	0	0.187	Bacteria	4483.0	0	Firmicutes	4483.0	0	Lactobacillales	4161.0	1	Lactobacillaceae	4161.0	1	Lactobacillus	4161.0	1	uncultured Lactobacillus sp.	2985.0	2
+DRR031563_7_length_300_cov_2.79184	300	0.48	0	2.792	Eukaryota	5047.0	0	Ascomycota	3530.0	1	Eukaryota-undef	1517.0	5	Eukaryota-undef	1517.0	5	Eukaryota-undef	1517.0	7	unresolved	510.0	9
+DRR031563_8_length_258_cov_0.231527	258	0.6124	0	0.232	Bacteria	4750.0	0	Actinobacteria	4750.0	0	Bifidobacteriales	4750.0	0	Bifidobacteriaceae	4750.0	0	Bifidobacterium	4750.0	0	Bifidobacterium thermophilum	1908.0	5
+DRR031563_9_length_247_cov_0.765625	247	0.5628	0	0.766	Bacteria	4540.0	0	Proteobacteria	3175.0	1	Rhizobiales	2261.0	2	Bartonellaceae	2261.0	2	Bartonella	2261.0	2	uncultured bacterium	1365.0	4
+DRR031563_10_length_241_cov_0.317204	241	0.6224	0	0.317	Bacteria	4350.0	0	Actinobacteria	3926.0	1	Bifidobacteriales	3926.0	1	Bifidobacteriaceae	3926.0	1	Bifidobacterium	3926.0	1	Bifidobacterium pseudolongum	1696.0	5
+DRR031563_11_length_235_cov_0.1	235	0.5021	0	0.1	Bacteria	4059.0	0	Proteobacteria	4059.0	0	Proteobacteria-undef	2175.0	2	Proteobacteria-undef	2175.0	2	Proteobacteria-undef	2175.0	3	uncultured gamma proteobacterium	2175.0	3
+DRR031563_12_length_227_cov_0.133721	227	0.5374	0	0.134	Bacteria	4083.0	0	Proteobacteria	4083.0	0	Proteobacteria-undef	1680.0	2	Proteobacteria-undef	1680.0	2	Proteobacteria-undef	1680.0	2	uncultured gamma proteobacterium	1680.0	2
+DRR031563_13_length_226_cov_0.479532	226	0.5265	0	0.48	Bacteria	3451.0	0	Proteobacteria	3451.0	0	Rhizobiales	3451.0	0	Brucellaceae	3096.0	1	Brucella	3096.0	1	Brucella abortus	1720.0	2
+DRR031563_14_length_215_cov_0.50625	215	0.5163	0	0.506	Bacteria	3782.0	0	Firmicutes	3423.0	1	Lactobacillales	2635.0	2	Lactobacillaceae	2635.0	2	Lactobacillus	2635.0	2	uncultured Firmicutes bacterium	788.0	7
+DRR031564_1_length_387_cov_275.184	387	0.553	0	275.184	Bacteria	7150.0	0	Firmicutes	7150.0	0	Bacillales	7150.0	0	Bacillaceae	7150.0	0	Bacillus	6435.0	1	Bacillus pumilus	4290.0	4
+DRR031564_2_length_272_cov_138.079	272	0.5625	0	138.079	Bacteria	5023.0	0	Firmicutes	5023.0	0	Bacillales	5023.0	0	Bacillaceae	5023.0	0	Bacillus	4520.0	1	Bacillus pumilus	3018.0	4
+DRR031564_3_length_265_cov_133.5	265	0.5547	0	133.5	Bacteria	4428.0	0	Firmicutes	4428.0	0	Bacillales	4428.0	0	Bacillaceae	4428.0	0	Bacillus	4428.0	0	Bacillus pumilus	1792.0	3
+DRR031564_4_length_245_cov_173.83	245	0.5347	0	173.83	Bacteria	4480.0	0	Firmicutes	4480.0	0	Bacillales	4480.0	0	Bacillaceae	4480.0	0	Bacillus	4480.0	0	Bacillus pumilus	3584.0	2
+DRR031564_5_length_216_cov_100.94	216	0.5185	0	100.94	Bacteria	3390.0	0	Firmicutes	3390.0	0	Bacillales	3390.0	0	Bacillaceae	3390.0	0	Bacillus	3390.0	0	Bacillus pumilus	3390.0	0
+DRR031565_1_length_557_cov_82.2729	557	0.4686	0	82.273	Eukaryota	10022.0	0	Ascomycota	7021.0	1	Eurotiales	7021.0	1	Aspergillaceae	7021.0	1	Aspergillus	7021.0	1	Aspergillus niger	2988.0	6
+DRR031565_2_length_450_cov_40.9353	450	0.4578	0	40.935	Eukaryota	7657.0	0	Ascomycota	6114.0	1	Eurotiales	6114.0	1	Aspergillaceae	4580.0	2	Penicillium	3813.0	4	uncultured fungus	1543.0	7
+DRR031565_3_length_373_cov_196.491	373	0.5308	0	196.491	Bacteria	6836.0	0	Firmicutes	5468.0	2	Bacillales	5468.0	2	Bacillaceae	5468.0	2	Bacillus	4784.0	3	Bacillus simplex	2052.0	7
+DRR031565_4_length_307_cov_32.208	307	0.5537	0	32.208	Eukaryota	5226.0	0	Ascomycota	5226.0	0	Eurotiales	4699.0	1	Aspergillaceae	4699.0	1	Aspergillus	2064.0	4	Aspergillus niger	2064.0	5
+DRR031565_5_length_305_cov_82	305	0.4721	0	82.0	Eukaryota	5383.0	0	Ascomycota	3238.0	1	Onygenales	2177.0	3	Eukaryota-undef	2145.0	4	Eukaryota-undef	2145.0	4	uncultured fungus	2145.0	4
+DRR031565_6_length_298_cov_231.989	298	0.5268	0	231.989	Bacteria	5261.0	0	Firmicutes	5261.0	0	Bacillales	5261.0	0	Bacillaceae	5261.0	0	Bacillus	5261.0	0	Bacillus simplex	3270.0	3
+DRR031565_7_length_263_cov_33.1957	263	0.5513	0	33.196	Bacteria	4327.0	0	Firmicutes	3894.0	1	Bacillales	3894.0	1	Bacillaceae	3894.0	1	Bacillus	3470.0	2	Bacillus sp.	872.0	8
+DRR031565_8_length_247_cov_144.925	247	0.5506	0	144.925	Bacteria	4430.0	0	Bacteria-undef	2218.0	1	Bacteria-undef	2218.0	1	Bacteria-undef	2218.0	1	Bacteria-undef	2218.0	1	uncultured bacterium	1338.0	7
+DRR031566_1_length_202_cov_4.66272	202	0.5297	0	4.663	Bacteria	3692.0	0	Firmicutes	2944.0	1	Lactobacillales	2944.0	1	Streptococcaceae	2944.0	1	Lactococcus	2944.0	1	Lactococcus lactis	2576.0	2
+DRR031567_1_length_1580_cov_60.3187	1580	0.5304	0	60.319	Bacteria	31006.0	0	Proteobacteria	31006.0	0	Rhizobiales	31006.0	0	Bartonellaceae	15710.0	2	Bartonella	15710.0	3	uncultured Rhizobiales bacterium	10620.0	7
+DRR031567_2_length_441_cov_5.45098	441	0.4989	0	5.451	Bacteria	7328.0	0	Proteobacteria	7328.0	0	Proteobacteria-undef	3180.0	3	Proteobacteria-undef	3180.0	3	Proteobacteria-undef	3180.0	4	uncultured gamma proteobacterium	3180.0	4
+DRR031567_3_length_406_cov_5.68365	406	0.5985	0	5.684	Bacteria	7230.0	0	Actinobacteria	7230.0	0	Bifidobacteriales	7230.0	0	Bifidobacteriaceae	7230.0	0	Bifidobacterium	7230.0	0	Bifidobacterium animalis	3505.0	3
+DRR031567_4_length_352_cov_4.93103	352	0.571	0	4.931	Bacteria	6185.0	0	Actinobacteria	6185.0	0	Bifidobacteriales	6185.0	0	Bifidobacteriaceae	6185.0	0	Bifidobacterium	6185.0	0	uncultured Bifidobacterium sp.	2930.0	3
+DRR031567_5_length_325_cov_3.47603	325	0.6092	0	3.476	Bacteria	5340.0	0	Actinobacteria	4745.0	1	Bifidobacteriales	4745.0	1	Bifidobacteriaceae	4745.0	1	Bifidobacterium	4745.0	1	uncultured Bifidobacterium sp.	2380.0	2
+DRR031567_6_length_261_cov_17.4649	261	0.4943	0	17.465	Eukaryota	3996.0	0	Ascomycota	1611.0	3	Eukaryota-undef	1589.0	5	Eukaryota-undef	1589.0	5	Eukaryota-undef	1589.0	5	uncultured eukaryote	1191.0	6
+DRR031567_7_length_259_cov_31.8496	259	0.5019	0	31.85	Eukaryota	4424.0	0	Eukaryota-undef	4424.0	0	Kinetoplastida	4424.0	0	Trypanosomatidae	4424.0	0	Leishmania	2784.0	2	Trypanosoma cruzi	1176.0	5
+DRR031567_8_length_233_cov_34.86	233	0.4979	0	34.86	Eukaryota	3664.0	0	Eukaryota-undef	3664.0	0	Kinetoplastida	3664.0	0	Trypanosomatidae	3664.0	0	Crithidia	1293.0	3	Crithidia mellificae	1293.0	4
+DRR031567_9_length_233_cov_5.835	233	0.6009	0	5.835	Bacteria	4275.0	0	Actinobacteria	3844.0	1	Bifidobacteriales	3844.0	1	Bifidobacteriaceae	3844.0	1	Bifidobacterium	3844.0	1	Bifidobacterium thermophilum	1700.0	6
+DRR031567_10_length_184_cov_35.106	184	0.4457	0	35.106	Eukaryota	2275.0	0	Eukaryota-undef	2275.0	0	Kinetoplastida	2275.0	0	Trypanosomatidae	2275.0	0	Lotmaria	1700.0	1	Lotmaria passim	1700.0	2
+DRR031568_1_length_1082_cov_26.8789	1082	0.5222	0	26.879	Bacteria	18281.0	0	Proteobacteria	18281.0	0	Rhizobiales	18281.0	0	Bartonellaceae	10679.0	1	Bartonella	10679.0	1	uncultured Rhizobiales bacterium	7602.0	4
+DRR031568_2_length_598_cov_4.99115	598	0.5886	0	4.991	Bacteria	9883.0	0	Actinobacteria	9883.0	0	Bifidobacteriales	9883.0	0	Bifidobacteriaceae	9883.0	0	Bifidobacterium	9883.0	0	Bifidobacterium bifidum	4425.0	2
+DRR031568_3_length_555_cov_5.77203	555	0.5153	0	5.772	Bacteria	8747.0	0	Firmicutes	7794.0	1	Lactobacillales	7794.0	1	Lactobacillaceae	7794.0	1	Lactobacillus	7794.0	1	uncultured Lactobacillus sp.	2725.0	6
+DRR031568_4_length_506_cov_22.6385	506	0.5474	0	22.639	Bacteria	8616.0	0	Proteobacteria	8616.0	0	Rhizobiales	8616.0	0	Bartonellaceae	8616.0	0	Bartonella	8616.0	0	Bartonella tribocorum	2577.0	5
+DRR031568_5_length_375_cov_4.18713	375	0.528	0	4.187	Bacteria	5379.0	0	Firmicutes	4780.0	1	Lactobacillales	4780.0	1	Lactobacillaceae	4780.0	1	Lactobacillus	4780.0	1	Lactobacillus sp. wkB8	2476.0	4
+DRR031568_6_length_201_cov_4.34524	201	0.602	0	4.345	Bacteria	3685.0	0	Actinobacteria	3313.0	1	Bifidobacteriales	3313.0	1	Bifidobacteriaceae	3313.0	1	Bifidobacterium	3313.0	1	Bifidobacterium thermophilum	1464.0	6
+DRR031568_7_length_167_cov_5.03731	167	0.6228	0	5.037	Bacteria	3005.0	0	Actinobacteria	2707.0	1	Bifidobacteriales	2707.0	1	Bifidobacteriaceae	2707.0	1	Bifidobacterium	2707.0	1	Bifidobacterium pseudolongum	1192.0	5
+DRR031568_8_length_147_cov_8.64912	147	0.5238	0	8.649	Bacteria	2700.0	0	Firmicutes	2433.0	1	Lactobacillales	2161.0	2	Lactobacillaceae	2161.0	2	Lactobacillus	2161.0	2	Lactobacillus helveticus	534.0	8
+DRR031568_9_length_124_cov_10.1429	124	0.5242	0	10.143	Bacteria	2257.0	0	Firmicutes	2257.0	0	Lactobacillales	2257.0	0	Lactobacillaceae	2257.0	0	Lactobacillus	2257.0	0	uncultured Lactobacillus sp.	899.0	6
+DRR031568_10_length_57_cov_2.29167	57	0.5263	0	2.292	Bacteria	954.0	1	Proteobacteria	848.0	2	unresolved	318.0	5	unresolved	318.0	5	Aeromonas	318.0	6	Escherichia coli	212.0	8
+DRR031568_11_length_55_cov_19.3182	55	0.5818	0	19.318	Bacteria	918.0	1	Proteobacteria	714.0	3	Proteobacteria-undef	204.0	8	Proteobacteria-undef	204.0	8	Proteobacteria-undef	204.0	8	unresolved	102.0	9
+DRR031569_1_length_1579_cov_17.4709	1579	0.5301	0	17.471	Bacteria	31013.0	0	Proteobacteria	31013.0	0	Rhizobiales	31013.0	0	Bartonellaceae	15717.0	2	Bartonella	15717.0	3	uncultured Rhizobiales bacterium	10620.0	7
+DRR031569_2_length_495_cov_4.75541	495	0.5172	0	4.755	Bacteria	7686.0	0	Firmicutes	6853.0	1	Lactobacillales	6853.0	1	Lactobacillaceae	6853.0	1	Lactobacillus	6853.0	1	Lactobacillus sp. wkB8	3452.0	4
+DRR031569_3_length_312_cov_5.77419	312	0.5192	0	5.774	Bacteria	5466.0	0	Firmicutes	5466.0	0	Lactobacillales	5466.0	0	Lactobacillaceae	5466.0	0	Lactobacillus	5466.0	0	uncultured Lactobacillus sp.	2284.0	4
+DRR031569_4_length_154_cov_12.9339	154	0.5519	0	12.934	Bacteria	2850.0	0	Proteobacteria	2565.0	1	Enterobacterales	2565.0	1	Hafniaceae	2280.0	2	Hafnia	1995.0	3	Hafnia alvei	1995.0	3
+DRR031570_1_length_1658_cov_6.18892	1658	0.4988	0	6.189	Bacteria	29218.0	0	Firmicutes	28059.0	1	Lactobacillales	28059.0	1	Lactobacillaceae	28059.0	1	Lactobacillus	25763.0	2	Lactobacillus kunkeei	25763.0	3
+DRR031570_2_length_543_cov_28.1706	543	0.477	0	28.171	Eukaryota	9265.0	0	Ascomycota	7417.0	1	Eurotiales	7417.0	1	Aspergillaceae	7417.0	1	Aspergillus	7417.0	1	Aspergillus candidus	3716.0	4
+DRR031570_3_length_325_cov_28.4418	325	0.4769	0	28.442	Eukaryota	5076.0	0	Ascomycota	2547.0	2	Saccharomycetales	1541.0	5	Eukaryota-undef	1514.0	6	Eukaryota-undef	1514.0	6	uncultured fungus	1514.0	7
+DRR031570_4_length_117_cov_250.226	117	0.4786	0	250.226	Eukaryota	2100.0	0	Arthropoda	2100.0	0	Hymenoptera	2100.0	0	Apidae	1065.0	5	Apis	426.0	8	Apis mellifera	426.0	8
+DRR031571_1_length_390_cov_19.7759	390	0.5462	0	19.776	Bacteria	5211.0	0	Firmicutes	5211.0	0	Lactobacillales	5211.0	0	Lactobacillaceae	5211.0	0	Lactobacillus	5211.0	0	Lactobacillus crispatus	1660.0	5
+DRR031571_2_length_358_cov_45.7477	358	0.5307	0	45.748	Bacteria	6277.0	0	Proteobacteria	6277.0	0	Enterobacterales	6277.0	0	Pectobacteriaceae	3140.0	2	unresolved	2512.0	3	Pectobacterium carotovorum	2512.0	6
+DRR031571_3_length_273_cov_6.35	273	0.5092	0	6.35	Bacteria	4857.0	0	Firmicutes	4352.0	1	Lactobacillales	4352.0	1	Lactobacillaceae	4352.0	1	Lactobacillus	4352.0	1	uncultured Lactobacillus sp.	1010.0	7
+DRR031571_4_length_208_cov_62.5486	208	0.5433	0	62.549	Bacteria	3850.0	0	Proteobacteria	3465.0	1	Enterobacterales	3465.0	1	Hafniaceae	2695.0	3	Hafnia	2310.0	4	Hafnia alvei	2310.0	4
+DRR031571_5_length_199_cov_75.6867	199	0.5628	0	75.687	Bacteria	3676.0	0	Proteobacteria	3308.0	1	Enterobacterales	3308.0	1	Hafniaceae	3308.0	1	Hafnia	2940.0	2	Hafnia alvei	2940.0	2
+DRR031571_6_length_197_cov_73.4512	197	0.5279	0	73.451	Bacteria	3640.0	0	Proteobacteria	3276.0	1	Enterobacterales	3276.0	1	Hafniaceae	2912.0	2	Hafnia	2184.0	3	Hafnia alvei	2184.0	3
+DRR031571_7_length_194_cov_5.99379	194	0.567	0	5.994	Bacteria	3014.6	0	Bacteria-undef	1955.8	2	Bacteria-undef	1955.8	2	Bacteria-undef	1955.8	2	Bacteria-undef	1955.8	2	uncultured bacterium	1580.0	4
+DRR031572_1_length_647_cov_0.787162	647	0.5224	0	0.787	Bacteria	11208.0	0	Firmicutes	11208.0	0	Lactobacillales	11208.0	0	Lactobacillaceae	11208.0	0	Lactobacillus	11208.0	0	Lactobacillus acidophilus	3099.0	7
+DRR031572_2_length_263_cov_0.389423	263	0.5285	0	0.389	Bacteria	3203.0	0	Bacteria-undef	2309.0	1	Bacteria-undef	2309.0	1	Bacteria-undef	2309.0	1	Bacteria-undef	2309.0	2	uncultured bacterium	2309.0	2
+DRR031572_3_length_244_cov_0.037037	244	0.4795	0	0.037	Bacteria	3072.0	0	Firmicutes	3072.0	0	Lactobacillales	2728.0	1	Lactobacillaceae	2728.0	1	Lactobacillus	2728.0	1	Lactobacillus sp. wkB8	1392.0	4
+DRR031572_4_length_223_cov_5.61905	223	0.4933	0	5.619	Eukaryota	3451.0	0	Eukaryota-undef	2430.0	2	Eukaryota-undef	2430.0	3	Eukaryota-undef	2430.0	3	Eukaryota-undef	2430.0	3	uncultured fungus	1081.0	5
+DRR031573_1_length_383_cov_0.77439	383	0.4909	0	0.774	Eukaryota	6690.0	0	Ascomycota	6690.0	0	Onygenales	3380.0	3	Gymnoascaceae	2704.0	5	Arachniotus	1352.0	8	Arachniotus ruber	1352.0	8
+DRR031573_2_length_351_cov_0.27027	351	0.453	0	0.27	Eukaryota	6281.0	0	Ascomycota	4411.0	1	Onygenales	2552.0	2	Gymnoascaceae	1914.0	3	Eukaryota-undef	1870.0	4	uncultured Ascomycota	1859.0	6
+DRR031573_3_length_272_cov_0.230415	272	0.5147	0	0.23	Bacteria	4997.0	0	Firmicutes	2993.0	1	Bacillales	2993.0	1	Staphylococcaceae	2993.0	1	Staphylococcus	2993.0	1	Staphylococcus epidermidis	2492.0	2
+DRR031573_4_length_229_cov_0.0229885	229	0.4847	0	0.023	Bacteria	3440.0	0	Firmicutes	3072.0	1	Lactobacillales	1820.0	2	Lactobacillaceae	1820.0	2	Lactobacillus	1820.0	2	Staphylococcus condimenti	939.0	7
+DRR031573_5_length_220_cov_0.230303	220	0.4864	0	0.23	Eukaryota	3857.0	0	Ascomycota	2333.0	1	Onygenales	1601.0	3	Gymnoascaceae	1601.0	3	Gymnoascus	1601.0	3	uncultured fungus	1524.0	4
+DRR031573_6_length_213_cov_0.0822785	213	0.5587	0	0.082	Bacteria	3940.0	0	Firmicutes	3940.0	0	Bacillales	3940.0	0	Staphylococcaceae	3940.0	0	Staphylococcus	3940.0	0	Staphylococcus epidermidis	3152.0	2
+DRR031576_1_length_1628_cov_9.79436	1628	0.4988	0	9.794	Bacteria	28621.0	0	Firmicutes	28621.0	0	Lactobacillales	28621.0	0	Lactobacillaceae	28621.0	0	Lactobacillus	26327.0	1	Lactobacillus kunkeei	26327.0	1
+DRR031576_2_length_1280_cov_156.334	1280	0.4664	0	156.334	Eukaryota	22722.0	0	Ascomycota	22722.0	0	Eurotiales	22722.0	0	Aspergillaceae	22722.0	0	Penicillium	13734.0	1	Aspergillus niger	8988.0	5
+DRR031576_3_length_195_cov_172.043	195	0.5128	0	172.043	Eukaryota	3503.0	0	Ascomycota	3503.0	0	Eurotiales	3503.0	0	Aspergillaceae	3503.0	0	Penicillium	3503.0	0	Penicillium chrysogenum	722.0	7
+DRR031577_1_length_192_cov_3.24528	192	0.4531	0	3.245	Eukaryota	3535.0	0	Ascomycota	1775.0	1	Eurotiales	1775.0	1	Aspergillaceae	1775.0	1	Penicillium	1775.0	1	unresolved	355.0	9
+DRR031578_1_length_787_cov_26.1432	787	0.5362	0	26.143	Bacteria	13339.0	0	Proteobacteria	5972.0	2	Rhizobiales	5275.0	3	Rhizobiaceae	4370.0	4	Rhizobium	4370.0	4	uncultured bacterium	3414.0	8
+DRR031578_2_length_475_cov_8.3914	475	0.5242	0	8.391	Bacteria	7765.9	0	Firmicutes	6790.0	2	Lactobacillales	6790.0	2	Lactobacillaceae	6790.0	2	Lactobacillus	6790.0	2	uncultured Lactobacillus sp.	1544.0	8
+DRR031578_3_length_380_cov_36.0403	380	0.5	0	36.04	Bacteria	5952.0	0	Proteobacteria	5952.0	0	Rhizobiales	5952.0	0	Bartonellaceae	4736.0	1	Bartonella	4736.0	1	Bartonella bacilliformis	2320.0	4
+DRR031578_4_length_349_cov_8.51266	349	0.6017	0	8.513	Bacteria	5759.0	0	Actinobacteria	5759.0	0	Bifidobacteriales	5759.0	0	Bifidobacteriaceae	5759.0	0	Bifidobacterium	5759.0	0	Bifidobacterium bifidum	2615.0	3
+DRR031578_5_length_317_cov_37.912	317	0.5552	0	37.912	Bacteria	5830.0	0	Proteobacteria	5244.0	1	Rhizobiales	5244.0	1	Bartonellaceae	3486.0	2	Bartonella	3486.0	2	uncultured Rhizobiales bacterium	1758.0	4
+DRR031578_6_length_288_cov_180.733	288	0.5174	0	180.733	Bacteria	5320.0	0	Proteobacteria	5320.0	0	Enterobacterales	5320.0	0	Enterobacteriaceae	5320.0	0	Klebsiella	5320.0	0	Klebsiella pneumoniae	3724.0	2
+DRR031578_7_length_202_cov_28.7337	202	0.5297	0	28.734	Bacteria	3159.0	0	Proteobacteria	3159.0	0	Rhizobiales	3159.0	0	Brucellaceae	2835.0	1	Brucella	2835.0	1	Brucella abortus	1575.0	2
+DRR031578_8_length_197_cov_339.878	197	0.5838	0	339.878	Bacteria	3618.0	0	Proteobacteria	3618.0	0	Enterobacterales	3618.0	0	Enterobacteriaceae	3618.0	0	Klebsiella	3618.0	0	Klebsiella pneumoniae	3618.0	0
+DRR031578_9_length_172_cov_216.691	172	0.5291	0	216.691	Bacteria	3103.0	0	Proteobacteria	3103.0	0	Proteobacteria-undef	1272.0	2	Proteobacteria-undef	1272.0	2	Proteobacteria-undef	1272.0	3	uncultured gamma proteobacterium	1272.0	3
+DRR031578_10_length_171_cov_61.7754	171	0.5146	0	61.775	Bacteria	3080.0	0	Proteobacteria	3080.0	0	Rhizobiales	2448.0	1	Rhizobiaceae	1500.0	2	Sinorhizobium	1200.0	3	uncultured Rhizobiales bacterium	948.0	5
+DRR031578_11_length_149_cov_400.672	149	0.5705	0	400.672	Bacteria	2756.0	0	Proteobacteria	2204.0	1	Enterobacterales	2204.0	1	Enterobacteriaceae	1104.0	3	unresolved	552.0	5	unresolved	552.0	7
+DRR031578_12_length_148_cov_27.1304	148	0.5743	0	27.13	Bacteria	2626.0	0	Proteobacteria	2626.0	0	Rhizobiales	2078.0	1	Bartonellaceae	1256.0	2	Bartonella	1256.0	2	Bartonella quintana	1256.0	2
+DRR031578_13_length_116_cov_677.193	116	0.5862	0	677.193	Bacteria	2150.0	0	Proteobacteria	2150.0	0	Enterobacterales	1935.0	1	Yersiniaceae	860.0	4	Serratia	860.0	4	unresolved	430.0	7
+DRR031578_14_length_97_cov_282.047	97	0.5052	0	282.047	Bacteria	1800.0	0	Proteobacteria	1620.0	1	Enterobacterales	1620.0	1	Enterobacteriaceae	1620.0	1	Klebsiella	720.0	4	Escherichia coli	540.0	6
+DRR031578_15_length_74_cov_288.805	74	0.527	0	288.805	Bacteria	1370.0	0	Proteobacteria	1370.0	0	Enterobacterales	1096.0	1	Enterobacteriaceae	1096.0	1	Klebsiella	1096.0	1	Klebsiella pneumoniae	1096.0	2
+DRR031578_16_length_73_cov_443.975	73	0.5616	0	443.975	Bacteria	1215.0	1	Proteobacteria	1215.0	1	Vibrionales	810.0	2	Vibrionaceae	810.0	2	Vibrio	405.0	5	unresolved	270.0	7
+DRR031578_17_length_62_cov_411.31	62	0.5645	0	411.31	Bacteria	1150.0	0	Proteobacteria	1150.0	0	Enterobacterales	1150.0	0	Enterobacteriaceae	1150.0	0	Klebsiella	690.0	2	unresolved	345.0	5
+DRR031578_18_length_54_cov_201	54	0.537	0	201.0	Bacteria	897.1	1	Proteobacteria	897.1	1	Enterobacterales	797.1	2	Enterobacteriaceae	697.1	3	Escherichia	397.1	5	Escherichia coli	397.1	5
+DRR031578_19_length_53_cov_586.75	53	0.6038	0	586.75	Bacteria	891.0	1	Proteobacteria	891.0	1	Rhizobiales	297.0	5	Bradyrhizobiaceae	297.0	5	unresolved	198.0	7	unresolved	99.0	9
+DRR031578_20_length_52_cov_535.263	52	0.5577	0	535.263	Bacteria	873.9	1	Bacteria-undef	485.5	2	Bacteria-undef	485.5	4	Bacteria-undef	485.5	4	Bacteria-undef	485.5	5	uncultured bacterium	485.5	5
+DRR031578_21_length_49_cov_244	49	0.5102	0	244.0	Bacteria	882.7	0	Proteobacteria	703.2	1	Enterobacterales	615.3	2	Enterobacteriaceae	615.3	2	Klebsiella	351.6	4	Klebsiella pneumoniae	351.6	6
+DRR031578_22_length_48_cov_114.733	48	0.5625	0	114.733	Bacteria	538.8	1	Proteobacteria	449.0	2	undef	359.2	5	undef	359.2	5	undef	359.2	5	unresolved	89.8	9
+DRR031579_1_length_734_cov_15.4907	734	0.5354	0	15.491	Bacteria	12992.0	0	Proteobacteria	12992.0	0	Rhizobiales	11641.0	1	Bartonellaceae	6237.0	2	Bartonella	6237.0	2	uncultured Rhizobiales bacterium	4053.0	5
+DRR031579_2_length_309_cov_23.5688	309	0.5405	0	23.569	Bacteria	4570.0	0	Proteobacteria	4570.0	0	Rhizobiales	4570.0	0	Brucellaceae	4570.0	0	Brucella	4570.0	0	unresolved	2285.0	1
+DRR031579_3_length_302_cov_12.7323	302	0.5596	0	12.732	Bacteria	5506.0	0	Proteobacteria	4953.0	1	Rhizobiales	4953.0	1	Phyllobacteriaceae	4406.0	2	Mesorhizobium	4406.0	2	Mesorhizobium plurifarium	1106.0	7
+DRR031579_4_length_297_cov_1.95076	297	0.6027	0	1.951	Bacteria	4858.0	0	Actinobacteria	4858.0	0	Bifidobacteriales	4858.0	0	Bifidobacteriaceae	4858.0	0	Bifidobacterium	4858.0	0	uncultured Bifidobacterium sp.	2174.0	2
+DRR031579_5_length_291_cov_6.64729	291	0.5773	0	6.647	Bacteria	4805.0	0	Actinobacteria	4805.0	0	Bifidobacteriales	4805.0	0	Bifidobacteriaceae	4805.0	0	Bifidobacterium	4805.0	0	Bifidobacterium bifidum	2320.0	3
+DRR031579_6_length_270_cov_5.08017	270	0.5185	0	5.08	Bacteria	4778.0	0	Firmicutes	4778.0	0	Lactobacillales	4778.0	0	Lactobacillaceae	4778.0	0	Lactobacillus	4778.0	0	uncultured Lactobacillus sp.	1973.0	5
+DRR031579_7_length_257_cov_10.317	257	0.5019	0	10.317	Eukaryota	4396.0	0	Eukaryota-undef	4396.0	0	Kinetoplastida	4396.0	0	Trypanosomatidae	4396.0	0	Leishmania	2760.0	2	Trypanosoma cruzi	1176.0	5
+DRR031579_8_length_239_cov_16.3398	239	0.5063	0	16.34	Bacteria	3448.0	0	Proteobacteria	2113.0	2	Orbales	1749.0	3	Orbaceae	1749.0	3	Gilliamella	1446.0	4	Gilliamella apicola	1446.0	4
+DRR031579_9_length_222_cov_12.5026	222	0.5045	0	12.503	Eukaryota	3538.0	0	Eukaryota-undef	3538.0	0	Kinetoplastida	3538.0	0	Trypanosomatidae	3538.0	0	Crithidia	1233.0	3	Crithidia mellificae	1233.0	4
+DRR031579_10_length_193_cov_4.8875	193	0.6062	0	4.888	Bacteria	3535.0	0	Actinobacteria	3178.0	1	Bifidobacteriales	3178.0	1	Bifidobacteriaceae	3178.0	1	Bifidobacterium	3178.0	1	Bifidobacterium thermophilum	1404.0	6
+DRR031579_11_length_184_cov_34.9007	184	0.5924	0	34.901	Eukaryota	2619.0	0	Eukaryota-undef	2619.0	0	Kinetoplastida	2619.0	0	Trypanosomatidae	2619.0	0	Leishmania	1602.0	2	Trypanosoma cruzi	750.0	6
+DRR031579_12_length_175_cov_38.5845	175	0.5486	0	38.584	Bacteria	3195.0	0	Firmicutes	2547.0	1	Bacillales	2547.0	1	Bacillaceae	2547.0	1	Virgibacillus	1285.0	2	Lentibacillus amyloliquefaciens	1262.0	5
+DRR031579_13_length_173_cov_13.2	173	0.5087	0	13.2	Bacteria	3149.0	0	Firmicutes	2205.0	1	Lactobacillales	2205.0	1	Lactobacillaceae	2205.0	1	Lactobacillus	2205.0	1	Lactobacillus helveticus	945.0	4
+DRR031579_14_length_161_cov_15.5703	161	0.5404	0	15.57	Bacteria	2784.0	0	Proteobacteria	2486.0	1	Rhizobiales	1609.0	2	Bartonellaceae	1609.0	2	Bartonella	1609.0	2	uncultured alpha proteobacterium	877.0	5
+DRR031579_15_length_141_cov_39.537	141	0.5319	0	39.537	Bacteria	2610.0	0	Firmicutes	2610.0	0	Bacillales	2610.0	0	Bacillaceae	2610.0	0	Bacillus	2610.0	0	Bacillus licheniformis	1566.0	3
+DRR031579_16_length_137_cov_5.45192	137	0.5766	0	5.452	Bacteria	2400.0	0	Actinobacteria	2400.0	0	Bifidobacteriales	2400.0	0	Bifidobacteriaceae	2400.0	0	Bifidobacterium	2400.0	0	uncultured Bifidobacterium sp.	1384.0	3
+DRR031579_17_length_129_cov_9.73958	129	0.5039	0	9.74	Bacteria	2300.0	0	Firmicutes	2300.0	0	Lactobacillales	2061.0	1	Lactobacillaceae	2061.0	1	Lactobacillus	2061.0	1	uncultured Lactobacillus sp.	1156.0	5
+DRR031579_18_length_125_cov_27.4783	125	0.552	0	27.478	Bacteria	2200.0	0	Firmicutes	2200.0	0	Bacillales	2200.0	0	Bacillaceae	2200.0	0	Virgibacillus	1364.0	2	Bacillus cellulosilyticus	627.0	6
+DRR031579_19_length_123_cov_3.91111	123	0.5528	0	3.911	Bacteria	2106.0	0	Proteobacteria	1676.0	2	Rhodospirillales	1676.0	2	Acetobacteraceae	1676.0	2	Acetobacteraceae-undef	912.0	3	uncultured Acetobacter sp.	382.0	8
+DRR031579_20_length_121_cov_23.1023	121	0.5372	0	23.102	Bacteria	2215.0	0	Firmicutes	1767.0	1	Bacillales	1767.0	1	Bacillaceae	1548.0	2	Bacillus	876.0	3	Bacillus benzoevorans	657.0	7
+DRR031579_21_length_120_cov_64.3218	120	0.575	0	64.322	Eukaryota	2140.0	0	Arthropoda	2140.0	0	Hymenoptera	1085.0	1	Apidae	1085.0	2	Plebeia	434.0	8	unresolved	217.0	9
+DRR031579_22_length_100_cov_17.0299	100	0.56	0	17.03	Bacteria	1850.0	0	Firmicutes	1850.0	0	Bacillales	1850.0	0	Bacillaceae	1665.0	1	Oceanobacillus	555.0	5	Terribacillus aidingensis	370.0	8
+DRR031579_23_length_98_cov_73.2154	98	0.5918	0	73.215	Eukaryota	1735.0	0	Arthropoda	1564.0	1	Hemiptera	865.0	2	Apidae	528.0	6	unresolved	176.0	9	unresolved	176.0	9
+DRR031579_24_length_87_cov_13.0741	87	0.6092	0	13.074	Bacteria	1585.0	0	Firmicutes	1585.0	0	Bacillales	1585.0	0	Bacillaceae	1585.0	0	Virgibacillus	805.0	1	Virgibacillus halotolerans	322.0	8
+DRR031579_25_length_72_cov_13.8718	72	0.5278	0	13.872	Bacteria	1304.0	0	Firmicutes	768.0	1	Bacillales	768.0	1	Bacillaceae	646.0	2	Bacteria-undef	536.0	4	uncultured bacterium	402.0	5
+DRR031579_26_length_70_cov_5.64865	70	0.5571	0	5.649	Bacteria	1252.0	0	Proteobacteria	992.0	1	Rhodospirillales	992.0	1	Acetobacteraceae	992.0	1	Commensalibacter	620.0	2	uncultured Commensalibacter sp.	620.0	4
+DRR031579_27_length_69_cov_14.3611	69	0.5217	0	14.361	Bacteria	1250.0	0	Firmicutes	738.0	1	Bacillales	738.0	1	Bacillaceae	738.0	1	Bacteria-undef	512.0	4	uncultured bacterium	384.0	6
+DRR031579_28_length_60_cov_41.037	60	0.4833	0	41.037	Bacteria	1075.0	0	Firmicutes	1075.0	0	Bacillales	1075.0	0	Bacillaceae	1075.0	0	Virgibacillus	333.0	3	unresolved	111.0	9
+DRR031579_29_length_49_cov_37	49	0.6531	0	37.0	Bacteria	549.6	1	unresolved	366.4	2	undef	366.4	6	undef	366.4	6	undef	366.4	6	unresolved	91.6	9
+DRR031579_30_length_44_cov_13.7273	44	0.6136	0	13.727	Bacteria	824.0	0	Proteobacteria	494.4	2	Streptomycetales	247.2	6	Streptomycetaceae	247.2	6	Streptomyces	247.2	7	Streptomyces griseus	164.8	8
+DRR031580_1_length_519_cov_210.819	519	0.4586	0	210.819	Eukaryota	9135.0	0	Ascomycota	4765.0	1	Xylariales	4765.0	1	Eukaryota-undef	4370.0	2	Eukaryota-undef	4370.0	2	uncultured fungus	4370.0	4
+DRR031580_2_length_340_cov_360.039	340	0.5206	0	360.039	Eukaryota	5861.0	0	Ascomycota	5861.0	0	Ascomycota-undef	4702.0	2	Ascomycota-undef	4702.0	2	Ascomycota-undef	2905.0	3	Coniosporium uncinatum	1797.0	5
+DRR031581_1_length_509_cov_2.13877	509	0.4774	0	2.139	Eukaryota	9154.0	0	Ascomycota	5514.0	1	Eurotiales	5514.0	1	Aspergillaceae	5514.0	1	Aspergillus	5514.0	1	Aspergillus ochraceus	929.0	9
+DRR031581_2_length_341_cov_0.933566	341	0.4516	0	0.934	Eukaryota	6184.0	0	Ascomycota	6184.0	0	Eurotiales	6184.0	0	Aspergillaceae	5581.0	1	Aspergillus	5581.0	1	Aspergillus ochraceus	2500.0	3
+DRR031581_3_length_305_cov_2.292	305	0.482	0	2.292	Eukaryota	5498.0	0	Ascomycota	5498.0	0	Eurotiales	5498.0	0	Aspergillaceae	5498.0	0	Aspergillus	4966.0	1	Aspergillus niger	2176.0	3
+DRR031581_4_length_140_cov_1.24706	140	0.5214	0	1.247	Eukaryota	2457.0	0	Ascomycota	2207.0	1	Ascomycota-undef	1470.0	3	Ascomycota-undef	1470.0	4	Ascomycota-undef	1470.0	4	uncultured Ascomycota	1470.0	4
+DRR031581_5_length_88_cov_10	88	0.4545	0	10.0	Eukaryota	1621.0	0	Arthropoda	1621.0	0	Hymenoptera	1621.0	0	Ichneumonidae	485.0	5	Apis	326.0	8	Apis mellifera	326.0	8
+DRR031581_6_length_77_cov_8.81818	77	0.5065	0	8.818	Eukaryota	1424.0	0	Arthropoda	1144.0	2	unresolved	572.0	3	unresolved	572.0	3	Drosophila	572.0	5	Drosophila melanogaster	572.0	6
+DRR031582_1_length_814_cov_19.3227	814	0.5	0	19.323	Bacteria	13410.0	0	Proteobacteria	13410.0	0	Orbales	11459.0	2	Orbaceae	11459.0	2	Gilliamella	10219.0	3	Gilliamella apicola	10219.0	3
+DRR031582_2_length_485_cov_25.8031	485	0.4887	0	25.803	Bacteria	8805.0	0	Firmicutes	8805.0	0	Lactobacillales	8805.0	0	Lactobacillaceae	8805.0	0	Lactobacillus	8805.0	0	Lactobacillus kunkeei	7168.0	2
+DRR031582_3_length_444_cov_8.31873	444	0.5383	0	8.319	Bacteria	8040.0	0	Proteobacteria	8040.0	0	Rhizobiales	7219.0	1	Brucellaceae	3935.0	2	Ochrobactrum	3935.0	2	uncultured Rhizobiales bacterium	3284.0	6
+DRR031582_4_length_391_cov_19.2821	391	0.491	0	19.282	Bacteria	6471.0	0	Firmicutes	6471.0	0	Lactobacillales	6471.0	0	Lactobacillaceae	6471.0	0	Lactobacillus	6471.0	0	Lactobacillus kunkeei	5388.0	2
+DRR031582_5_length_320_cov_5.35889	320	0.5156	0	5.359	Bacteria	4983.0	0	Firmicutes	4983.0	0	Lactobacillales	4397.0	1	Lactobacillaceae	4397.0	1	Lactobacillus	4397.0	1	uncultured Lactobacillus sp.	1725.0	4
+DRR031582_6_length_316_cov_24.1343	316	0.5348	0	24.134	Bacteria	5603.0	0	Proteobacteria	5603.0	0	Orbales	2243.0	3	Orbaceae	2243.0	3	Gilliamella	1720.0	5	Gilliamella apicola	1136.0	7
+DRR031582_7_length_312_cov_30.828	312	0.5224	0	30.828	Bacteria	5418.0	0	Proteobacteria	5418.0	0	Proteobacteria-undef	2240.0	2	Proteobacteria-undef	2240.0	2	Proteobacteria-undef	2240.0	3	uncultured gamma proteobacterium	2240.0	3
+DRR031582_8_length_253_cov_3.18182	253	0.5889	0	3.182	Bacteria	4375.0	0	Actinobacteria	4375.0	0	Bifidobacteriales	4375.0	0	Bifidobacteriaceae	4375.0	0	Bifidobacterium	4375.0	0	Bifidobacterium dentium	2175.0	3
+DRR031582_9_length_236_cov_2.87685	236	0.6017	0	2.877	Bacteria	4329.0	0	Actinobacteria	3893.0	1	Bifidobacteriales	3893.0	1	Bifidobacteriaceae	3893.0	1	Bifidobacterium	3893.0	1	Bifidobacterium thermophilum	1724.0	6
+DRR031582_10_length_214_cov_5.33702	214	0.5047	0	5.337	Bacteria	3765.0	0	Proteobacteria	3765.0	0	Rhizobiales	3765.0	0	Rhizobiales-undef	1980.0	1	Rhizobiales-undef	1980.0	1	uncultured Rhizobiales bacterium	1980.0	2
+DRR031582_11_length_210_cov_2.14689	210	0.6143	0	2.147	Bacteria	3440.0	0	Actinobacteria	3440.0	0	Bifidobacteriales	3440.0	0	Bifidobacteriaceae	3440.0	0	Bifidobacterium	3440.0	0	Bifidobacterium animalis	1525.0	5
+DRR031582_12_length_208_cov_18.1771	208	0.4904	0	18.177	Bacteria	3045.0	0	Firmicutes	3045.0	0	Lactobacillales	3045.0	0	Lactobacillaceae	3045.0	0	Lactobacillus	2453.0	1	Lactobacillus kunkeei	1565.0	5
+DRR031582_13_length_207_cov_12.6264	207	0.5411	0	12.626	Bacteria	3195.0	0	Proteobacteria	3195.0	0	Rhizobiales	3195.0	0	Brucellaceae	2862.0	1	Brucella	2862.0	1	Brucella abortus	1590.0	2
+DRR031582_14_length_199_cov_6.12048	199	0.5779	0	6.12	Bacteria	3655.0	0	Proteobacteria	2919.0	1	Rhizobiales	2183.0	2	Bartonellaceae	1820.0	3	Bartonella	1820.0	3	unresolved	736.0	5
+DRR031582_15_length_197_cov_13	197	0.5279	0	13.0	Bacteria	3618.0	0	Firmicutes	3618.0	0	Lactobacillales	3618.0	0	Lactobacillaceae	3618.0	0	Lactobacillus	3618.0	0	Lactobacillus kunkeei	2912.0	2
+DRR031582_16_length_192_cov_11.1824	192	0.5208	0	11.182	Bacteria	3255.0	0	Firmicutes	2677.0	1	Lactobacillales	2677.0	1	Lactobacillaceae	2677.0	1	Lactobacillus	2677.0	1	uncultured Lactobacillus sp.	705.0	7
+DRR031582_17_length_191_cov_3.75316	191	0.4921	0	3.753	Bacteria	3151.0	0	Bacteria-undef	1673.0	1	Bacteria-undef	1673.0	2	Bacteria-undef	1673.0	2	Bacteria-undef	1673.0	2	uncultured bacterium	1673.0	3
+DRR031582_18_length_184_cov_11.1391	184	0.5652	0	11.139	Bacteria	3026.0	0	Proteobacteria	3026.0	0	Orbales	2460.0	1	Orbaceae	2460.0	1	Gilliamella	1252.0	2	Gilliamella apicola	1252.0	2
+DRR031582_19_length_174_cov_10.773	174	0.5345	0	10.773	Bacteria	3192.0	0	Firmicutes	3192.0	0	Lactobacillales	2226.0	1	Lactobacillaceae	2226.0	1	Lactobacillus	2226.0	1	Lactobacillus johnsonii	1264.0	4
+DRR031582_20_length_173_cov_9.45	173	0.4971	0	9.45	Bacteria	3070.0	0	Proteobacteria	3070.0	0	Rhizobiales	2440.0	1	Rhizobiaceae	1490.0	2	Sinorhizobium	1192.0	3	uncultured Rhizobiales bacterium	950.0	5
+DRR031582_21_length_170_cov_1.81752	170	0.5176	0	1.818	Bacteria	2462.0	0	Firmicutes	2462.0	0	Lactobacillales	1844.0	1	Lactobacillaceae	1844.0	1	Lactobacillus	1844.0	1	uncultured Firmicutes bacterium	618.0	5
+DRR031582_22_length_164_cov_24.0305	164	0.5122	0	24.03	Bacteria	3009.0	0	Firmicutes	3009.0	0	Lactobacillales	3009.0	0	Lactobacillaceae	3009.0	0	Lactobacillus	3009.0	0	Lactobacillus kunkeei	2419.0	2
+DRR031582_23_length_151_cov_25.4915	151	0.5298	0	25.491	Bacteria	2613.0	0	Firmicutes	2346.0	1	Lactobacillales	2079.0	2	Lactobacillaceae	1827.0	3	Lactobacillus	1827.0	3	Lactobacillus kunkeei	1827.0	3
+DRR031582_24_length_146_cov_11.823	146	0.5479	0	11.823	Bacteria	2444.0	0	Proteobacteria	2444.0	0	Orbales	976.0	3	Orbaceae	976.0	3	Gilliamella	728.0	6	Gilliamella apicola	728.0	7
+DRR031582_25_length_145_cov_24.7589	145	0.5241	0	24.759	Bacteria	2355.0	1	Firmicutes	2092.0	2	Lactobacillales	2092.0	2	Lactobacillaceae	2092.0	2	Lactobacillus	2092.0	2	Lactobacillus kunkeei	1315.0	4
+DRR031582_26_length_130_cov_28.2165	130	0.5077	0	28.216	Bacteria	2393.0	0	Firmicutes	2393.0	0	Lactobacillales	2393.0	0	Lactobacillaceae	2393.0	0	Lactobacillus	2393.0	0	Lactobacillus kunkeei	1922.0	2
+DRR031582_27_length_125_cov_8.5	125	0.488	0	8.5	Bacteria	2070.0	0	Firmicutes	1557.0	1	Lactobacillales	1326.0	2	Lactobacillaceae	1326.0	2	Lactobacillus	1326.0	2	uncultured bacterium	513.0	7
+DRR031582_28_length_122_cov_16.0112	122	0.5246	0	16.011	Bacteria	2249.0	0	Firmicutes	1571.0	1	Lactobacillales	1571.0	1	Lactobacillaceae	1571.0	1	Lactobacillus	1571.0	1	Lactobacillus kunkeei	1130.0	3
+DRR031582_29_length_122_cov_9.86517	122	0.541	0	9.865	Bacteria	2260.0	0	Firmicutes	2260.0	0	Lactobacillales	2260.0	0	Lactobacillaceae	2260.0	0	Lactobacillus	2260.0	0	Lactobacillus johnsonii	1356.0	3
+DRR031582_30_length_117_cov_32.7262	117	0.5214	0	32.726	Bacteria	2159.0	0	Firmicutes	2159.0	0	Lactobacillales	2159.0	0	Lactobacillaceae	1953.0	1	Lactobacillus	1953.0	1	Lactobacillus kunkeei	1953.0	1
+DRR031582_31_length_117_cov_10.1429	117	0.547	0	10.143	Bacteria	2170.0	0	Firmicutes	2170.0	0	Lactobacillales	2170.0	0	Lactobacillaceae	2170.0	0	Lactobacillus	2170.0	0	Lactobacillus johnsonii	1302.0	3
+DRR031582_32_length_98_cov_26.6769	98	0.5306	0	26.677	Bacteria	1809.0	0	Firmicutes	1809.0	0	Lactobacillales	1809.0	0	Lactobacillaceae	1809.0	0	Lactobacillus	1809.0	0	Lactobacillus kunkeei	1456.0	2
+DRR031582_33_length_98_cov_14.1538	98	0.5204	0	14.154	Bacteria	1820.0	0	Proteobacteria	1820.0	0	Rhizobiales	1820.0	0	Bartonellaceae	1274.0	2	Bartonella	1274.0	3	Bartonella sp.	910.0	4
+DRR031582_34_length_67_cov_13.2647	67	0.5522	0	13.265	Bacteria	1240.0	0	Bacteria-undef	620.0	2	Bacteria-undef	620.0	3	Bacteria-undef	620.0	3	Bacteria-undef	620.0	3	uncultured Acidobacteria bacterium	248.0	8
+DRR031582_35_length_67_cov_10.9706	67	0.5224	0	10.971	Bacteria	1237.0	0	Proteobacteria	620.0	1	Bacteria-undef	617.0	2	Bacteria-undef	617.0	4	Bacteria-undef	617.0	4	unresolved	124.0	9
+DRR031582_36_length_67_cov_7.26471	67	0.5672	0	7.265	Bacteria	1240.0	0	Firmicutes	1240.0	0	Lactobacillales	1240.0	0	Lactobacillaceae	1116.0	1	Lactobacillus	1116.0	1	Lactobacillus plantarum	496.0	5
+DRR031582_37_length_67_cov_2.44118	67	0.5224	0	2.441	Bacteria	1240.0	0	Firmicutes	1240.0	0	Bacillales	992.0	1	Staphylococcaceae	992.0	1	Staphylococcus	868.0	2	Staphylococcus epidermidis	620.0	3
+DRR031582_38_length_66_cov_13.4545	66	0.5758	0	13.454	Bacteria	1217.0	0	Bacteria-undef	607.0	2	Bacteria-undef	607.0	4	Bacteria-undef	607.0	4	Bacteria-undef	607.0	4	unresolved	122.0	9
+DRR031582_39_length_56_cov_51.8261	56	0.5714	0	51.826	Bacteria	936.0	1	Proteobacteria	728.0	3	Proteobacteria-undef	208.0	8	Proteobacteria-undef	208.0	8	Proteobacteria-undef	208.0	8	unresolved	104.0	9
+DRR031582_40_length_56_cov_2.52174	56	0.5	0	2.522	Bacteria	1040.0	0	Firmicutes	728.0	1	Bacillales	520.0	2	Staphylococcaceae	416.0	3	Staphylococcus	416.0	3	Staphylococcus epidermidis	416.0	4
+DRR031582_41_length_52_cov_25.6842	52	0.5385	0	25.684	Bacteria	971.0	0	Proteobacteria	582.6	2	Pasteurellales	388.4	4	Pasteurellaceae	388.4	4	Haemophilus	388.4	4	unresolved	291.3	5
+DRR031582_42_length_51_cov_23.7778	51	0.5686	0	23.778	Bacteria	953.0	0	Firmicutes	857.7	1	Bacillales	667.1	2	Staphylococcaceae	476.5	4	Staphylococcus	476.5	4	unresolved	190.6	6
+DRR031582_43_length_49_cov_15.5	49	0.6327	0	15.5	Bacteria	908.6	0	Firmicutes	450.6	2	Clostridiales	359.0	3	Corynebacteriaceae	274.8	6	Corynebacterium	274.8	6	unresolved	91.6	9
+DRR031582_44_length_47_cov_37.4286	47	0.617	0	37.429	Bacteria	791.1	1	Proteobacteria	703.2	2	unresolved	175.8	7	unresolved	175.8	7	unresolved	175.8	7	unresolved	87.9	9
+DRR031582_45_length_45_cov_3.25	45	0.6222	0	3.25	Bacteria	842.0	0	Firmicutes	842.0	0	Bacillales	842.0	0	Bacillaceae	421.0	3	unresolved	168.4	6	unresolved	168.4	7
+DRR031582_46_length_44_cov_4	44	0.5227	0	4.0	Bacteria	741.6	0	Firmicutes	576.8	1	Bacillales	494.4	2	Bacillaceae	247.2	4	Bacteria-undef	164.8	7	unresolved	82.4	8
+DRR031582_47_length_41_cov_2.625	41	0.4878	0	2.625	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+DRR031582_48_length_41_cov_1.625	41	0.5122	0	1.625	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+DRR031582_49_length_36_cov_29.6667	36	0.5278	0	29.667	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+DRR031582_50_length_36_cov_1.33333	36	0.5278	0	1.333	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+DRR031583_1_length_598_cov_2.43186	598	0.5033	0	2.432	Bacteria	7237.0	0	Proteobacteria	7237.0	0	Proteobacteria-undef	3060.0	3	Proteobacteria-undef	3060.0	3	Proteobacteria-undef	3060.0	4	uncultured gamma proteobacterium	3060.0	4
+DRR031583_2_length_554_cov_102.501	554	0.4982	0	102.501	Eukaryota	9627.0	0	Ascomycota	7679.0	1	Ascomycota-undef	3856.0	4	Ascomycota-undef	3856.0	5	Ascomycota-undef	3856.0	5	uncultured Ascomycota	2882.0	7
+DRR031583_3_length_480_cov_2.65772	480	0.5646	0	2.658	Bacteria	7987.0	0	Proteobacteria	7582.0	1	Orbales	3510.0	5	Orbaceae	3510.0	6	Gilliamella	2822.0	7	Gilliamella apicola	2822.0	10
+DRR031583_4_length_411_cov_166.177	411	0.5328	0	166.177	Eukaryota	7075.0	0	Ascomycota	3685.0	1	Eukaryota-undef	3390.0	2	Eukaryota-undef	3390.0	2	Eukaryota-undef	3390.0	3	uncultured fungus	3390.0	4
+DRR031583_5_length_214_cov_104.188	214	0.3972	0	104.188	Eukaryota	3322.0	0	Eukaryota-undef	1665.0	1	Eukaryota-undef	1330.0	4	Eukaryota-undef	1330.0	4	Eukaryota-undef	1330.0	4	uncultured eukaryote	995.0	7
+DRR031583_6_length_193_cov_2.4875	193	0.544	0	2.487	Bacteria	3357.0	0	Proteobacteria	3020.0	1	Rhodospirillales	2324.0	2	Acetobacteraceae	2324.0	2	Acetobacter	1280.0	4	Acetobacter ghanensis	960.0	6
+DRR031583_7_length_186_cov_207.745	186	0.4409	0	207.745	Eukaryota	3296.0	0	Ascomycota	1949.0	1	Eukaryota-undef	1347.0	4	Eukaryota-undef	1347.0	5	Eukaryota-undef	1347.0	5	uncultured fungus	1347.0	5
+DRR031583_8_length_186_cov_3.3268	186	0.457	0	3.327	Bacteria	2345.0	0	Firmicutes	2345.0	0	Lactobacillales	2345.0	0	Lactobacillaceae	2345.0	0	Lactobacillus	2345.0	0	Lactobacillus kunkeei	1940.0	2
+DRR031583_9_length_128_cov_71.5158	128	0.3828	0	71.516	Eukaryota	1866.0	0	Ascomycota	1128.0	1	Capnodiales	750.0	4	Cladosporiaceae	559.0	5	Cladosporium	559.0	5	uncultured eukaryote	366.0	8
+DRR031583_10_length_127_cov_26.4787	127	0.5591	0	26.479	Eukaryota	2115.0	1	Ascomycota	2115.0	1	Ascomycota-undef	1410.0	3	Ascomycota-undef	1175.0	5	Ascomycota-undef	1175.0	5	uncultured Ascomycota	1175.0	5
+DRR031583_11_length_92_cov_18.9661	92	0.6304	0	18.966	Eukaryota	1539.0	1	Ascomycota	1368.0	2	Ascomycota-undef	855.0	4	Ascomycota-undef	684.0	6	Ascomycota-undef	684.0	6	uncultured Ascomycota	684.0	6
+DRR031583_12_length_87_cov_207.907	87	0.4023	0	207.907	Eukaryota	1555.0	0	Arthropoda	1555.0	0	Hymenoptera	805.0	2	Apidae	805.0	3	Apis	805.0	3	Apis mellifera	644.0	4
+DRR031583_13_length_87_cov_206.907	87	0.4253	0	206.907	Eukaryota	1417.0	0	Ascomycota	1122.0	1	Pleosporales	705.0	2	Ascomycota-undef	417.0	3	Ascomycota-undef	417.0	3	uncultured Ascomycota	417.0	3
+DRR031583_14_length_74_cov_172.805	74	0.473	0	172.805	Eukaryota	1352.0	0	Ascomycota	1352.0	0	Hypocreales	819.0	2	unresolved	274.0	5	unresolved	274.0	5	uncultured Hypocreales	271.0	7
+DRR031583_15_length_71_cov_210	71	0.4085	0	210.0	Eukaryota	1298.0	0	Eukaryota-undef	518.0	3	Eukaryota-undef	518.0	4	Eukaryota-undef	518.0	4	Eukaryota-undef	518.0	4	uncultured fungus	518.0	4
+DRR031583_16_length_64_cov_283.645	64	0.3906	0	283.645	Eukaryota	1190.0	0	Arthropoda	1190.0	0	Hymenoptera	1190.0	0	unresolved	238.0	7	Orussus	238.0	8	unresolved	119.0	9
+DRR031584_1_length_652_cov_61.0969	652	0.477	0	61.097	Eukaryota	11278.0	0	Ascomycota	10138.0	1	Capnodiales	4541.0	3	Cladosporiaceae	4541.0	3	Cladosporium	4541.0	3	uncultured Ascomycota	4481.0	5
+DRR031584_2_length_381_cov_87.7816	381	0.4514	0	87.782	Eukaryota	6766.0	0	Eukaryota-undef	4087.0	1	Eukaryota-undef	4087.0	4	Eukaryota-undef	4087.0	4	Eukaryota-undef	4087.0	4	uncultured fungus	3422.0	5
+DRR031584_3_length_296_cov_2.70722	296	0.5169	0	2.707	Bacteria	3692.0	1	Bacteria-undef	2350.0	2	Bacteria-undef	2350.0	3	Bacteria-undef	2350.0	3	Bacteria-undef	2350.0	3	uncultured bacterium	2350.0	3
+DRR031584_4_length_237_cov_1.22059	237	0.481	0	1.221	Bacteria	3919.0	0	Firmicutes	3553.0	1	Firmicutes-undef	1995.0	2	Firmicutes-undef	1995.0	2	Firmicutes-undef	1995.0	2	uncultured Bacilli bacterium	1995.0	2
+DRR031584_5_length_189_cov_84.3205	189	0.4603	0	84.32	Eukaryota	2998.0	0	Ascomycota	2998.0	0	Ascomycota-undef	1185.0	4	Ascomycota-undef	1185.0	4	Ascomycota-undef	1185.0	4	Aureobasidium pullulans	909.0	5
+DRR031585_1_length_547_cov_61.8249	547	0.4698	0	61.825	Eukaryota	10025.0	0	Ascomycota	5055.0	1	Eurotiales	5055.0	1	Aspergillaceae	5055.0	1	Penicillium	5055.0	1	Penicillium glabrum	2022.0	8
+DRR031585_2_length_436_cov_41.2109	436	0.4679	0	41.211	Eukaryota	7916.0	0	Ascomycota	7132.0	1	Eurotiales	7132.0	1	Aspergillaceae	6335.0	2	Penicillium	5553.0	3	unresolved	797.0	9
+DRR031585_3_length_301_cov_58.1493	301	0.4784	0	58.149	Eukaryota	5532.0	0	Ascomycota	4981.0	1	Eurotiales	4437.0	2	Aspergillaceae	3892.0	3	Penicillium	2224.0	4	unresolved	1112.0	7
+DRR031585_4_length_270_cov_71.3376	270	0.5296	0	71.338	Eukaryota	4549.0	0	Ascomycota	4549.0	0	Eurotiales	3187.0	1	Aspergillaceae	2732.0	3	Aspergillus	1820.0	4	Aspergillus niger	1820.0	6
+DRR031585_5_length_129_cov_133.865	129	0.4419	0	133.865	Eukaryota	2223.0	0	Arthropoda	1777.0	2	Hymenoptera	1777.0	2	Braconidae	1120.0	5	Eukaryota-undef	226.0	9	uncultured eukaryote	226.0	9
+DRR031585_6_length_82_cov_144.041	82	0.5366	0	144.041	Eukaryota	1490.0	0	Arthropoda	1349.0	1	Hymenoptera	760.0	4	Formicidae	456.0	6	Polistes	304.0	8	unresolved	152.0	9
+DRR031585_7_length_72_cov_172.718	72	0.5	0	172.718	Eukaryota	1340.0	0	Arthropoda	1072.0	2	unresolved	268.0	5	unresolved	268.0	7	Bombyx	268.0	8	Bombyx mori	268.0	8
+SRR1046114_1_length_1189_cov_256.139	1189	0.4954	0	256.139	Bacteria	20860.0	0	Firmicutes	20860.0	0	Lactobacillales	20860.0	0	Lactobacillaceae	20860.0	0	Lactobacillus	19262.0	1	Lactobacillus kunkeei	17175.0	2
+SRR1046114_2_length_748_cov_71.5325	748	0.5027	0	71.532	Bacteria	11741.0	0	Firmicutes	11129.0	1	Lactobacillales	11129.0	1	Lactobacillaceae	11129.0	1	Lactobacillus	11129.0	1	Lactobacillus kunkeei	5611.0	3
+SRR1046114_3_length_330_cov_2.87273	330	0.5061	0	2.873	Bacteria	5190.0	0	Firmicutes	5190.0	0	Lactobacillales	5190.0	0	Lactobacillaceae	5190.0	0	Lactobacillus	5190.0	0	uncultured Lactobacillus sp.	3020.0	2
+SRR1046114_4_length_290_cov_326.634	290	0.5207	0	326.634	Bacteria	5300.0	0	Firmicutes	5300.0	0	Lactobacillales	5300.0	0	Lactobacillaceae	5300.0	0	Lactobacillus	5300.0	0	Lactobacillus kunkeei	4819.0	1
+SRR1046114_5_length_180_cov_40.088	180	0.4944	0	40.088	Bacteria	3065.0	0	Firmicutes	3065.0	0	Lactobacillales	3065.0	0	Leuconostocaceae	3065.0	0	Fructobacillus	1665.0	1	Fructobacillus fructosus	1665.0	2
+SRR1046114_6_length_111_cov_7.08929	111	0.5045	0	7.089	Bacteria	2031.0	0	Firmicutes	2031.0	0	Lactobacillales	1825.0	1	Lactobacillaceae	1630.0	2	Lactobacillus	1630.0	2	Lactobacillus kunkeei	1218.0	4
+SRR1046114_7_length_111_cov_4.32143	111	0.5135	0	4.321	Bacteria	1820.0	1	Firmicutes	1425.0	2	Lactobacillales	1013.0	3	Lactobacillaceae	818.0	4	Lactobacillus	818.0	4	Lactobacillus ozensis	618.0	5
+SRR1046114_8_length_107_cov_331.192	107	0.514	0	331.192	Bacteria	1975.0	0	Firmicutes	1782.0	1	Lactobacillales	1782.0	1	Lactobacillaceae	1782.0	1	Lactobacillus	1782.0	1	Lactobacillus kunkeei	1584.0	2
+SRR1046114_9_length_76_cov_396.905	76	0.5	0	396.905	Bacteria	1410.0	0	Firmicutes	1128.0	1	Lactobacillales	1128.0	1	Lactobacillaceae	705.0	3	Lactobacillus	564.0	4	unresolved	282.0	7
+SRR1171777_1_length_1638_cov_62.6519	1638	0.5104	0	62.652	Bacteria	26830.0	0	Proteobacteria	26830.0	0	Orbales	22580.0	1	Orbaceae	22580.0	1	Gilliamella	19996.0	2	Gilliamella apicola	19996.0	2
+SRR1171777_2_length_1480_cov_95.3011	1480	0.523	0	95.301	Bacteria	24396.0	0	Proteobacteria	24396.0	0	Neisseriales	24396.0	0	Neisseriaceae	24396.0	0	Snodgrassella	13457.0	1	Snodgrassella alvi	13457.0	1
+SRR1171777_3_length_1433_cov_25.5058	1433	0.598	0	25.506	Bacteria	23998.0	0	Actinobacteria	23998.0	0	Bifidobacteriales	23998.0	0	Bifidobacteriaceae	23998.0	0	Bifidobacterium	23998.0	0	Bifidobacterium bifidum	11293.0	4
+SRR1171777_4_length_1022_cov_29.394	1022	0.5098	0	29.394	Bacteria	16141.0	0	Firmicutes	14441.0	1	Lactobacillales	14441.0	1	Lactobacillaceae	14441.0	1	Lactobacillus	14441.0	1	Lactobacillus sp. wkB8	6844.0	4
+SRR1171777_5_length_967_cov_81.08	967	0.514	0	81.08	Bacteria	15771.0	0	Proteobacteria	15771.0	0	Rhizobiales	15771.0	0	Bartonellaceae	9262.0	1	Bartonella	9262.0	1	uncultured Rhizobiales bacterium	6509.0	4
+SRR1171777_6_length_570_cov_91.8019	570	0.5439	0	91.802	Bacteria	9114.0	0	Proteobacteria	9114.0	0	Rhizobiales	9114.0	0	Brucellaceae	8151.0	1	Ochrobactrum	5439.0	2	Ochrobactrum anthropi	5439.0	2
+SRR1171777_7_length_379_cov_56.142	379	0.533	0	56.142	Bacteria	6510.0	0	Firmicutes	5298.0	1	Lactobacillales	5298.0	1	Lactobacillaceae	5298.0	1	Lactobacillus	5298.0	1	uncultured bacterium	1212.0	8
+SRR1171777_8_length_199_cov_140.826	199	0.5528	0	140.826	Bacteria	3564.0	0	Proteobacteria	3564.0	0	Rhizobiales	2828.0	1	Bartonellaceae	1724.0	2	Bartonella	1724.0	2	Bartonella quintana	1724.0	2
+SRR1171893_1_length_1631_cov_11.6561	1631	0.515	0	11.656	Bacteria	26886.0	0	Proteobacteria	26886.0	0	Orbales	22647.0	1	Orbaceae	22647.0	1	Gilliamella	20039.0	2	Gilliamella apicola	20039.0	2
+SRR1171893_2_length_1168_cov_11.4465	1168	0.5265	0	11.447	Bacteria	23269.0	0	Firmicutes	23269.0	0	Lactobacillales	23269.0	0	Lactobacillaceae	23269.0	0	Lactobacillus	23269.0	0	uncultured Lactobacillus sp.	10211.0	4
+SRR1171893_3_length_1141_cov_12.4899	1141	0.5223	0	12.49	Bacteria	18545.0	0	Proteobacteria	18545.0	0	Neisseriales	18545.0	0	Neisseriaceae	18545.0	0	Snodgrassella	10329.0	2	Snodgrassella alvi	10329.0	2
+SRR1171893_4_length_998_cov_4.69141	998	0.5952	0	4.691	Bacteria	17505.0	0	Actinobacteria	17505.0	0	Bifidobacteriales	17505.0	0	Bifidobacteriaceae	17505.0	0	Bifidobacterium	17505.0	0	Bifidobacterium bifidum	8285.0	4
+SRR1171893_5_length_433_cov_3.70106	433	0.5935	0	3.701	Bacteria	6749.0	0	Actinobacteria	6749.0	0	Bifidobacteriales	6749.0	0	Bifidobacteriaceae	6749.0	0	Bifidobacterium	6749.0	0	Bifidobacterium coryneforme	2103.0	4
+SRR1171893_6_length_324_cov_9.5539	324	0.5401	0	9.554	Bacteria	5292.0	0	Firmicutes	4808.0	1	Lactobacillales	4808.0	1	Lactobacillaceae	4808.0	1	Lactobacillus	4808.0	1	Lactobacillus amylovorus	958.0	8
+SRR1171893_7_length_316_cov_11.8391	316	0.5411	0	11.839	Bacteria	5598.0	0	Proteobacteria	5598.0	0	Neisseriales	5598.0	0	Neisseriaceae	5598.0	0	Neisseria	2678.0	3	Neisseria weaveri	1620.0	4
+SRR1171893_8_length_128_cov_22.3562	128	0.5313	0	22.356	Bacteria	2370.0	0	Firmicutes	1422.0	2	Lactobacillales	1422.0	2	Lactobacillaceae	1422.0	3	Lactobacillus	1422.0	4	Lactobacillus johnsonii	1185.0	5
+SRR1171896_1_length_1480_cov_20.3705	1480	0.525	0	20.37	Bacteria	24288.0	0	Proteobacteria	24288.0	0	Neisseriales	24288.0	0	Neisseriaceae	24288.0	0	Snodgrassella	13386.0	2	Snodgrassella alvi	13386.0	2
+SRR1171896_2_length_1431_cov_6.28488	1431	0.5681	0	6.285	Bacteria	27488.0	1	Actinobacteria	19729.0	3	Bifidobacteriales	19729.0	3	Bifidobacteriaceae	19729.0	5	Bifidobacterium	19729.0	5	Bifidobacterium asteroides	6223.0	9
+SRR1171896_3_length_1370_cov_12.1985	1370	0.519	0	12.198	Bacteria	22908.0	0	Proteobacteria	22908.0	0	Orbales	19145.0	1	Orbaceae	19145.0	1	Gilliamella	16939.0	2	Gilliamella apicola	16939.0	2
+SRR1171896_4_length_1024_cov_25.7379	1024	0.5215	0	25.738	Bacteria	19992.0	0	Firmicutes	19992.0	0	Lactobacillales	19992.0	0	Lactobacillaceae	19992.0	0	Lactobacillus	19992.0	0	uncultured Lactobacillus sp.	8791.0	5
+SRR1171896_5_length_621_cov_7.06714	621	0.5362	0	7.067	Bacteria	11260.0	0	Proteobacteria	11260.0	0	Rhizobiales	10113.0	1	Rhizobiaceae	4436.0	4	Ensifer	4436.0	4	Ensifer adhaerens	4436.0	4
+SRR1171896_6_length_398_cov_29.2332	398	0.5327	0	29.233	Bacteria	6778.0	0	Firmicutes	6070.0	1	Lactobacillales	6070.0	1	Lactobacillaceae	6070.0	1	Lactobacillus	6070.0	1	Lactobacillus fermentum	1935.0	5
+SRR1171896_7_length_208_cov_32.1046	208	0.5433	0	32.105	Bacteria	3644.0	0	Firmicutes	2908.0	2	Bacillales	1368.0	4	Bacillaceae	1368.0	4	Bacillus	1368.0	4	uncultured Firmicutes bacterium	770.0	7
+SRR1171898_1_length_1637_cov_8.33944	1637	0.5125	0	8.339	Bacteria	26790.0	0	Proteobacteria	26790.0	0	Orbales	22562.0	1	Orbaceae	22562.0	1	Gilliamella	19976.0	2	Gilliamella apicola	19976.0	2
+SRR1171898_2_length_1474_cov_16.8393	1474	0.5237	0	16.839	Bacteria	24500.0	0	Proteobacteria	24500.0	0	Neisseriales	24500.0	0	Neisseriaceae	24500.0	0	Snodgrassella	13493.0	2	Snodgrassella alvi	13493.0	2
+SRR1171898_3_length_1033_cov_5.94274	1033	0.4956	0	5.943	Bacteria	17013.0	0	Firmicutes	17013.0	0	Lactobacillales	17013.0	0	Lactobacillaceae	17013.0	0	Lactobacillus	17013.0	0	Lactobacillus kunkeei	13922.0	2
+SRR1171898_4_length_968_cov_35.1555	968	0.5145	0	35.156	Bacteria	15771.0	0	Proteobacteria	15771.0	0	Rhizobiales	15771.0	0	Bartonellaceae	9262.0	1	Bartonella	9262.0	1	uncultured Rhizobiales bacterium	6509.0	4
+SRR1171898_5_length_726_cov_74.4516	726	0.3967	0	74.452	Eukaryota	6360.0	0	Microsporidia	6360.0	0	Microsporidia-undef	6360.0	0	Nosematidae	6360.0	0	Nosema	6360.0	0	Nosema apis	6125.0	1
+SRR1171898_6_length_712_cov_8.97717	712	0.4888	0	8.977	Eukaryota	10814.0	0	Eukaryota-undef	10814.0	0	Kinetoplastida	10814.0	0	Trypanosomatidae	10814.0	0	Crithidia	4880.0	3	Crithidia bombi	3664.0	6
+SRR1171898_7_length_571_cov_37.9981	571	0.5447	0	37.998	Bacteria	9114.0	0	Proteobacteria	9114.0	0	Rhizobiales	9114.0	0	Brucellaceae	8151.0	1	Ochrobactrum	5439.0	2	Ochrobactrum anthropi	5439.0	2
+SRR1171898_8_length_371_cov_77.7943	371	0.3666	0	77.794	Eukaryota	3873.0	0	Microsporidia	3873.0	0	Microsporidia-undef	3873.0	0	Nosematidae	3385.0	1	Nosema	3385.0	1	Nosema apis	2492.0	3
+SRR1171898_9_length_329_cov_4.59854	329	0.4772	0	4.599	Eukaryota	5400.0	0	Ascomycota	4344.0	1	Saccharomycetales	4344.0	1	Metschnikowiaceae	4344.0	1	Metschnikowia	2374.0	2	[Candida] intermedia	1970.0	4
+SRR1171898_10_length_221_cov_2.16867	221	0.543	0	2.169	Bacteria	3845.0	0	Proteobacteria	3481.0	1	Rhodospirillales	3072.0	2	Acetobacteraceae	3072.0	2	Acetobacteraceae-undef	1636.0	4	unresolved	718.0	7
+SRR1171898_11_length_218_cov_1.95092	218	0.6055	0	1.951	Bacteria	3994.0	0	Actinobacteria	3591.0	1	Bifidobacteriales	3591.0	1	Bifidobacteriaceae	3591.0	1	Bifidobacterium	3591.0	1	Bifidobacterium thermophilum	1592.0	6
+SRR1171898_12_length_199_cov_35.1458	199	0.5528	0	35.146	Bacteria	3564.0	0	Proteobacteria	3564.0	0	Rhizobiales	2828.0	1	Bartonellaceae	1724.0	2	Bartonella	1724.0	2	Bartonella quintana	1724.0	2
+SRR1171902_1_length_1652_cov_14.4915	1652	0.5151	0	14.492	Bacteria	27965.0	0	Proteobacteria	27965.0	0	Orbales	22061.0	2	Orbaceae	22061.0	2	Gilliamella	19577.0	3	Gilliamella apicola	19577.0	3
+SRR1171902_2_length_1429_cov_20.5822	1429	0.5962	0	20.582	Bacteria	24155.0	0	Actinobacteria	24155.0	0	Bifidobacteriales	24155.0	0	Bifidobacteriaceae	24155.0	0	Bifidobacterium	24155.0	0	Bifidobacterium bifidum	11350.0	2
+SRR1171902_3_length_1166_cov_18.3105	1166	0.5257	0	18.311	Bacteria	18988.0	0	Firmicutes	18988.0	0	Lactobacillales	16978.0	1	Lactobacillaceae	16978.0	1	Lactobacillus	16978.0	1	uncultured Lactobacillus sp.	9787.0	4
+SRR1171902_4_length_1139_cov_40.7934	1139	0.5206	0	40.793	Bacteria	18500.0	0	Proteobacteria	18500.0	0	Neisseriales	18500.0	0	Neisseriaceae	18500.0	0	Snodgrassella	10331.0	2	Snodgrassella alvi	10331.0	2
+SRR1171902_5_length_371_cov_13.2405	371	0.5094	0	13.241	Bacteria	5764.0	0	Firmicutes	5764.0	0	Lactobacillales	5764.0	0	Lactobacillaceae	5764.0	0	Lactobacillus	5764.0	0	Lactobacillus kunkeei	2183.0	6
+SRR1171902_6_length_317_cov_46.1107	317	0.5426	0	46.111	Bacteria	5628.0	0	Proteobacteria	5628.0	0	Neisseriales	5628.0	0	Neisseriaceae	5628.0	0	Neisseria	1626.0	4	Neisseria weaveri	1626.0	4
+SRR1171902_7_length_136_cov_67.0864	136	0.5368	0	67.086	Bacteria	2520.0	0	Firmicutes	1512.0	2	Lactobacillales	1512.0	2	Lactobacillaceae	1512.0	3	Lactobacillus	1512.0	4	Lactobacillus johnsonii	1260.0	5
+SRR1171919_1_length_1670_cov_8.37523	1670	0.494	0	8.375	Bacteria	31236.0	0	Firmicutes	31236.0	0	Lactobacillales	31236.0	0	Lactobacillaceae	31236.0	0	Lactobacillus	28936.0	1	Lactobacillus kunkeei	26734.0	2
+SRR1171919_2_length_1637_cov_20.3148	1637	0.5125	0	20.315	Bacteria	26781.0	0	Proteobacteria	26781.0	0	Orbales	22534.0	1	Orbaceae	22534.0	1	Gilliamella	19939.0	2	Gilliamella apicola	19939.0	2
+SRR1171919_3_length_1473_cov_10.2398	1473	0.5261	0	10.24	Bacteria	24381.0	0	Proteobacteria	24381.0	0	Neisseriales	24381.0	0	Neisseriaceae	24381.0	0	Snodgrassella	13386.0	2	Snodgrassella alvi	13386.0	2
+SRR1171919_4_length_717_cov_8.82779	717	0.4881	0	8.828	Eukaryota	10857.0	0	Eukaryota-undef	10857.0	0	Kinetoplastida	10857.0	0	Trypanosomatidae	10857.0	0	Crithidia	3676.0	4	Crithidia bombi	2457.0	7
+SRR1171919_5_length_220_cov_1.24848	220	0.4864	0	1.248	Bacteria	3632.0	0	Proteobacteria	3632.0	0	Rhizobiales	3236.0	1	Bartonellaceae	2840.0	2	Bartonella	2840.0	2	uncultured Bartonella sp.	1188.0	4
+SRR1171919_6_length_87_cov_9.34375	87	0.5517	0	9.344	Bacteria	1605.0	0	Bacteria-undef	483.0	4	Bacteria-undef	483.0	5	Bacteria-undef	483.0	6	Bacteria-undef	483.0	6	uncultured bacterium	483.0	6
+SRR1171921_1_length_1638_cov_26.0935	1638	0.5116	0	26.093	Bacteria	26937.0	0	Proteobacteria	26937.0	0	Orbales	22668.0	1	Orbaceae	22668.0	1	Gilliamella	20080.0	2	Gilliamella apicola	20080.0	2
+SRR1171921_2_length_1474_cov_18.7667	1474	0.5244	0	18.767	Bacteria	24500.0	0	Proteobacteria	24500.0	0	Neisseriales	24500.0	0	Neisseriaceae	24500.0	0	Snodgrassella	13465.0	2	Snodgrassella alvi	13465.0	2
+SRR1171921_3_length_1425_cov_9.38832	1425	0.5965	0	9.388	Bacteria	24006.0	0	Actinobacteria	24006.0	0	Bifidobacteriales	24006.0	0	Bifidobacteriaceae	24006.0	0	Bifidobacterium	24006.0	0	Bifidobacterium bifidum	11268.0	2
+SRR1171921_4_length_816_cov_19.5007	816	0.5012	0	19.501	Bacteria	12035.0	0	Firmicutes	12035.0	0	Lactobacillales	10710.0	1	Lactobacillaceae	10710.0	1	Lactobacillus	10710.0	1	Lactobacillus sp. wkB8	5180.0	4
+SRR1171921_5_length_617_cov_3.72064	617	0.5284	0	3.721	Bacteria	9797.0	0	Proteobacteria	9797.0	0	Rhizobiales	8784.0	1	Bartonellaceae	6758.0	2	Bartonella	6758.0	2	uncultured Rhizobiales bacterium	2026.0	5
+SRR1171921_6_length_413_cov_43.6425	413	0.523	0	43.642	Bacteria	7407.0	0	Firmicutes	7407.0	0	Lactobacillales	6644.0	1	Lactobacillaceae	6644.0	1	Lactobacillus	6644.0	1	Lactobacillus acidophilus	2124.0	7
+SRR1171921_7_length_405_cov_30.2171	405	0.5383	0	30.217	Bacteria	6752.0	0	Firmicutes	6129.0	1	Lactobacillales	6129.0	1	Lactobacillaceae	6129.0	1	Lactobacillus	6129.0	1	unresolved	712.0	9
+SRR1171921_8_length_405_cov_11.5571	405	0.5481	0	11.557	Bacteria	6944.0	0	Firmicutes	6944.0	0	Lactobacillales	6944.0	0	Lactobacillaceae	6944.0	0	Lactobacillus	6944.0	0	Lactobacillus sakei	3253.0	5
+SRR1171921_9_length_245_cov_1.90526	245	0.5673	0	1.905	Bacteria	4485.0	0	Proteobacteria	4485.0	0	Rhizobiales	4485.0	0	Bartonellaceae	4485.0	0	Bartonella	4485.0	0	Bartonella sp.	1792.0	4
+SRR1171921_10_length_229_cov_15.6782	229	0.524	0	15.678	Bacteria	3910.0	0	Firmicutes	3910.0	0	Lactobacillales	3910.0	0	Lactobacillaceae	3910.0	0	Lactobacillus	3910.0	0	uncultured Lactobacillus sp.	1696.0	5
+SRR1171924_1_length_1494_cov_35.7783	1494	0.5167	0	35.778	Bacteria	24254.0	0	Proteobacteria	24254.0	0	Orbales	20336.0	1	Orbaceae	20336.0	2	Gilliamella	17918.0	3	Gilliamella apicola	17918.0	3
+SRR1171924_2_length_1451_cov_9.38825	1451	0.5258	0	9.388	Bacteria	23911.0	0	Proteobacteria	23911.0	0	Neisseriales	23911.0	0	Neisseriaceae	23911.0	0	Snodgrassella	13134.0	2	Snodgrassella alvi	13134.0	2
+SRR1171924_3_length_478_cov_3.64303	478	0.5941	0	3.643	Bacteria	7778.0	0	Actinobacteria	7778.0	0	Bifidobacteriales	7778.0	0	Bifidobacteriaceae	7778.0	0	Bifidobacterium	7778.0	0	uncultured Bifidobacterium sp.	4360.0	2
+SRR1171924_4_length_423_cov_19.0924	423	0.5366	0	19.092	Bacteria	6850.0	0	Firmicutes	6850.0	0	Lactobacillales	6850.0	0	Lactobacillaceae	6850.0	0	Lactobacillus	6850.0	0	uncultured Lactobacillus sp.	3289.0	5
+SRR1171924_5_length_413_cov_41.1676	413	0.523	0	41.168	Bacteria	7407.0	0	Firmicutes	7407.0	0	Lactobacillales	6644.0	1	Lactobacillaceae	6644.0	1	Lactobacillus	6644.0	1	Lactobacillus acidophilus	2124.0	7
+SRR1171924_6_length_409_cov_21.3305	409	0.5477	0	21.331	Bacteria	7009.0	0	Firmicutes	6358.0	1	Lactobacillales	6358.0	1	Lactobacillaceae	6358.0	1	Lactobacillus	6358.0	1	Lactobacillus sakei	2628.0	6
+SRR1171924_7_length_405_cov_3.02286	405	0.6	0	3.023	Bacteria	7265.0	0	Actinobacteria	7265.0	0	Bifidobacteriales	7265.0	0	Bifidobacteriaceae	7265.0	0	Bifidobacterium	7265.0	0	Bifidobacterium animalis	3520.0	3
+SRR1171924_8_length_399_cov_20.7936	399	0.5338	0	20.794	Bacteria	6504.0	0	Firmicutes	5905.0	1	Lactobacillales	5905.0	1	Lactobacillaceae	5905.0	1	Lactobacillus	5905.0	1	Lactobacillus heilongjiangensis	1186.0	8
+SRR1171924_9_length_382_cov_6.62997	382	0.6152	0	6.63	Bacteria	6758.0	0	Actinobacteria	6758.0	0	Bifidobacteriales	6758.0	0	Bifidobacteriaceae	6758.0	0	Bifidobacterium	6758.0	0	Bifidobacterium thermophilum	2668.0	6
+SRR1171924_10_length_321_cov_3.81955	321	0.5545	0	3.82	Bacteria	5527.0	0	Proteobacteria	5004.0	1	Rhodospirillales	5004.0	1	Acetobacteraceae	5004.0	1	Acetobacteraceae-undef	2940.0	2	Gluconacetobacter diazotrophicus	2064.0	6
+SRR1171924_11_length_280_cov_8.52444	280	0.5393	0	8.524	Bacteria	4099.0	0	Firmicutes	3126.0	1	Lactobacillales	3126.0	1	Lactobacillaceae	3126.0	1	Lactobacillus	3126.0	1	Lactobacillus sp. wkB8	1936.0	2
+SRR1171924_12_length_268_cov_28.9906	268	0.5224	0	28.991	Bacteria	4520.0	0	Firmicutes	4520.0	0	Lactobacillales	4520.0	0	Lactobacillaceae	4520.0	0	Lactobacillus	4520.0	0	Lactobacillus paracollinoides	1628.0	4
+SRR1171924_13_length_262_cov_26.4783	262	0.4618	0	26.478	Bacteria	4014.0	0	Proteobacteria	4014.0	0	Orbales	3456.0	1	Orbaceae	3456.0	1	Gilliamella	1860.0	2	Gilliamella apicola	1860.0	2
+SRR1171924_14_length_234_cov_5.4581	234	0.5342	0	5.458	Bacteria	3376.0	0	Firmicutes	2960.0	1	Lactobacillales	2960.0	1	Lactobacillaceae	2960.0	1	Lactobacillus	2960.0	1	uncultured Lactobacillus sp.	1250.0	4
+SRR1171924_15_length_230_cov_23.16	230	0.513	0	23.16	Bacteria	3936.0	0	Firmicutes	3936.0	0	Lactobacillales	3936.0	0	Lactobacillaceae	3936.0	0	Lactobacillus	3936.0	0	uncultured Lactobacillus sp.	1266.0	5
+SRR1171924_16_length_229_cov_9.78736	229	0.524	0	9.787	Bacteria	3910.0	0	Firmicutes	3910.0	0	Lactobacillales	3910.0	0	Lactobacillaceae	3910.0	0	Lactobacillus	3910.0	0	uncultured Lactobacillus sp.	1696.0	5
+SRR1171924_17_length_220_cov_31.1515	220	0.4909	0	31.151	Eukaryota	3995.0	0	Streptophyta	3995.0	0	Brassicales	2797.0	3	Brassicaceae	2005.0	4	Arabidopsis	2005.0	4	Arabidopsis thaliana	1203.0	5
+SRR1171924_18_length_163_cov_19.1111	163	0.5276	0	19.111	Bacteria	2910.0	0	Proteobacteria	2910.0	0	Neisseriales	2910.0	0	Chromobacteriaceae	2910.0	0	Laribacter	2910.0	0	Laribacter hongkongensis	2910.0	0
+SRR1171924_19_length_140_cov_21.2	140	0.5714	0	21.2	Bacteria	2514.0	0	Firmicutes	2277.0	1	Lactobacillales	2018.0	2	Lactobacillaceae	2018.0	2	Lactobacillus	2018.0	2	uncultured Lactobacillus sp.	745.0	7
+SRR1171924_20_length_140_cov_4.94118	140	0.5571	0	4.941	Bacteria	2535.0	0	Firmicutes	2535.0	0	Lactobacillales	2276.0	1	Lactobacillaceae	2276.0	1	Lactobacillus	2276.0	1	Lactobacillus helveticus	496.0	8
+SRR1171924_21_length_117_cov_15.629	117	0.453	0	15.629	Bacteria	1864.0	0	Firmicutes	1864.0	0	Lactobacillales	1864.0	0	Lactobacillaceae	1864.0	0	Lactobacillus	1864.0	0	Lactobacillus sp. wkB8	868.0	2
+SRR1171930_1_length_1631_cov_12.0546	1631	0.5101	0	12.055	Bacteria	26473.0	0	Proteobacteria	26473.0	0	Orbales	22395.0	1	Orbaceae	22395.0	1	Frischella	14568.0	2	Frischella perrara	14568.0	2
+SRR1171930_2_length_1594_cov_67.0812	1594	0.5182	0	67.081	Bacteria	26848.0	0	Firmicutes	26848.0	0	Lactobacillales	26848.0	0	Lactobacillaceae	26848.0	0	Lactobacillus	26848.0	0	Lactobacillus sp. wkB8	10676.0	5
+SRR1171930_3_length_1482_cov_57.3532	1482	0.5243	0	57.353	Bacteria	24573.0	0	Proteobacteria	24573.0	0	Neisseriales	24573.0	0	Neisseriaceae	24573.0	0	Snodgrassella	13554.0	2	Snodgrassella alvi	13554.0	2
+SRR1171930_4_length_1433_cov_9.88534	1433	0.5967	0	9.885	Bacteria	24183.0	0	Actinobacteria	24183.0	0	Bifidobacteriales	24183.0	0	Bifidobacteriaceae	24183.0	0	Bifidobacterium	24183.0	0	Bifidobacterium bifidum	11340.0	2
+SRR1171930_5_length_357_cov_117.268	357	0.5322	0	117.268	Bacteria	6286.0	0	Firmicutes	5122.0	1	Lactobacillales	5122.0	1	Lactobacillaceae	5122.0	1	Lactobacillus	5122.0	1	uncultured bacterium	1164.0	8
+SRR1171930_6_length_214_cov_3.41509	214	0.5467	0	3.415	Bacteria	3765.0	0	Proteobacteria	3765.0	0	Rhodospirillales	3765.0	0	Acetobacteraceae	3765.0	0	Acetobacteraceae-undef	1980.0	1	Acetobacter ghanensis	1071.0	7
+SRR1171930_7_length_146_cov_41.1648	146	0.5137	0	41.165	Bacteria	1942.0	0	Firmicutes	1942.0	0	Lactobacillales	1942.0	0	Lactobacillaceae	1942.0	0	Lactobacillus	1942.0	0	Lactobacillus sp. wkB8	870.0	5
+SRR1171930_8_length_127_cov_44.5417	127	0.5039	0	44.542	Bacteria	1648.0	0	Firmicutes	1648.0	0	Lactobacillales	1648.0	0	Lactobacillaceae	1648.0	0	Lactobacillus	1648.0	0	Lactobacillus sp. wkB8	730.0	4
+SRR1173987_1_length_1633_cov_56.1128	1633	0.5077	0	56.113	Bacteria	26490.0	0	Proteobacteria	26490.0	0	Orbales	22369.0	1	Orbaceae	22369.0	1	Frischella	14436.0	2	Frischella perrara	14436.0	2
+SRR1173987_2_length_1612_cov_7.2447	1612	0.5211	0	7.245	Bacteria	27575.0	0	Proteobacteria	27575.0	0	Neisseriales	22673.0	1	Neisseriaceae	22673.0	1	Neisseria	10257.0	3	Snodgrassella alvi	10055.0	5
+SRR1173987_3_length_590_cov_4.9514	590	0.5356	0	4.951	Bacteria	8598.0	0	Proteobacteria	8598.0	0	Rhizobiales	8598.0	0	Bartonellaceae	7735.0	1	Bartonella	6870.0	2	Bartonella schoenbuchensis	3416.0	6
+SRR1173987_4_length_542_cov_7.80903	542	0.5092	0	7.809	Bacteria	8098.0	0	Firmicutes	7237.0	1	Lactobacillales	7237.0	1	Lactobacillaceae	7237.0	1	Lactobacillus	7237.0	1	Lactobacillus sp. wkB8	3672.0	3
+SRR1173987_5_length_234_cov_1.10056	234	0.594	0	1.101	Bacteria	4133.0	0	Actinobacteria	3737.0	1	Bifidobacteriales	3737.0	1	Bifidobacteriaceae	3737.0	1	Bifidobacterium	3737.0	1	Bifidobacterium asteroides	1281.0	5
+SRR1173987_6_length_219_cov_1.65244	219	0.5753	0	1.652	Bacteria	3990.0	0	Actinobacteria	3591.0	1	Bifidobacteriales	3591.0	1	Bifidobacteriaceae	3591.0	1	Bifidobacterium	3591.0	1	Bifidobacterium longum	1596.0	5
+SRR1173987_7_length_208_cov_4.15033	208	0.4856	0	4.15	Bacteria	3507.0	0	Proteobacteria	3507.0	0	Rhizobiales	3128.0	1	Bartonellaceae	2749.0	2	Bartonella	2749.0	2	uncultured Bartonella sp.	1137.0	5
+SRR1173989_1_length_1441_cov_29.8586	1441	0.5989	0	29.859	Bacteria	24294.0	0	Actinobacteria	24294.0	0	Bifidobacteriales	24294.0	0	Bifidobacteriaceae	24294.0	0	Bifidobacterium	24294.0	0	Bifidobacterium bifidum	11405.0	2
+SRR1173989_2_length_1374_cov_10.1759	1374	0.5189	0	10.176	Bacteria	22974.0	0	Proteobacteria	22974.0	0	Orbales	19211.0	1	Orbaceae	19211.0	1	Gilliamella	17005.0	2	Gilliamella apicola	17005.0	2
+SRR1173989_3_length_967_cov_14.7248	967	0.514	0	14.725	Bacteria	14809.0	0	Proteobacteria	14809.0	0	Rhizobiales	14809.0	0	Bartonellaceae	13289.0	1	Bartonella	13289.0	1	uncultured Bartonella sp.	4595.0	4
+SRR1173989_4_length_528_cov_84.2156	528	0.5284	0	84.216	Bacteria	7065.0	0	Firmicutes	7065.0	0	Lactobacillales	7065.0	0	Lactobacillaceae	7065.0	0	Lactobacillus	7065.0	0	Lactobacillus sp. wkB8	2956.0	4
+SRR1173989_5_length_427_cov_56.2823	427	0.5293	0	56.282	Bacteria	5910.0	0	Firmicutes	5910.0	0	Lactobacillales	5910.0	0	Lactobacillaceae	5910.0	0	Lactobacillus	5910.0	0	Lactobacillus sp. wkB8	2804.0	2
+SRR1173989_6_length_427_cov_29.7366	427	0.5293	0	29.737	Bacteria	5785.0	0	Firmicutes	5116.0	1	Lactobacillales	5116.0	1	Lactobacillaceae	5116.0	1	Lactobacillus	5116.0	1	Lactobacillus sp. wkB8	2560.0	5
+SRR1173989_7_length_423_cov_67.6522	423	0.5414	0	67.652	Bacteria	5401.0	0	Firmicutes	5254.0	1	Lactobacillales	5254.0	1	Lactobacillaceae	5254.0	1	Lactobacillus	5254.0	1	uncultured Lactobacillus sp.	3294.0	2
+SRR1173989_8_length_318_cov_77.7338	318	0.5314	0	77.734	Bacteria	4992.0	1	Firmicutes	3816.0	2	Lactobacillales	3816.0	2	Lactobacillaceae	3816.0	2	Lactobacillus	3816.0	2	unresolved	1176.0	5
+SRR1173989_9_length_268_cov_106.286	268	0.5224	0	106.286	Bacteria	4520.0	0	Firmicutes	4520.0	0	Lactobacillales	4520.0	0	Lactobacillaceae	4520.0	0	Lactobacillus	4520.0	0	Lactobacillus paracollinoides	1628.0	4
+SRR1173989_10_length_256_cov_6.89055	256	0.4727	0	6.891	Bacteria	4058.0	0	Proteobacteria	4058.0	0	Orbales	3488.0	1	Orbaceae	3488.0	1	Gilliamella	1876.0	2	Gilliamella apicola	1876.0	2
+SRR1173989_11_length_241_cov_1.95161	241	0.4896	0	1.952	Bacteria	3826.0	0	Proteobacteria	3826.0	0	Neisseriales	3826.0	0	Neisseriaceae	3826.0	0	Neisseriaceae-undef	1784.0	3	uncultured Neisseriaceae bacterium	1784.0	4
+SRR1173989_12_length_230_cov_67.8057	230	0.5087	0	67.806	Bacteria	3918.0	0	Firmicutes	3918.0	0	Lactobacillales	3918.0	0	Lactobacillaceae	3918.0	0	Lactobacillus	3918.0	0	uncultured Lactobacillus sp.	2110.0	4
+SRR1173989_13_length_229_cov_36.3218	229	0.524	0	36.322	Bacteria	3910.0	0	Firmicutes	3910.0	0	Lactobacillales	3910.0	0	Lactobacillaceae	3910.0	0	Lactobacillus	3910.0	0	uncultured Lactobacillus sp.	1696.0	5
+SRR1173989_14_length_212_cov_154.522	212	0.5283	0	154.522	Bacteria	3872.0	0	Firmicutes	2696.0	1	Lactobacillales	2696.0	1	Lactobacillaceae	2696.0	1	Lactobacillus	2696.0	1	Lactobacillus johnsonii	1524.0	4
+SRR1173989_15_length_210_cov_199.697	210	0.5238	0	199.697	Bacteria	3733.0	0	Firmicutes	3378.0	1	Lactobacillales	2602.0	2	Lactobacillaceae	2602.0	2	Lactobacillus	2602.0	2	uncultured Firmicutes bacterium	776.0	7
+SRR1173989_16_length_194_cov_25.1942	194	0.5	0	25.194	Bacteria	3499.0	0	Proteobacteria	2428.0	1	Rhodospirillales	2428.0	1	Acetobacteraceae	2428.0	1	Commensalibacter	1710.0	2	uncultured Commensalibacter sp.	1710.0	3
+SRR1173989_17_length_111_cov_88.125	111	0.5405	0	88.125	Bacteria	2036.0	0	Firmicutes	2036.0	0	Lactobacillales	1624.0	1	Lactobacillaceae	1624.0	1	Lactobacillus	1624.0	1	Lactobacillus johnsonii	600.0	6
+SRR1173989_18_length_111_cov_74	111	0.5495	0	74.0	Bacteria	2056.0	0	Firmicutes	2056.0	0	Lactobacillales	2056.0	0	Lactobacillaceae	2056.0	0	Lactobacillus	2056.0	0	Lactobacillus johnsonii	1030.0	4
+SRR1424586_1_length_805_cov_140.323	805	0.4807	0	140.323	Eukaryota	14700.0	0	Ascomycota	14700.0	0	Eurotiales	14700.0	0	Aspergillaceae	14700.0	0	Aspergillus	13266.0	1	Aspergillus niger	5856.0	4
+SRR1424586_2_length_455_cov_119.832	455	0.5033	0	119.832	Eukaryota	6629.0	0	Arthropoda	4952.0	3	Hymenoptera	2776.0	4	Membracidae	2176.0	7	Chrysis	1635.0	11	Apis florea	603.0	14
+SRR1424586_3_length_370_cov_163.375	370	0.4595	0	163.375	Eukaryota	6645.0	0	Ascomycota	5972.0	1	Eurotiales	5972.0	1	Aspergillaceae	5310.0	2	Aspergillus	4648.0	3	Aspergillus restrictus	2013.0	5
+SRR1424586_4_length_278_cov_5.30493	278	0.5108	0	5.305	Bacteria	5116.0	0	Proteobacteria	5116.0	0	Aeromonadales	5116.0	0	Aeromonadaceae	5116.0	0	Aeromonas	5116.0	0	Aeromonas hydrophila	5116.0	0
+SRR1424586_5_length_232_cov_4.35593	232	0.5302	0	4.356	Bacteria	4366.8	0	Proteobacteria	2048.0	2	Aeromonadales	2048.0	3	Aeromonadaceae	2048.0	3	Aeromonas	2048.0	3	uncultured bacterium	1597.8	9
+SRR1424586_6_length_207_cov_4.01316	207	0.5072	0	4.013	Eukaryota	3770.0	0	Ascomycota	3393.0	1	Eurotiales	3393.0	1	Aspergillaceae	3393.0	1	Aspergillus	3393.0	1	Aspergillus niger	1508.0	6
+SRR1424586_7_length_141_cov_1358.72	141	0.5887	0	1358.72	Eukaryota	2574.0	0	Arthropoda	2574.0	0	Hymenoptera	1305.0	2	Apidae	1305.0	3	Plebeia	522.0	8	unresolved	261.0	9
+SRR1424586_8_length_140_cov_43.7059	140	0.5786	0	43.706	Eukaryota	2075.0	0	Arthropoda	2075.0	0	Hymenoptera	1100.0	1	Apidae	1100.0	1	Apis	660.0	6	Apis mellifera	660.0	7
+SRR1424586_9_length_128_cov_2380.04	128	0.4766	0	2380.04	Eukaryota	2264.0	0	Arthropoda	2264.0	0	Hymenoptera	2264.0	0	Crabronidae	711.0	5	Apis	474.0	8	Apis mellifera	474.0	8
+SRR1424586_10_length_128_cov_1393.21	128	0.5	0	1393.21	Eukaryota	2235.0	0	Arthropoda	2235.0	0	Hymenoptera	2235.0	0	Apidae	1155.0	5	Apis	462.0	8	Apis mellifera	462.0	8
+SRR1424586_11_length_116_cov_722.918	116	0.4052	0	722.918	Eukaryota	1773.0	0	Arthropoda	1773.0	0	Hymenoptera	1031.0	2	Apidae	1031.0	2	Apis	1031.0	2	Apis mellifera	836.0	3
+SRR1424586_12_length_111_cov_3099.86	111	0.5045	0	3099.86	Eukaryota	1993.0	0	Arthropoda	1993.0	0	Hymenoptera	1993.0	0	Crabronidae	618.0	6	Apis	412.0	8	Apis mellifera	412.0	8
+SRR1424586_13_length_96_cov_1398.88	96	0.5625	0	1398.88	Eukaryota	1750.0	0	Arthropoda	1750.0	0	Hymenoptera	890.0	2	Apidae	890.0	5	Plebeia	356.0	8	unresolved	178.0	9
+SRR1424586_14_length_93_cov_2157.29	93	0.4946	0	2157.29	Eukaryota	1695.0	0	Arthropoda	1528.0	1	Hymenoptera	1361.0	2	Apidae	860.0	5	Plebeia	344.0	8	unresolved	172.0	9
+SRR1425438_1_length_1644_cov_9.63625	1644	0.5182	0	9.636	Bacteria	40334.0	0	Firmicutes	29659.0	1	Lactobacillales	27017.0	3	Lactobacillaceae	27017.0	3	Lactobacillus	27017.0	3	Lactobacillus sp. wkB8	10772.0	9
+SRR1425438_2_length_811_cov_2.80952	811	0.5832	0	2.81	Bacteria	13341.0	0	Actinobacteria	13341.0	0	Bifidobacteriales	13341.0	0	Bifidobacteriaceae	13341.0	0	Bifidobacterium	13341.0	0	Bifidobacterium bifidum	6225.0	3
+SRR1425438_3_length_230_cov_2.53143	230	0.6087	0	2.531	Bacteria	4195.0	0	Actinobacteria	3781.0	1	Bifidobacteriales	3781.0	1	Bifidobacteriaceae	3781.0	1	Bifidobacterium	3781.0	1	Bifidobacterium pseudolongum	1656.0	5
+SRR1425438_4_length_211_cov_3.86538	211	0.5592	0	3.865	Bacteria	3900.0	0	Proteobacteria	3900.0	0	Aeromonadales	3900.0	0	Aeromonadaceae	3900.0	0	Aeromonas	3900.0	0	Aeromonas hydrophila	1950.0	3
+SRR1425439_1_length_875_cov_3.54268	875	0.5166	0	3.543	Bacteria	14211.0	0	Firmicutes	14211.0	0	Lactobacillales	14211.0	0	Lactobacillaceae	14211.0	0	Lactobacillus	14211.0	0	Lactobacillus acidophilus	4035.0	7
+SRR1425439_2_length_387_cov_1.85241	387	0.5271	0	1.852	Bacteria	6403.0	0	Firmicutes	6403.0	0	Lactobacillales	6403.0	0	Lactobacillaceae	6403.0	0	Lactobacillus	6403.0	0	uncultured Lactobacillus sp.	2817.0	3
+SRR1425439_3_length_206_cov_1.10596	206	0.5485	0	1.106	Bacteria	3491.0	0	Proteobacteria	2062.0	1	Bacteria-undef	1429.0	3	Bacteria-undef	1429.0	3	Bacteria-undef	1429.0	4	uncultured bacterium	1066.0	7
+SRR1425440_1_length_280_cov_2.68889	280	0.5071	0	2.689	Bacteria	5156.0	0	Proteobacteria	5156.0	0	Aeromonadales	5156.0	0	Aeromonadaceae	5156.0	0	Aeromonas	5156.0	0	Aeromonas hydrophila	5156.0	0
+SRR1425441_1_length_277_cov_2.0045	277	0.5126	0	2.005	Bacteria	4790.0	0	Proteobacteria	4790.0	0	Aeromonadales	4790.0	0	Aeromonadaceae	4790.0	0	Aeromonas	4790.0	0	Aeromonas salmonicida	3832.0	1
+SRR1425441_2_length_249_cov_1.35052	249	0.5382	0	1.351	Bacteria	3847.0	0	Proteobacteria	2677.0	1	Rhizobiales	1889.0	2	Bacteria-undef	1170.0	3	Bacteria-undef	1170.0	5	uncultured bacterium	1170.0	6
+SRR1425444_1_length_792_cov_6.67436	792	0.5202	0	6.674	Bacteria	13904.0	0	Firmicutes	13904.0	0	Lactobacillales	13904.0	0	Lactobacillaceae	13904.0	0	Lactobacillus	13904.0	0	Lactobacillus helsingborgensis	2904.0	7
+SRR1425444_2_length_535_cov_6.32292	535	0.5121	0	6.323	Bacteria	10404.0	0	Firmicutes	8672.0	1	Lactobacillales	8672.0	1	Lactobacillaceae	8359.0	2	Lactobacillus	8359.0	2	Lactobacillus sp. wkB8	3888.0	4
+SRR1425444_3_length_357_cov_4.62252	357	0.5574	0	4.623	Bacteria	6179.0	0	Proteobacteria	6179.0	0	Rhodospirillales	6179.0	0	Acetobacteraceae	6179.0	0	Acetobacteraceae-undef	3300.0	2	Acetobacter ghanensis	2308.0	6
+SRR1425444_4_length_309_cov_4.11811	309	0.5599	0	4.118	Bacteria	4480.0	0	Proteobacteria	4480.0	0	Rhodospirillales	4480.0	0	Acetobacteraceae	4480.0	0	Acetobacter	4480.0	0	Acetobacter pasteurianus	4480.0	0
+SRR1425446_1_length_971_cov_7.42576	971	0.5283	0	7.426	Bacteria	17951.0	0	Firmicutes	17951.0	0	Lactobacillales	17951.0	0	Lactobacillaceae	17951.0	0	Lactobacillus	17951.0	0	Lactobacillus sp. wkB8	6540.0	6
+SRR1425446_2_length_549_cov_5.61943	549	0.5118	0	5.619	Bacteria	9650.0	0	Firmicutes	9650.0	0	Lactobacillales	9650.0	0	Lactobacillaceae	9358.0	1	Lactobacillus	9358.0	1	Lactobacillus sp. wkB8	3600.0	4
+SRR1425446_3_length_349_cov_5.70748	349	0.5587	0	5.707	Bacteria	6059.0	0	Proteobacteria	6059.0	0	Rhodospirillales	6059.0	0	Acetobacteraceae	6059.0	0	Acetobacteraceae-undef	3225.0	2	Acetobacter ghanensis	2272.0	6
+SRR1425447_1_length_1128_cov_4.13607	1128	0.5168	0	4.136	Bacteria	18057.0	0	Firmicutes	18057.0	0	Lactobacillales	18057.0	0	Lactobacillaceae	18057.0	0	Lactobacillus	18057.0	0	Lactobacillus sp. wkB8	7648.0	5
+SRR1425447_2_length_560_cov_5.34455	560	0.4982	0	5.345	Bacteria	7467.0	0	Firmicutes	6674.0	1	Lactobacillales	6674.0	1	Lactobacillaceae	6674.0	1	Lactobacillus	6674.0	1	Lactobacillus sp. wkB8	3364.0	4
+SRR1425447_3_length_274_cov_1.52968	274	0.5766	0	1.53	Bacteria	3359.0	1	Proteobacteria	2155.0	2	Enterobacterales	1365.0	4	Yersiniaceae	1365.0	4	Serratia	1365.0	4	uncultured bacterium	1204.0	5
+SRR1425450_1_length_260_cov_1.54634	260	0.5115	0	1.546	Bacteria	4786.0	0	Proteobacteria	4786.0	0	Aeromonadales	4786.0	0	Aeromonadaceae	4786.0	0	Aeromonas	4786.0	0	Aeromonas hydrophila	4786.0	0
+SRR1425453_1_length_1663_cov_12.4627	1663	0.5183	0	12.463	Bacteria	34225.0	0	Firmicutes	21987.0	1	Lactobacillales	21987.0	3	Lactobacillaceae	21987.0	3	Lactobacillus	21987.0	3	Lactobacillus sp. wkB8	10556.0	7
+SRR1425453_2_length_214_cov_4.58491	214	0.5561	0	4.585	Bacteria	3960.0	0	Proteobacteria	3960.0	0	Aeromonadales	3960.0	0	Aeromonadaceae	3960.0	0	Aeromonas	3960.0	0	Aeromonas hydrophila	1980.0	3
+SRR1425455_1_length_828_cov_2.9392	828	0.5145	0	2.939	Bacteria	13992.0	0	Firmicutes	8491.0	1	Lactobacillales	7263.0	2	Lactobacillaceae	7263.0	2	Lactobacillus	7263.0	2	Lactobacillus helveticus	3738.0	6
+SRR1425455_2_length_812_cov_3.15852	812	0.5197	0	3.159	Bacteria	18658.0	0	Firmicutes	11519.0	1	Lactobacillales	10337.0	3	Lactobacillaceae	10337.0	3	Lactobacillus	10337.0	4	Pasteurella multocida	4740.0	11
+SRR1425455_3_length_223_cov_2.19643	223	0.574	0	2.196	Bacteria	2962.0	1	Proteobacteria	1887.0	2	Enterobacterales	1221.0	4	Yersiniaceae	1221.0	4	Serratia	1221.0	4	uncultured bacterium	1075.0	5
+SRR1425461_1_length_342_cov_0.902439	342	0.5234	0	0.902	Bacteria	5566.0	0	Firmicutes	5566.0	0	Lactobacillales	4412.0	1	Lactobacillaceae	4412.0	1	Lactobacillus	4412.0	1	Lactobacillus helveticus	1586.0	5
+SRR1425463_1_length_472_cov_1.73621	472	0.5212	0	1.736	Bacteria	6393.0	0	Firmicutes	5707.0	1	Lactobacillales	5707.0	1	Lactobacillaceae	5707.0	1	Lactobacillus	5707.0	1	Lactobacillus sp. wkB8	3024.0	3
+SRR1425463_2_length_357_cov_2.87417	357	0.5294	0	2.874	Bacteria	6388.0	0	Firmicutes	6388.0	0	Lactobacillales	5068.0	1	Lactobacillaceae	5068.0	1	Lactobacillus	5068.0	1	Lactobacillus helveticus	1824.0	6
+SRR1425463_3_length_253_cov_1.70202	253	0.5059	0	1.702	Bacteria	4362.0	0	Firmicutes	3894.0	1	Lactobacillales	3894.0	1	Lactobacillaceae	3894.0	1	Lactobacillus	3894.0	1	uncultured Lactobacillus sp.	1404.0	5
+SRR1425464_1_length_979_cov_5.26623	979	0.523	0	5.266	Bacteria	16579.0	0	Firmicutes	16579.0	0	Lactobacillales	16579.0	0	Lactobacillaceae	16579.0	0	Lactobacillus	16579.0	0	Lactobacillus helveticus	3050.0	8
+SRR1425464_2_length_539_cov_5.56198	539	0.5102	0	5.562	Bacteria	10479.0	0	Firmicutes	9601.0	1	Lactobacillales	9601.0	1	Lactobacillaceae	9288.0	2	Lactobacillus	9288.0	2	Lactobacillus sp. wkB8	3940.0	5
+SRR1425465_1_length_793_cov_3.38347	793	0.5221	0	3.383	Bacteria	13928.0	0	Firmicutes	13928.0	0	Lactobacillales	13928.0	0	Lactobacillaceae	13928.0	0	Lactobacillus	13928.0	0	Lactobacillus helsingborgensis	2930.0	7
+SRR1425465_2_length_530_cov_4.88842	530	0.5038	0	4.888	Bacteria	8814.0	0	Firmicutes	8814.0	0	Lactobacillales	8814.0	0	Lactobacillaceae	8814.0	0	Lactobacillus	8814.0	0	Lactobacillus sp. wkB8	3576.0	3
+SRR1425466_1_length_1496_cov_31.8869	1496	0.5187	0	31.887	Bacteria	29379.0	0	Firmicutes	29379.0	0	Lactobacillales	26733.0	1	Lactobacillaceae	26733.0	1	Lactobacillus	26733.0	1	Lactobacillus sp. wkB8	10700.0	7
+SRR1425467_1_length_961_cov_5.66777	961	0.5182	0	5.668	Bacteria	16560.0	0	Firmicutes	16560.0	0	Lactobacillales	16560.0	0	Lactobacillaceae	16560.0	0	Lactobacillus	16560.0	0	Lactobacillus helveticus	3061.0	8
+SRR1425467_2_length_528_cov_7.10571	528	0.5133	0	7.106	Bacteria	10364.0	0	Firmicutes	10364.0	0	Lactobacillales	10364.0	0	Lactobacillaceae	10046.0	1	Lactobacillus	10046.0	1	Lactobacillus sp. wkB8	3860.0	4
+SRR1425467_3_length_286_cov_1.08658	286	0.5909	0	1.087	Bacteria	5115.0	0	Actinobacteria	5115.0	0	Bifidobacteriales	5115.0	0	Bifidobacteriaceae	5115.0	0	Bifidobacterium	5115.0	0	Bifidobacterium kashiwanohense	1976.0	4
+SRR1425469_1_length_676_cov_1.75362	676	0.5251	0	1.754	Bacteria	10743.0	1	Firmicutes	9420.0	3	Lactobacillales	9420.0	3	Lactobacillaceae	9420.0	3	Lactobacillus	9420.0	3	uncultured Lactobacillus sp.	3288.0	7
+SRR1425469_2_length_344_cov_2.70934	344	0.532	0	2.709	Bacteria	5590.0	0	Firmicutes	4550.0	1	Lactobacillales	4550.0	1	Lactobacillaceae	4550.0	1	Lactobacillus	4550.0	1	uncultured bacterium	1040.0	8
+SRR1425469_3_length_322_cov_1.69663	322	0.5	0	1.697	Bacteria	5264.0	0	Firmicutes	4794.0	1	Lactobacillales	4794.0	1	Lactobacillaceae	4794.0	1	Lactobacillus	4794.0	1	Lactobacillus sp. wkB8	2316.0	4
+SRR1425469_4_length_209_cov_3.07792	209	0.5311	0	3.078	Bacteria	3822.0	0	Firmicutes	3822.0	0	Lactobacillales	3822.0	0	Lactobacillaceae	3822.0	0	Lactobacillus	3822.0	0	Lactobacillus crispatus	1500.0	6
+SRR1425471_1_length_1663_cov_20.4384	1663	0.5201	0	20.438	Bacteria	48676.0	0	Firmicutes	37156.0	2	Lactobacillales	34192.0	5	Lactobacillaceae	34192.0	5	Lactobacillus	34192.0	5	Lactobacillus helveticus	15510.0	12
+SRR1425471_2_length_218_cov_1.19018	218	0.5688	0	1.19	Bacteria	3930.0	0	Actinobacteria	3340.0	1	Bifidobacteriales	3340.0	1	Bifidobacteriaceae	3340.0	1	Bifidobacterium	3340.0	1	Bifidobacterium bifidum	1655.0	4
+SRR1425471_3_length_214_cov_0.987421	214	0.5888	0	0.987	Bacteria	3365.0	0	Actinobacteria	3365.0	0	Bifidobacteriales	3365.0	0	Bifidobacteriaceae	3365.0	0	Bifidobacterium	3365.0	0	uncultured Bifidobacterium sp.	1560.0	2
+SRR1425472_1_length_469_cov_0.876812	469	0.5394	0	0.877	Bacteria	6453.0	0	Firmicutes	6163.0	1	Lactobacillales	6163.0	1	Lactobacillaceae	6163.0	1	Lactobacillus	6163.0	1	Lactobacillus sp. wkB8	2876.0	4
+SRR1425472_2_length_383_cov_1.42073	383	0.5117	0	1.421	Bacteria	6558.0	0	Firmicutes	5281.0	1	Lactobacillales	5281.0	1	Lactobacillaceae	5281.0	1	Lactobacillus	5281.0	1	uncultured Lactobacillus sp.	2826.0	4
+SRR1425472_3_length_340_cov_0.957895	340	0.5412	0	0.958	Bacteria	4957.0	0	Firmicutes	4957.0	0	Lactobacillales	4957.0	0	Lactobacillaceae	4957.0	0	Lactobacillus	4957.0	0	uncultured Lactobacillus sp.	2121.0	4
+SRR1425474_1_length_864_cov_2.33127	864	0.522	0	2.331	Bacteria	15115.0	0	Firmicutes	15115.0	0	Lactobacillales	15115.0	0	Lactobacillaceae	15115.0	0	Lactobacillus	15115.0	0	Lactobacillus kimbladii	3192.0	7
+SRR1425474_2_length_275_cov_2.45455	275	0.52	0	2.455	Bacteria	4722.0	0	Firmicutes	4293.0	1	Lactobacillales	4293.0	1	Lactobacillaceae	4293.0	1	Lactobacillus	4293.0	1	uncultured Lactobacillus sp.	2540.0	3
+SRR1425474_3_length_274_cov_2.99543	274	0.4964	0	2.995	Bacteria	4556.0	0	Firmicutes	4556.0	0	Lactobacillales	4556.0	0	Lactobacillaceae	4441.0	1	Lactobacillus	4441.0	1	Lactobacillus sp. wkB8	1984.0	4
+SRR1425475_1_length_868_cov_1.8155	868	0.5207	0	1.815	Bacteria	15722.0	0	Firmicutes	13988.0	1	Lactobacillales	13988.0	4	Lactobacillaceae	13988.0	6	Lactobacillus	13988.0	8	Lactobacillus sp. 7_10_2CO2	1467.0	18
+SRR1425475_2_length_435_cov_1.44737	435	0.531	0	1.447	Bacteria	6490.0	0	Firmicutes	6490.0	0	Lactobacillales	6490.0	0	Lactobacillaceae	6490.0	0	Lactobacillus	6490.0	0	Lactobacillus sp. wkB8	2928.0	2
+SRR1425476_1_length_351_cov_5.11149	351	0.5613	0	5.111	Bacteria	6069.0	0	Proteobacteria	6069.0	0	Rhodospirillales	6069.0	0	Acetobacteraceae	6069.0	0	Acetobacteraceae-undef	3245.0	2	Acetobacter ghanensis	2264.0	6
+SRR1425476_2_length_329_cov_3.91606	329	0.5562	0	3.916	Bacteria	4861.0	0	Proteobacteria	4861.0	0	Rhodospirillales	3458.0	1	Acetobacteraceae	3458.0	1	Acetobacteraceae-undef	2540.0	2	uncultured Acetobacteraceae bacterium	2540.0	2
+SRR1425476_3_length_313_cov_4.63178	313	0.5591	0	4.632	Bacteria	5301.0	0	Proteobacteria	5167.0	1	Rhodospirillales	4658.0	2	Acetobacteraceae	4658.0	2	Acetobacter	2788.0	4	Acetobacter pasteurianus	2322.0	8
+SRR1425476_4_length_259_cov_3.81373	259	0.5212	0	3.814	Bacteria	4290.0	0	Proteobacteria	4290.0	0	Rhodospirillales	4290.0	0	Acetobacteraceae	4290.0	0	Commensalibacter	2060.0	2	uncultured Commensalibacter sp.	2060.0	2
+SRR1425477_1_length_470_cov_1.56867	470	0.5319	0	1.569	Bacteria	8362.0	0	Proteobacteria	8362.0	0	Rhizobiales	8362.0	0	Rhizobiaceae	8362.0	0	unresolved	4181.0	1	Rhizobium sp. IRBG74	1670.0	8
+SRR1425477_2_length_317_cov_0.652672	317	0.5268	0	0.653	Bacteria	3827.0	0	Proteobacteria	2991.0	1	Rhizobiales	2588.0	2	Rhizobiaceae	2588.0	2	Agrobacterium	2588.0	2	Agrobacterium tumefaciens	1104.0	5
+SRR1425477_3_length_249_cov_1.01031	249	0.5703	0	1.01	Bacteria	4508.0	0	Bacteria-undef	2706.0	1	Bacteria-undef	2706.0	1	Bacteria-undef	2706.0	1	Bacteria-undef	2706.0	2	uncultured bacterium	1808.0	5
+SRR1425477_4_length_208_cov_1.01961	208	0.5288	0	1.02	Bacteria	3602.0	0	Firmicutes	2876.0	1	Lactobacillales	2876.0	1	Lactobacillaceae	2876.0	1	Lactobacillus	2876.0	1	Lactobacillus johnsonii	1428.0	4
+SRR1425478_1_length_985_cov_44.8688	985	0.5198	0	44.869	Bacteria	16943.0	0	Firmicutes	16943.0	0	Lactobacillales	16943.0	0	Lactobacillaceae	16943.0	0	Lactobacillus	16943.0	0	Lactobacillus kimbladii	3589.0	7
+SRR1425478_2_length_547_cov_46.2764	547	0.5082	0	46.276	Bacteria	10458.0	0	Firmicutes	10458.0	0	Lactobacillales	10458.0	0	Lactobacillaceae	10145.0	1	Lactobacillus	10145.0	1	Lactobacillus sp. wkB8	3908.0	4
+SRR1425478_3_length_220_cov_0.89697	220	0.5545	0	0.897	Bacteria	3784.0	0	Proteobacteria	2234.0	1	Bacteria-undef	1550.0	2	Bacteria-undef	1550.0	2	Bacteria-undef	1550.0	2	uncultured bacterium	1550.0	4
+SRR1425480_1_length_546_cov_1.62933	546	0.5916	0	1.629	Bacteria	9645.0	0	Actinobacteria	9645.0	0	Bifidobacteriales	9645.0	0	Bifidobacteriaceae	9645.0	0	Bifidobacterium	9645.0	0	Bifidobacterium breve	3680.0	4
+SRR1425480_2_length_535_cov_25	535	0.4953	0	25.0	Bacteria	9035.0	0	Firmicutes	9035.0	0	Lactobacillales	7706.0	2	Lactobacillaceae	7706.0	2	Lactobacillus	7706.0	2	Lactobacillus sp. wkB8	3556.0	7
+SRR1425480_3_length_426_cov_21.6765	426	0.5235	0	21.677	Bacteria	7241.0	0	Firmicutes	7241.0	0	Lactobacillales	7241.0	0	Lactobacillaceae	7241.0	0	Lactobacillus	7241.0	0	Lactobacillus acidophilus	1995.0	7
+SRR1425480_4_length_413_cov_30.8017	413	0.5109	0	30.802	Bacteria	7223.0	0	Firmicutes	7223.0	0	Lactobacillales	7223.0	0	Lactobacillaceae	7223.0	0	Lactobacillus	7223.0	0	uncultured Lactobacillus sp.	3052.0	4
+SRR1425480_5_length_370_cov_1.72063	370	0.5892	0	1.721	Bacteria	5793.0	0	Actinobacteria	5793.0	0	Bifidobacteriales	5793.0	0	Bifidobacteriaceae	5793.0	0	Bifidobacterium	5793.0	0	Bifidobacterium bifidum	2144.0	4
+SRR1425481_1_length_1521_cov_10.7449	1521	0.5207	0	10.745	Bacteria	23457.0	0	Firmicutes	21002.0	1	Lactobacillales	21002.0	1	Lactobacillaceae	21002.0	1	Lactobacillus	21002.0	1	Lactobacillus sp. wkB8	10064.0	4
+SRR1425481_2_length_1098_cov_2.85618	1098	0.5929	0	2.856	Bacteria	18382.0	0	Actinobacteria	18382.0	0	Bifidobacteriales	18382.0	0	Bifidobacteriaceae	18382.0	0	Bifidobacterium	18382.0	0	Bifidobacterium pseudocatenulatum	8600.0	2
+SRR1425482_1_length_255_cov_0.775	255	0.5529	0	0.775	Bacteria	3703.0	0	Firmicutes	3703.0	0	Lactobacillales	3703.0	0	Lactobacillaceae	3703.0	0	Lactobacillus	3703.0	0	uncultured Lactobacillus sp.	3291.0	1
+SRR1425483_1_length_655_cov_3.48833	655	0.5267	0	3.488	Bacteria	10977.0	0	Firmicutes	9833.0	1	Lactobacillales	9833.0	1	Lactobacillaceae	9833.0	1	Lactobacillus	9833.0	1	uncultured Lactobacillus sp.	3407.0	5
+SRR1425483_2_length_525_cov_3.44681	525	0.5124	0	3.447	Bacteria	6845.0	0	Firmicutes	6845.0	0	Lactobacillales	6845.0	0	Lactobacillaceae	6845.0	0	Lactobacillus	6845.0	0	Lactobacillus acetotolerans	2788.0	4
+SRR1425483_3_length_241_cov_2.42473	241	0.5643	0	2.425	Bacteria	3800.0	0	Proteobacteria	3800.0	0	Rhodospirillales	3800.0	0	Acetobacteraceae	3800.0	0	Acetobacter	1905.0	2	Acetobacter pasteurianus	1905.0	3
+SRR1425485_1_length_1519_cov_23.4331	1519	0.5181	0	23.433	Bacteria	26742.0	0	Firmicutes	24320.0	1	Lactobacillales	21176.0	2	Lactobacillaceae	21176.0	2	Lactobacillus	21176.0	2	Lactobacillus sp. wkB8	10284.0	7
+SRR1425486_1_length_810_cov_78.8887	810	0.521	0	78.889	Bacteria	14270.0	0	Firmicutes	14270.0	0	Lactobacillales	14270.0	0	Lactobacillaceae	14270.0	0	Lactobacillus	14270.0	0	Lactobacillus acidophilus	4008.0	6
+SRR1425486_2_length_427_cov_31.3387	427	0.5246	0	31.339	Bacteria	6138.0	0	Firmicutes	5474.0	1	Lactobacillales	5474.0	1	Lactobacillaceae	5474.0	1	Lactobacillus	5474.0	1	Lactobacillus sp. wkB8	2848.0	3
+SRR1425486_3_length_423_cov_19.2255	423	0.5366	0	19.226	Bacteria	6850.0	0	Firmicutes	6850.0	0	Lactobacillales	6850.0	0	Lactobacillaceae	6850.0	0	Lactobacillus	6850.0	0	uncultured Lactobacillus sp.	3289.0	5
+SRR1425486_4_length_392_cov_84.2196	392	0.5306	0	84.22	Bacteria	6589.0	0	Firmicutes	5981.0	1	Lactobacillales	5981.0	1	Lactobacillaceae	5981.0	1	Lactobacillus	5981.0	1	unresolved	695.0	9
+SRR1425486_5_length_365_cov_44.0129	365	0.5507	0	44.013	Bacteria	5653.0	0	Firmicutes	5004.0	1	Lactobacillales	5004.0	1	Lactobacillaceae	5004.0	1	Lactobacillus	5004.0	1	Lactobacillus sp. wkB8	2608.0	3
+SRR1425486_6_length_357_cov_11.7649	357	0.5462	0	11.765	Bacteria	6198.0	0	Firmicutes	5034.0	1	Lactobacillales	5034.0	1	Lactobacillaceae	5034.0	1	Lactobacillus	5034.0	1	Lactobacillus mucosae	1746.0	7
+SRR1425486_7_length_146_cov_17.0769	146	0.5616	0	17.077	Bacteria	2193.0	1	Firmicutes	1943.0	2	Lactobacillales	1943.0	2	Lactobacillaceae	1943.0	2	Lactobacillus	1943.0	2	Lactobacillus ginsenosidimutans	723.0	6
+SRR1425486_8_length_140_cov_55.9294	140	0.5714	0	55.929	Bacteria	2514.0	0	Firmicutes	2277.0	1	Lactobacillales	2018.0	2	Lactobacillaceae	2018.0	2	Lactobacillus	2018.0	2	uncultured Lactobacillus sp.	745.0	7
+SRR1425488_1_length_224_cov_1.23669	224	0.5893	0	1.237	Bacteria	3244.0	0	Actinobacteria	1894.0	2	Bifidobacteriales	1563.0	3	Bifidobacteriaceae	1563.0	3	Bifidobacterium	1563.0	3	uncultured Bifidobacterium sp.	1563.0	3
+SRR1425490_1_length_329_cov_1.16788	329	0.5441	0	1.168	Bacteria	5104.0	0	Bacteria-undef	2552.0	2	Bacteria-undef	2552.0	3	Bacteria-undef	2552.0	3	Bacteria-undef	2552.0	4	uncultured bacterium	1026.0	8
+SRR1425491_1_length_426_cov_1.09973	426	0.5282	0	1.1	Bacteria	6723.0	0	Firmicutes	6723.0	0	Lactobacillales	6723.0	0	Lactobacillaceae	6723.0	0	Lactobacillus	6723.0	0	Lactobacillus kunkeei	2502.0	6
+SRR1425491_2_length_388_cov_1.2012	388	0.5309	0	1.201	Bacteria	6745.0	0	Firmicutes	6745.0	0	Lactobacillales	5355.0	1	Lactobacillaceae	5355.0	1	Lactobacillus	5355.0	1	Lactobacillus johnsonii	1935.0	6
+SRR1425491_3_length_308_cov_1.33597	308	0.526	0	1.336	Bacteria	5058.0	0	Firmicutes	5058.0	0	Lactobacillales	5058.0	0	Lactobacillaceae	5058.0	0	Lactobacillus	5058.0	0	uncultured Lactobacillus sp.	1869.0	6
+SRR1425493_1_length_813_cov_15.0501	813	0.5215	0	15.05	Bacteria	14035.0	0	Firmicutes	14035.0	0	Lactobacillales	14035.0	0	Lactobacillaceae	14035.0	0	Lactobacillus	14035.0	0	Lactobacillus helsingborgensis	4416.0	7
+SRR1425493_2_length_650_cov_12.6689	650	0.5169	0	12.669	Bacteria	12634.0	0	Firmicutes	11555.0	1	Lactobacillales	11555.0	1	Lactobacillaceae	11555.0	1	Lactobacillus	11555.0	1	Lactobacillus sp. wkB8	4728.0	4
+SRR1425494_1_length_485_cov_1.02093	485	0.5588	0	1.021	Bacteria	8285.3	0	Proteobacteria	4229.3	1	Rhizobiales	4229.3	1	Bacteria-undef	4056.0	3	Bacteria-undef	4056.0	4	uncultured bacterium	4056.0	7
+SRR1425497_1_length_1521_cov_10.9495	1521	0.5247	0	10.95	Bacteria	25654.0	0	Firmicutes	25654.0	0	Lactobacillales	23505.0	2	Lactobacillaceae	23505.0	2	Lactobacillus	23505.0	2	Lactobacillus sp. wkB8	10072.0	6
+SRR1425497_2_length_828_cov_3.36352	828	0.5121	0	3.364	Bacteria	13961.0	0	Proteobacteria	8947.0	1	Bacteria-undef	5014.0	3	Bacteria-undef	5014.0	4	Bacteria-undef	5014.0	5	uncultured bacterium	5014.0	5
+SRR1425497_3_length_654_cov_2.45743	654	0.5765	0	2.457	Bacteria	11355.0	0	Actinobacteria	11355.0	0	Bifidobacteriales	11355.0	0	Bifidobacteriaceae	11355.0	0	Bifidobacterium	11355.0	0	Bifidobacterium asteroides	4692.0	3
+SRR1425497_4_length_513_cov_4.30786	513	0.5263	0	4.308	Bacteria	10033.0	0	Proteobacteria	7669.0	1	Orbales	6288.0	2	Orbaceae	6288.0	2	Frischella	4890.0	3	Frischella perrara	4890.0	3
+SRR1425497_5_length_480_cov_5.97882	480	0.5271	0	5.979	Bacteria	7735.0	0	Proteobacteria	7735.0	0	Proteobacteria-undef	3304.0	3	Proteobacteria-undef	3304.0	3	Proteobacteria-undef	3304.0	5	uncultured gamma proteobacterium	3304.0	5
+SRR1425497_6_length_279_cov_2.42411	279	0.5125	0	2.424	Bacteria	4404.0	0	Proteobacteria	4404.0	0	Rhizobiales	4404.0	0	Bartonellaceae	4404.0	0	Bartonella	4404.0	0	Bartonella rochalimae	1305.0	5
+SRR1425497_7_length_235_cov_1.85556	235	0.5702	0	1.856	Bacteria	4290.0	0	Proteobacteria	3432.0	1	Rhizobiales	3003.0	2	Rhizobiaceae	3003.0	2	Sinorhizobium	1716.0	4	unresolved	858.0	7
+SRR1425497_8_length_222_cov_5.65269	222	0.527	0	5.653	Bacteria	3968.0	0	Proteobacteria	3591.0	1	Proteobacteria-undef	1620.0	4	Proteobacteria-undef	1620.0	4	Proteobacteria-undef	1620.0	5	uncultured gamma proteobacterium	1620.0	5
+SRR1425504_1_length_1634_cov_3.49145	1634	0.5061	0	3.491	Bacteria	17794.0	0	Proteobacteria	15926.0	1	Pasteurellales	12408.0	2	Pasteurellaceae	12408.0	2	Mannheimia	10651.0	3	Mannheimia sp. USDA-ARS-USMARC-1261	10651.0	3
+SRR1425504_2_length_553_cov_3.43173	553	0.5099	0	3.432	Bacteria	8885.0	0	Firmicutes	8885.0	0	Lactobacillales	8885.0	0	Lactobacillaceae	8598.0	1	Lactobacillus	8598.0	1	Lactobacillus sp. wkB8	3444.0	4
+SRR1425504_3_length_274_cov_2.03653	274	0.4891	0	2.037	Bacteria	4063.0	0	Proteobacteria	4063.0	0	Rhizobiales	4063.0	0	Bartonellaceae	3189.0	1	Bartonella	3189.0	1	uncultured Bartonella sp.	1320.0	4
+SRR1425504_4_length_233_cov_1.94944	233	0.5751	0	1.949	Bacteria	4280.0	0	Actinobacteria	4280.0	0	Bifidobacteriales	4280.0	0	Bifidobacteriaceae	4280.0	0	Bifidobacterium	4280.0	0	Bifidobacterium dentium	2125.0	3
+SRR1425504_5_length_212_cov_2.08917	212	0.533	0	2.089	Bacteria	3820.0	0	Proteobacteria	3820.0	0	Rhizobiales	3428.0	1	Bartonellaceae	2644.0	2	Bartonella	2644.0	2	unresolved	784.0	5
+SRR1425505_1_length_213_cov_0.85443	213	0.5399	0	0.854	Bacteria	3602.0	0	Firmicutes	3602.0	0	Lactobacillales	2513.0	1	Lactobacillaceae	2513.0	1	Lactobacillus	2513.0	1	Lactobacillus johnsonii	1428.0	4
+SRR2032609_1_length_364_cov_0.838188	364	0.5412	0	0.838	Bacteria	6292.0	0	Proteobacteria	5273.0	1	Rhodospirillales	3614.0	3	Acetobacteraceae	3614.0	3	Acetobacter	2004.0	5	Acetobacter ghanensis	2004.0	9
+SRR2032609_2_length_358_cov_1.0462	358	0.5531	0	1.046	Bacteria	5160.0	0	Proteobacteria	4616.0	1	Rhodospirillales	4616.0	1	Acetobacteraceae	4616.0	1	Gluconobacter	2440.0	2	Gluconobacter oxydans	2440.0	5
+SRR2032609_3_length_337_cov_1.18085	337	0.5371	0	1.181	Bacteria	5531.0	0	Proteobacteria	5013.0	1	Rhodospirillales	3767.0	2	Acetobacteraceae	3767.0	2	Acetobacter	1898.0	4	uncultured alpha proteobacterium	1246.0	6
+SRR2032609_4_length_230_cov_1.63429	230	0.5435	0	1.634	Bacteria	3735.0	0	Proteobacteria	3372.0	1	Rhodospirillales	3372.0	1	Acetobacteraceae	3372.0	1	Acetobacteraceae-undef	1960.0	2	Acetobacter pasteurianus	1412.0	6
+SRR2032611_1_length_980_cov_2.02919	980	0.5286	0	2.029	Bacteria	12096.0	0	Firmicutes	10854.0	1	Lactobacillales	10854.0	1	Streptococcaceae	10854.0	1	Streptococcus	10854.0	1	Streptococcus anginosus	8442.0	2
+SRR2032611_2_length_573_cov_5.08687	573	0.5445	0	5.087	Bacteria	9660.0	0	Proteobacteria	7697.0	2	Rhodospirillales	7697.0	2	Acetobacteraceae	7697.0	2	Acetobacteraceae-undef	4177.0	3	Acetobacter ghanensis	3520.0	6
+SRR2032611_3_length_540_cov_2.61443	540	0.5093	0	2.614	Bacteria	10500.0	0	Firmicutes	9631.0	1	Lactobacillales	9631.0	1	Lactobacillaceae	9307.0	2	Lactobacillus	9307.0	2	Lactobacillus sp. wkB8	3904.0	5
+SRR667170_1_length_1638_cov_63.1617	1638	0.5104	0	63.162	Bacteria	26892.0	0	Proteobacteria	26892.0	0	Orbales	22535.0	1	Orbaceae	22535.0	1	Gilliamella	19971.0	2	Gilliamella apicola	19971.0	2
+SRR667170_2_length_487_cov_3.34259	487	0.538	0	3.343	Bacteria	6870.0	0	Proteobacteria	6253.0	1	Neisseriales	4277.0	3	Neisseriaceae	4277.0	3	Snodgrassella	3044.0	4	Snodgrassella alvi	3044.0	4
+SRR667170_3_length_434_cov_51.1108	434	0.4862	0	51.111	Eukaryota	5992.0	0	Ascomycota	4086.0	2	Eurotiales	4086.0	4	Aspergillaceae	4086.0	5	Aspergillus	2910.0	6	Aspergillus niger	1746.0	8
+SRR667170_4_length_425_cov_56.0568	425	0.5318	0	56.057	Bacteria	6846.0	0	Firmicutes	6846.0	0	Lactobacillales	6846.0	0	Lactobacillaceae	6846.0	0	Lactobacillus	6846.0	0	uncultured Lactobacillus sp.	3289.0	5
+SRR667170_5_length_423_cov_448.658	423	0.5248	0	448.658	Bacteria	7592.0	0	Firmicutes	7592.0	0	Lactobacillales	6810.0	1	Lactobacillaceae	6810.0	1	Lactobacillus	6810.0	1	Lactobacillus acidophilus	2178.0	7
+SRR667170_6_length_413_cov_2.76257	413	0.5036	0	2.763	Bacteria	6915.0	0	Proteobacteria	6915.0	0	Neisseriales	6915.0	0	Neisseriaceae	6915.0	0	Neisseriaceae-undef	3790.0	1	uncultured Neisseriaceae bacterium	3790.0	2
+SRR667170_7_length_398_cov_402.239	398	0.5377	0	402.239	Bacteria	6569.0	0	Firmicutes	5959.0	1	Lactobacillales	5959.0	1	Lactobacillaceae	5959.0	1	Lactobacillus	5959.0	1	unresolved	693.0	9
+SRR667170_8_length_398_cov_52.5743	398	0.5477	0	52.574	Bacteria	6925.0	0	Firmicutes	6278.0	1	Lactobacillales	6278.0	1	Lactobacillaceae	6278.0	1	Lactobacillus	6278.0	1	Lactobacillus sakei	2598.0	6
+SRR667170_9_length_371_cov_208.573	371	0.5472	0	208.573	Bacteria	5675.0	0	Firmicutes	5675.0	0	Lactobacillales	5675.0	0	Lactobacillaceae	5675.0	0	Lactobacillus	5675.0	0	Lactobacillus sp. wkB8	2564.0	3
+SRR667170_10_length_305_cov_3.132	305	0.541	0	3.132	Bacteria	5349.0	0	Proteobacteria	5349.0	0	Neisseriales	4794.0	1	Neisseriaceae	4794.0	1	Neisseria	2580.0	3	Neisseria meningitidis	2580.0	3
+SRR667170_11_length_268_cov_278.92	268	0.5187	0	278.92	Bacteria	4826.0	0	Firmicutes	4826.0	0	Lactobacillales	4826.0	0	Lactobacillaceae	4826.0	0	Lactobacillus	4826.0	0	uncultured Lactobacillus sp.	2480.0	3
+SRR667170_12_length_230_cov_69.1886	230	0.5087	0	69.189	Bacteria	3918.0	0	Firmicutes	3918.0	0	Lactobacillales	3918.0	0	Lactobacillaceae	3918.0	0	Lactobacillus	3918.0	0	uncultured Lactobacillus sp.	2110.0	4
+SRR667170_13_length_229_cov_201.138	229	0.524	0	201.138	Bacteria	3910.0	0	Firmicutes	3910.0	0	Lactobacillales	3910.0	0	Lactobacillaceae	3910.0	0	Lactobacillus	3910.0	0	uncultured Lactobacillus sp.	1696.0	5
+SRR667170_14_length_213_cov_27.0063	213	0.4883	0	27.006	Eukaryota	3505.0	0	Streptophyta	1765.0	1	Chlorophyta-undef	1740.0	3	Pycnococcaceae	1392.0	5	Pycnococcus	1044.0	7	unresolved	353.0	9
+SRR667170_15_length_152_cov_86.2268	152	0.5789	0	86.227	Bacteria	2558.0	0	Firmicutes	2558.0	0	Lactobacillales	2558.0	0	Lactobacillaceae	2558.0	0	Lactobacillus	2558.0	0	Lactobacillus heilongjiangensis	765.0	6
+SRR667170_16_length_152_cov_75.3299	152	0.5395	0	75.33	Bacteria	2673.0	0	Firmicutes	2392.0	1	Lactobacillales	2116.0	2	Lactobacillaceae	2116.0	2	Lactobacillus	2116.0	2	uncultured Lactobacillus sp.	1008.0	5
+SRR667170_17_length_150_cov_149.158	150	0.5667	0	149.158	Bacteria	2678.0	0	Firmicutes	2428.0	1	Lactobacillales	2150.0	2	Lactobacillaceae	2150.0	2	Lactobacillus	2150.0	2	uncultured Lactobacillus sp.	788.0	7
+SRR667170_18_length_150_cov_63.5053	150	0.5533	0	63.505	Bacteria	2689.0	0	Firmicutes	2689.0	0	Lactobacillales	2411.0	1	Lactobacillaceae	2411.0	1	Lactobacillus	2411.0	1	unresolved	278.0	9
+SRR957058_1_length_780_cov_25.249	780	0.5154	0	25.249	Bacteria	13011.0	0	Proteobacteria	13011.0	0	Rhizobiales	13011.0	0	Bartonellaceae	7641.0	1	Bartonella	7641.0	1	uncultured Rhizobiales bacterium	5370.0	4
+SRR957058_2_length_751_cov_35.3189	751	0.5087	0	35.319	Bacteria	12106.0	0	Proteobacteria	10763.0	1	Proteobacteria-undef	5242.0	3	Proteobacteria-undef	5242.0	3	Proteobacteria-undef	5242.0	4	uncultured gamma proteobacterium	5242.0	4
+SRR957058_3_length_478_cov_18.3371	478	0.5879	0	18.337	Bacteria	8640.0	0	Actinobacteria	8640.0	0	Bifidobacteriales	8640.0	0	Bifidobacteriaceae	8640.0	0	Bifidobacterium	8640.0	0	Bifidobacterium kashiwanohense	3380.0	4
+SRR957058_4_length_458_cov_16.5035	458	0.6135	0	16.503	Bacteria	8084.0	0	Actinobacteria	8084.0	0	Bifidobacteriales	8084.0	0	Bifidobacteriaceae	8084.0	0	Bifidobacterium	8084.0	0	Bifidobacterium thermophilum	3096.0	4
+SRR957058_5_length_442_cov_164.029	442	0.5317	0	164.029	Bacteria	7738.0	0	Firmicutes	7738.0	0	Lactobacillales	7738.0	0	Lactobacillaceae	7738.0	0	Lactobacillus	7738.0	0	uncultured Lactobacillus sp.	3250.0	4
+SRR957058_6_length_384_cov_89.7464	384	0.5156	0	89.746	Bacteria	5540.0	0	Firmicutes	4936.0	1	Lactobacillales	4936.0	1	Lactobacillaceae	4936.0	1	Lactobacillus	4936.0	1	Lactobacillus sp. wkB8	2684.0	3
+SRR957058_7_length_380_cov_51.3285	380	0.5342	0	51.328	Bacteria	6160.0	0	Firmicutes	6160.0	0	Lactobacillales	6160.0	0	Lactobacillaceae	6160.0	0	Lactobacillus	6160.0	0	uncultured Lactobacillus sp.	3104.0	4
+SRR957058_8_length_354_cov_4.85981	354	0.5339	0	4.86	Bacteria	5562.0	0	Proteobacteria	5562.0	0	Neisseriales	5072.0	1	Neisseriaceae	3184.0	2	Snodgrassella	3184.0	2	Snodgrassella alvi	3184.0	2
+SRR957058_9_length_350_cov_13.4353	350	0.6	0	13.435	Bacteria	5645.0	0	Actinobacteria	5645.0	0	Bifidobacteriales	5645.0	0	Bifidobacteriaceae	5645.0	0	Bifidobacterium	5645.0	0	Bifidobacterium bifidum	2580.0	4
+SRR957058_10_length_297_cov_5.86364	297	0.5118	0	5.864	Bacteria	5105.0	0	Proteobacteria	4633.0	1	Neisseriales	3535.0	2	Neisseriaceae	3535.0	2	Neisseria	1888.0	3	uncultured Neisseriaceae bacterium	1647.0	4
+SRR957058_11_length_287_cov_50.1929	287	0.5296	0	50.193	Bacteria	5122.0	0	Proteobacteria	5122.0	0	Proteobacteria-undef	2124.0	2	Proteobacteria-undef	2124.0	2	Proteobacteria-undef	2124.0	3	uncultured gamma proteobacterium	2124.0	3
+SRR957058_12_length_233_cov_31.99	233	0.5107	0	31.99	Bacteria	3801.0	0	Proteobacteria	3801.0	0	Proteobacteria-undef	2135.0	2	Proteobacteria-undef	2135.0	2	Proteobacteria-undef	2135.0	3	uncultured gamma proteobacterium	2135.0	3
+SRR957058_13_length_228_cov_229.144	228	0.5351	0	229.144	Bacteria	3896.0	0	Firmicutes	3196.0	1	Lactobacillales	3196.0	1	Lactobacillaceae	3196.0	1	Lactobacillus	3196.0	1	uncultured Lactobacillus sp.	838.0	7
+SRR957058_14_length_228_cov_50.1692	228	0.5395	0	50.169	Bacteria	4103.0	0	Proteobacteria	4103.0	0	Proteobacteria-undef	1688.0	2	Proteobacteria-undef	1688.0	2	Proteobacteria-undef	1688.0	2	uncultured gamma proteobacterium	1688.0	2
+SRR957058_15_length_227_cov_109.861	227	0.5198	0	109.861	Bacteria	3785.0	0	Firmicutes	3785.0	0	Lactobacillales	3785.0	0	Lactobacillaceae	3785.0	0	Lactobacillus	3785.0	0	Lactobacillus paracollinoides	1348.0	4
+SRR957058_16_length_203_cov_22.8	203	0.532	0	22.8	Bacteria	3164.0	0	Proteobacteria	3164.0	0	Rhizobiales	3164.0	0	Brucellaceae	2835.0	1	Brucella	2835.0	1	Brucella abortus	1575.0	2
+SRR957058_17_length_179_cov_30.274	179	0.5531	0	30.274	Bacteria	2928.0	0	Proteobacteria	2928.0	0	Orbales	2380.0	1	Orbaceae	2380.0	1	Gilliamella	1212.0	2	Gilliamella apicola	1212.0	2
+SRR957058_18_length_172_cov_41.7842	172	0.5116	0	41.784	Bacteria	3100.0	0	Proteobacteria	3100.0	0	Rhizobiales	2464.0	1	Rhizobiaceae	1510.0	2	Sinorhizobium	1208.0	3	uncultured Rhizobiales bacterium	954.0	5
+SRR957058_19_length_171_cov_18.1594	171	0.5731	0	18.159	Bacteria	3023.0	0	Actinobacteria	3023.0	0	Bifidobacteriales	3023.0	0	Bifidobacteriaceae	3023.0	0	Bifidobacterium	3023.0	0	uncultured Bifidobacterium sp.	1759.0	3
+SRR957058_20_length_157_cov_42.8952	157	0.5732	0	42.895	Bacteria	2792.0	0	Proteobacteria	2792.0	0	Rhizobiales	2210.0	1	Bartonellaceae	1337.0	2	Bartonella	1337.0	2	Bartonella quintana	1337.0	2
+SRR957058_21_length_154_cov_253.727	154	0.526	0	253.727	Bacteria	2821.0	0	Firmicutes	2547.0	1	Lactobacillales	2262.0	2	Lactobacillaceae	2262.0	2	Lactobacillus	2262.0	2	Lactobacillus helveticus	558.0	8
+SRR957058_22_length_153_cov_171.175	153	0.5163	0	171.175	Bacteria	2680.0	0	Firmicutes	2430.0	1	Lactobacillales	1864.0	2	Lactobacillaceae	1864.0	2	Lactobacillus	1864.0	2	Lactobacillus oligofermentans	732.0	6
+SRR957058_23_length_138_cov_106.524	138	0.4565	0	106.524	Bacteria	1780.0	0	Firmicutes	1780.0	0	Lactobacillales	1780.0	0	Lactobacillaceae	1780.0	0	Lactobacillus	1780.0	0	Lactobacillus johnsonii	1246.0	2
+SRR957058_24_length_120_cov_30.1264	120	0.525	0	30.126	Bacteria	2177.0	0	Proteobacteria	2177.0	0	Orbales	877.0	2	Orbaceae	877.0	2	unresolved	666.0	4	unresolved	666.0	4
+SRR957058_25_length_100_cov_38.3433	100	0.53	0	38.343	Bacteria	1850.0	0	Proteobacteria	1850.0	0	Rhizobiales	1850.0	0	Bartonellaceae	1295.0	2	Bartonella	1295.0	3	Bartonella sp.	925.0	4
+SRR957058_26_length_52_cov_246.368	52	0.6154	0	246.368	Bacteria	873.9	1	Proteobacteria	873.9	1	unresolved	194.2	6	unresolved	194.2	6	unresolved	194.2	7	unresolved	97.1	9
+SRR957058_27_length_50_cov_60.3529	50	0.6	0	60.353	Bacteria	935.0	0	Actinobacteria	654.5	3	Corynebacteriales	467.5	5	Mycobacteriaceae	467.5	5	Mycobacterium	467.5	5	unresolved	93.5	9
+SRR957058_28_length_48_cov_175.933	48	0.5625	0	175.933	Bacteria	538.8	1	unresolved	359.2	2	undef	359.2	5	undef	359.2	6	undef	359.2	6	unresolved	89.8	9
+SRR957058_29_length_48_cov_56.2667	48	0.5417	0	56.267	Bacteria	808.2	1	Bacteria-undef	449.0	2	Bacteria-undef	449.0	4	Bacteria-undef	449.0	4	Bacteria-undef	449.0	5	uncultured bacterium	449.0	5
+SRR957058_30_length_38_cov_230.8	38	0.6053	0	230.8	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957058_31_length_37_cov_24.5	37	0.5946	0	24.5	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957061_1_length_873_cov_2.95357	873	0.5132	0	2.954	Bacteria	15635.0	0	Firmicutes	15635.0	0	Lactobacillales	15635.0	0	Lactobacillaceae	15635.0	0	Lactobacillus	14227.0	1	Lactobacillus kunkeei	14227.0	1
+SRR957061_2_length_451_cov_2.80622	451	0.5011	0	2.806	Bacteria	7813.0	0	Firmicutes	7813.0	0	Lactobacillales	7813.0	0	Lactobacillaceae	7813.0	0	Lactobacillus	7813.0	0	Lactobacillus kunkeei	6484.0	2
+SRR957061_3_length_328_cov_2.72203	328	0.4665	0	2.722	Bacteria	5930.0	0	Firmicutes	5930.0	0	Lactobacillales	5930.0	0	Lactobacillaceae	5930.0	0	Lactobacillus	5930.0	0	Lactobacillus kunkeei	5451.0	1
+SRR957063_1_length_795_cov_3.77165	795	0.5208	0	3.772	Bacteria	13940.0	0	Firmicutes	13940.0	0	Lactobacillales	13940.0	0	Lactobacillaceae	13940.0	0	Lactobacillus	13940.0	0	uncultured Lactobacillus sp.	5876.0	5
+SRR957063_2_length_325_cov_1.60616	325	0.5569	0	1.606	Bacteria	4665.0	0	Firmicutes	2046.0	2	Lactobacillales	2046.0	2	Lactobacillaceae	2046.0	3	Lactobacillus	2046.0	3	uncultured Lactobacillus sp.	1641.0	8
+SRR957063_3_length_237_cov_1.48039	237	0.5232	0	1.48	Bacteria	3246.0	0	Bacteria-undef	1441.0	2	Bacteria-undef	1441.0	3	Bacteria-undef	1441.0	3	Bacteria-undef	1441.0	3	uncultured bacterium	1441.0	3
+SRR957064_1_length_1625_cov_12.7274	1625	0.5003	0	12.727	Bacteria	30416.0	0	Firmicutes	30416.0	0	Lactobacillales	28622.0	1	Lactobacillaceae	28622.0	1	Lactobacillus	26322.0	2	Lactobacillus kunkeei	26322.0	2
+SRR957064_2_length_301_cov_3.82836	301	0.5316	0	3.828	Bacteria	5168.0	0	Proteobacteria	4656.0	1	Rhodospirillales	4656.0	1	Acetobacteraceae	4656.0	1	Acetobacteraceae-undef	2780.0	3	Acetobacter pasteurianus	940.0	7
+SRR957077_1_length_640_cov_2.87974	640	0.5547	0	2.88	Bacteria	8991.0	0	Proteobacteria	4421.0	2	Rhizobiales	3501.0	3	Rhizobiaceae	3501.0	3	Lactobacillus	2706.0	4	Liberibacter crescens	2601.0	7
+SRR957077_2_length_385_cov_2.6875	385	0.5506	0	2.688	Bacteria	6069.0	0	Proteobacteria	6069.0	0	Rhizobiales	5441.0	1	Bartonellaceae	2389.0	3	Bartonella	2389.0	3	uncultured Rhizobiales bacterium	1880.0	5
+SRR957077_3_length_260_cov_1.99119	260	0.5038	0	1.991	Bacteria	3467.0	0	Proteobacteria	2739.0	1	Rhizobiales	2402.0	2	Rhizobiaceae	1701.0	3	Rhizobium	1027.0	4	uncultured bacterium	728.0	7
+SRR957077_4_length_212_cov_2.01117	212	0.4623	0	2.011	Bacteria	3028.0	0	Proteobacteria	3028.0	0	Rhizobiales	3028.0	0	Bartonellaceae	3028.0	0	Bartonella	3028.0	0	Bartonella rochalimae	900.0	4
+SRR957078_1_length_907_cov_27.2586	907	0.6042	0	27.259	Bacteria	16075.0	0	Actinobacteria	16075.0	0	Bifidobacteriales	16075.0	0	Bifidobacteriaceae	16075.0	0	Bifidobacterium	16075.0	0	Bifidobacterium thermophilum	6164.0	5
+SRR957078_2_length_612_cov_47.2832	612	0.5229	0	47.283	Bacteria	9844.0	0	Firmicutes	8802.0	1	Lactobacillales	8802.0	1	Lactobacillaceae	8802.0	1	Lactobacillus	8802.0	1	uncultured Lactobacillus sp.	3052.0	7
+SRR957078_3_length_384_cov_26.0769	384	0.5182	0	26.077	Bacteria	5620.0	0	Firmicutes	5010.0	1	Lactobacillales	5010.0	1	Lactobacillaceae	5010.0	1	Lactobacillus	5010.0	1	Lactobacillus sp. wkB8	2660.0	4
+SRR957078_4_length_356_cov_13.2105	356	0.5365	0	13.21	Bacteria	5622.0	0	Proteobacteria	5622.0	0	Neisseriales	5126.0	1	Neisseriaceae	3218.0	2	Snodgrassella	3218.0	2	Snodgrassella alvi	3218.0	2
+SRR957078_5_length_355_cov_28.2143	355	0.5972	0	28.214	Bacteria	5753.0	0	Actinobacteria	5753.0	0	Bifidobacteriales	5753.0	0	Bifidobacteriaceae	5753.0	0	Bifidobacterium	5753.0	0	Bifidobacterium bifidum	2645.0	3
+SRR957078_6_length_346_cov_13.8371	346	0.5318	0	13.837	Bacteria	5762.0	0	Proteobacteria	5204.0	1	Rhizobiales	4612.0	2	Rhizobiales-undef	2368.0	4	Rhizobiales-undef	2368.0	4	uncultured Rhizobiales bacterium	2368.0	4
+SRR957078_7_length_332_cov_12.5318	332	0.5663	0	12.532	Bacteria	4584.0	0	Firmicutes	4584.0	0	Lactobacillales	4245.0	1	Lactobacillaceae	4245.0	1	Lactobacillus	4245.0	1	uncultured Lactobacillus sp.	3040.0	2
+SRR957078_8_length_297_cov_16.0303	297	0.5118	0	16.03	Bacteria	5130.0	0	Proteobacteria	4653.0	1	Neisseriales	4653.0	1	Neisseriaceae	4653.0	1	Neisseriaceae-undef	2196.0	4	uncultured Neisseriaceae bacterium	2196.0	4
+SRR957078_9_length_246_cov_11.9531	246	0.5447	0	11.953	Bacteria	4271.0	0	Proteobacteria	3387.0	1	Orbales	1314.0	3	Orbaceae	1314.0	3	Gilliamella	1314.0	3	Gilliamella apicola	1314.0	3
+SRR957078_10_length_230_cov_5.92893	230	0.5	0	5.929	Bacteria	3814.0	0	Proteobacteria	3814.0	0	Orbales	3222.0	1	Orbaceae	3222.0	1	Gilliamella	2872.0	2	Gilliamella apicola	2872.0	2
+SRR957078_11_length_210_cov_5.0791	210	0.4476	0	5.079	Bacteria	3137.0	0	Proteobacteria	3137.0	0	Rhizobiales	3137.0	0	Bartonellaceae	1805.0	1	Bartonella	1805.0	1	uncultured Rhizobiales bacterium	1332.0	4
+SRR957078_12_length_201_cov_14.5357	201	0.5473	0	14.536	Bacteria	3411.0	0	Proteobacteria	3069.0	1	Neisseriales	1581.0	2	Neisseriaceae	1581.0	2	Proteobacteria-undef	1488.0	4	uncultured beta proteobacterium	1488.0	5
+SRR957078_13_length_191_cov_68.7278	191	0.5183	0	68.728	Bacteria	3235.0	0	Firmicutes	2661.0	1	Lactobacillales	2661.0	1	Lactobacillaceae	2661.0	1	Lactobacillus	2661.0	1	uncultured Lactobacillus sp.	701.0	7
+SRR957078_14_length_182_cov_35.1275	182	0.5824	0	35.127	Bacteria	2255.0	1	Proteobacteria	1974.0	2	Rhizobiales	1974.0	2	Bartonellaceae	1695.0	3	Bartonella	1695.0	3	Bartonella schoenbuchensis	1132.0	5
+SRR957078_15_length_177_cov_18.0694	177	0.5085	0	18.069	Bacteria	3144.0	0	Proteobacteria	3144.0	0	Neisseriales	2817.0	1	Neisseriaceae	2817.0	1	Kingella	915.0	5	Kingella kingae	915.0	6
+SRR957078_16_length_167_cov_11.4851	167	0.497	0	11.485	Bacteria	2658.0	0	Firmicutes	2084.0	1	Lactobacillales	1510.0	2	Lactobacillaceae	1510.0	2	Lactobacillus	1510.0	2	Lactobacillus kunkeei	992.0	4
+SRR957078_17_length_161_cov_30.1484	161	0.5776	0	30.148	Bacteria	2840.0	0	Actinobacteria	2840.0	0	Bifidobacteriales	2840.0	0	Bifidobacteriaceae	2840.0	0	Bifidobacterium	2840.0	0	uncultured Bifidobacterium sp.	1648.0	3
+SRR957078_18_length_159_cov_19.3889	159	0.522	0	19.389	Bacteria	2382.0	1	Firmicutes	1794.0	2	Lactobacillales	1206.0	3	Lactobacillaceae	1206.0	3	Lactobacillus	1206.0	3	Lactobacillus plantarum	684.0	5
+SRR957078_19_length_159_cov_11.4048	159	0.522	0	11.405	Bacteria	2824.0	0	Bacteria-undef	1470.0	1	Bacteria-undef	1470.0	2	Bacteria-undef	1470.0	2	Bacteria-undef	1470.0	4	uncultured bacterium	1470.0	4
+SRR957078_20_length_158_cov_5.136	158	0.4747	0	5.136	Bacteria	2811.0	0	Proteobacteria	2022.0	1	Proteobacteria-undef	1460.0	2	Proteobacteria-undef	1460.0	2	Proteobacteria-undef	1460.0	2	uncultured gamma proteobacterium	1460.0	2
+SRR957078_21_length_156_cov_14.6016	156	0.4872	0	14.602	Bacteria	2022.0	1	Proteobacteria	2022.0	1	Orbales	1239.0	2	Orbaceae	1239.0	2	Gilliamella	1044.0	3	Gilliamella apicola	1044.0	3
+SRR957078_22_length_154_cov_4.15702	154	0.539	0	4.157	Bacteria	2667.0	0	Proteobacteria	2388.0	1	Rhizobiales	1830.0	2	Bartonellaceae	1282.0	3	Bartonella	1282.0	3	uncultured alpha proteobacterium	558.0	5
+SRR957078_23_length_153_cov_60.2333	153	0.5163	0	60.233	Bacteria	2680.0	0	Firmicutes	2430.0	1	Lactobacillales	1864.0	2	Lactobacillaceae	1864.0	2	Lactobacillus	1864.0	2	Lactobacillus oligofermentans	732.0	6
+SRR957078_24_length_152_cov_31.8992	152	0.4803	0	31.899	Bacteria	2597.0	0	Proteobacteria	2597.0	0	Neisseriales	1754.0	1	Neisseriaceae	1754.0	1	Neisseria	1192.0	3	Neisseria meningitidis	948.0	4
+SRR957078_25_length_148_cov_17.1043	148	0.5676	0	17.104	Bacteria	2626.0	0	Proteobacteria	2626.0	0	Rhizobiales	2078.0	1	Bartonellaceae	1256.0	2	Bartonella	1256.0	2	Bartonella quintana	1256.0	2
+SRR957078_26_length_147_cov_5.33333	147	0.5374	0	5.333	Bacteria	2598.0	0	Proteobacteria	2054.0	1	Orbales	772.0	3	Orbaceae	772.0	3	unresolved	544.0	5	unresolved	544.0	5
+SRR957078_27_length_135_cov_34.4706	135	0.563	0	34.471	Bacteria	2445.0	0	Proteobacteria	2445.0	0	Rhodospirillales	2445.0	0	Acetobacteraceae	2445.0	0	Commensalibacter	1195.0	2	uncultured Commensalibacter sp.	1195.0	2
+SRR957078_28_length_126_cov_18.871	126	0.5476	0	18.871	Bacteria	2207.0	0	Bacteria-undef	1106.0	2	Bacteria-undef	1106.0	2	Bacteria-undef	1106.0	3	Bacteria-undef	1106.0	3	uncultured bacterium	672.0	6
+SRR957078_29_length_125_cov_15.3478	125	0.512	0	15.348	Bacteria	1859.0	1	Firmicutes	1397.0	2	Lactobacillales	935.0	3	Lactobacillaceae	759.0	4	Lactobacillus	759.0	4	Lactobacillus plantarum	528.0	5
+SRR957078_30_length_117_cov_16.2976	117	0.5128	0	16.298	Bacteria	2042.0	0	Proteobacteria	2042.0	0	Neisseriales	1825.0	1	Neisseriaceae	1825.0	1	Kingella	585.0	5	Kingella kingae	585.0	6
+SRR957078_31_length_116_cov_61.1325	116	0.5948	0	61.133	Bacteria	1548.0	0	Proteobacteria	1548.0	0	Rhodospirillales	1236.0	2	Rhodospirillaceae	1236.0	2	Azospirillum	1078.0	3	Azospirillum brasilense	1078.0	3
+SRR957078_32_length_116_cov_54.8072	116	0.4828	0	54.807	Bacteria	1934.0	0	Firmicutes	1451.0	1	Lactobacillales	1236.0	2	Lactobacillaceae	1236.0	2	Lactobacillus	1236.0	2	uncultured bacterium	483.0	7
+SRR957078_33_length_104_cov_65.0704	104	0.5673	0	65.07	Bacteria	1910.0	0	Proteobacteria	1717.0	1	Rhodospirillales	1717.0	1	Acetobacteraceae	1717.0	1	Gluconobacter	756.0	4	Gluconobacter oxydans	756.0	6
+SRR957078_34_length_101_cov_15.8235	101	0.5446	0	15.823	Bacteria	1870.0	0	Bacteria-undef	1122.0	1	Bacteria-undef	1122.0	1	Bacteria-undef	1122.0	1	Bacteria-undef	1122.0	1	uncultured bacterium	1122.0	2
+SRR957078_35_length_92_cov_73.8814	92	0.5761	0	73.881	Bacteria	1710.0	0	Bacteria-undef	1368.0	1	Bacteria-undef	1368.0	1	Bacteria-undef	1368.0	1	Bacteria-undef	1368.0	1	unresolved	342.0	6
+SRR957078_36_length_81_cov_42.25	81	0.4938	0	42.25	Bacteria	1500.0	0	Firmicutes	1350.0	1	Lactobacillales	1350.0	1	Lactobacillaceae	1350.0	1	Lactobacillus	1350.0	1	Lactobacillus helveticus	450.0	6
+SRR957078_37_length_81_cov_39.9792	81	0.6296	0	39.979	Bacteria	1500.0	0	Proteobacteria	1500.0	0	Rhodospirillales	1500.0	0	Acetobacteraceae	1500.0	0	Acetobacter	1050.0	1	Acetobacter pasteurianus	750.0	3
+SRR957078_38_length_81_cov_18.2292	81	0.5062	0	18.229	Bacteria	1500.0	0	Firmicutes	1050.0	1	Lactobacillales	1050.0	1	Lactobacillaceae	1050.0	2	Lactobacillus	1050.0	3	Lactobacillus johnsonii	900.0	4
+SRR957078_39_length_78_cov_61.4444	78	0.5128	0	61.444	Bacteria	1400.0	0	Proteobacteria	820.0	1	Rhodospirillales	820.0	1	Acetobacteraceae	820.0	1	Commensalibacter	675.0	2	uncultured Commensalibacter sp.	675.0	2
+SRR957078_40_length_75_cov_20.5238	75	0.5067	0	20.524	Bacteria	1390.0	0	Proteobacteria	1251.0	1	Rhizobiales	973.0	2	Bartonellaceae	973.0	2	Bartonella	834.0	3	Bartonella henselae	417.0	5
+SRR957078_41_length_71_cov_40.8947	71	0.6479	0	40.895	Bacteria	660.0	1	Proteobacteria	660.0	1	Rhodospirillales	660.0	1	Acetobacteraceae	660.0	1	Acetobacteraceae-undef	660.0	1	unidentified	630.0	3
+SRR957078_42_length_70_cov_48.1892	70	0.5286	0	48.189	Bacteria	1225.0	0	Proteobacteria	1225.0	0	Rhodospirillales	1225.0	0	Acetobacteraceae	1225.0	0	Commensalibacter	575.0	2	uncultured Commensalibacter sp.	575.0	2
+SRR957078_43_length_67_cov_68.7059	67	0.5522	0	68.706	Bacteria	1240.0	0	Firmicutes	992.0	1	Lactobacillales	868.0	2	Lactobacillaceae	868.0	2	Lactobacillus	744.0	3	Lactobacillus salivarius	496.0	5
+SRR957078_44_length_67_cov_9.52941	67	0.5075	0	9.529	Bacteria	1240.0	0	Firmicutes	1240.0	0	Lactobacillales	1240.0	0	Lactobacillaceae	1240.0	0	Pediococcus	1116.0	1	Pediococcus damnosus	744.0	4
+SRR957078_45_length_66_cov_128	66	0.5758	0	128.0	Bacteria	1217.0	0	Bacteria-undef	729.0	1	Bacteria-undef	729.0	2	Bacteria-undef	729.0	3	Bacteria-undef	729.0	3	Mesorhizobium loti	244.0	8
+SRR957078_46_length_65_cov_141.531	65	0.5692	0	141.531	Bacteria	1210.0	0	Proteobacteria	847.0	2	unresolved	242.0	7	Proteobacteria-undef	242.0	8	Proteobacteria-undef	242.0	8	unresolved	121.0	9
+SRR957078_47_length_65_cov_41.8125	65	0.5692	0	41.812	Bacteria	1131.0	0	Proteobacteria	1131.0	0	Rhodospirillales	1131.0	0	Acetobacteraceae	1131.0	0	Commensalibacter	526.0	2	uncultured Commensalibacter sp.	526.0	2
+SRR957078_48_length_65_cov_26.5938	65	0.5692	0	26.594	Bacteria	1210.0	0	Proteobacteria	1210.0	0	Neisseriales	1210.0	0	unresolved	605.0	1	Laribacter	605.0	3	Laribacter hongkongensis	605.0	4
+SRR957078_49_length_61_cov_108.964	61	0.4918	0	108.964	Bacteria	1017.0	1	Proteobacteria	1017.0	1	Rhizobiales	452.0	4	unresolved	339.0	5	Legionella	339.0	6	unresolved	113.0	9
+SRR957078_50_length_58_cov_110.04	58	0.5862	0	110.04	Bacteria	1080.0	0	Bacteria-undef	648.0	1	Bacteria-undef	648.0	1	Bacteria-undef	648.0	3	Bacteria-undef	648.0	3	unresolved	108.0	9
+SRR957078_51_length_58_cov_24.24	58	0.5517	0	24.24	Bacteria	1080.0	0	Proteobacteria	648.0	2	Rhizobiales	540.0	3	Bartonellaceae	324.0	5	Bartonella	324.0	6	unresolved	216.0	7
+SRR957078_52_length_57_cov_7.875	57	0.5263	0	7.875	Bacteria	954.0	1	Proteobacteria	848.0	2	unresolved	318.0	4	unresolved	318.0	4	unresolved	318.0	5	unresolved	106.0	9
+SRR957078_53_length_56_cov_86.087	56	0.5357	0	86.087	Bacteria	1040.0	0	Proteobacteria	1040.0	0	unresolved	520.0	1	unresolved	520.0	1	unresolved	520.0	1	unresolved	520.0	1
+SRR957078_54_length_53_cov_49.05	53	0.5283	0	49.05	Bacteria	990.0	0	Firmicutes	693.0	1	Lactobacillales	693.0	2	Lactobacillaceae	693.0	2	Lactobacillus	693.0	2	Lactobacillus johnsonii	495.0	3
+SRR957078_55_length_52_cov_70.6316	52	0.5769	0	70.632	Bacteria	971.0	0	Proteobacteria	971.0	0	Burkholderiales	971.0	0	Comamonadaceae	485.5	2	Comamonadaceae-undef	485.5	2	Alcaligenes sp.	388.4	6
+SRR957078_56_length_49_cov_71.4375	49	0.6122	0	71.438	Bacteria	916.0	0	Proteobacteria	458.0	2	Rhizobiales	458.0	2	Bradyrhizobiaceae	366.4	4	unresolved	183.2	6	Candidatus Phytoplasma australiense	183.2	8
+SRR957078_57_length_45_cov_46.5	45	0.5778	0	46.5	Bacteria	757.8	1	Proteobacteria	336.8	4	Corynebacteriales	252.6	6	Mycobacteriaceae	252.6	6	Mycobacterium	252.6	7	unresolved	84.2	9
+SRR957078_58_length_41_cov_11.875	41	0.5122	0	11.875	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957078_59_length_39_cov_50.8333	39	0.5641	0	50.833	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957081_1_length_826_cov_42.8815	826	0.4976	0	42.882	Bacteria	13083.0	0	Proteobacteria	13083.0	0	Orbales	9684.0	3	Orbaceae	9684.0	3	Gilliamella	5589.0	4	Gilliamella apicola	5589.0	4
+SRR957081_2_length_566_cov_29.6567	566	0.5795	0	29.657	Bacteria	8895.0	0	Actinobacteria	7112.0	1	Bifidobacteriales	7112.0	1	Bifidobacteriaceae	7112.0	1	Bifidobacterium	7112.0	1	Bifidobacterium catenulatum	4445.0	3
+SRR957081_3_length_448_cov_25.2072	448	0.5379	0	25.207	Bacteria	8115.0	0	Proteobacteria	8115.0	0	Rhizobiales	7287.0	1	Brucellaceae	3975.0	2	Ochrobactrum	3975.0	2	uncultured Rhizobiales bacterium	3312.0	6
+SRR957081_4_length_444_cov_40.4015	444	0.5293	0	40.401	Bacteria	7593.0	0	Firmicutes	7593.0	0	Lactobacillales	7593.0	0	Lactobacillaceae	7593.0	0	Lactobacillus	7593.0	0	uncultured Lactobacillus sp.	3193.0	4
+SRR957081_5_length_412_cov_102.871	412	0.5534	0	102.871	Bacteria	6118.0	0	Proteobacteria	6118.0	0	Neisseriales	6118.0	0	Neisseriaceae	6118.0	0	Snodgrassella	3070.0	2	Snodgrassella alvi	3070.0	2
+SRR957081_6_length_359_cov_27.0828	359	0.4958	0	27.083	Bacteria	5562.0	0	Proteobacteria	5562.0	0	Rhizobiales	5562.0	0	Bartonellaceae	3218.0	1	Bartonella	3218.0	1	uncultured Rhizobiales bacterium	2344.0	4
+SRR957081_7_length_357_cov_12.5093	357	0.5966	0	12.509	Bacteria	5781.0	0	Actinobacteria	5781.0	0	Bifidobacteriales	5781.0	0	Bifidobacteriaceae	5781.0	0	Bifidobacterium	5781.0	0	Bifidobacterium bifidum	2635.0	4
+SRR957081_8_length_297_cov_107.417	297	0.5118	0	107.417	Bacteria	5130.0	0	Proteobacteria	4653.0	1	Neisseriales	4653.0	1	Neisseriaceae	4653.0	1	Neisseriaceae-undef	2196.0	4	uncultured Neisseriaceae bacterium	2196.0	4
+SRR957081_9_length_294_cov_21.4981	294	0.5136	0	21.498	Bacteria	4456.0	0	Firmicutes	4456.0	0	Lactobacillales	3918.0	1	Lactobacillaceae	3918.0	1	Lactobacillus	3918.0	1	uncultured Lactobacillus sp.	1597.0	5
+SRR957081_10_length_280_cov_9.38866	280	0.6143	0	9.389	Bacteria	5108.0	0	Actinobacteria	5108.0	0	Bifidobacteriales	5108.0	0	Bifidobacteriaceae	5108.0	0	Bifidobacterium	5108.0	0	Bifidobacterium thermophilum	2028.0	6
+SRR957081_11_length_260_cov_158.833	260	0.5538	0	158.833	Bacteria	4217.0	0	Proteobacteria	4217.0	0	Rhizobiales	4217.0	0	Rhizobiales-undef	2180.0	1	Rhizobiales-undef	2180.0	1	uncultured Rhizobiales bacterium	2180.0	1
+SRR957081_12_length_246_cov_54.6667	246	0.5447	0	54.667	Bacteria	4271.0	0	Proteobacteria	3387.0	1	Orbales	1314.0	3	Orbaceae	1314.0	3	Gilliamella	1314.0	3	Gilliamella apicola	1314.0	3
+SRR957081_13_length_245_cov_64.2123	245	0.5551	0	64.212	Bacteria	4236.0	0	Proteobacteria	4236.0	0	Rhizobiales	3800.0	1	Bartonellaceae	3800.0	1	Bartonella	3800.0	1	unresolved	840.0	7
+SRR957081_14_length_231_cov_86.2121	231	0.5195	0	86.212	Bacteria	3603.0	0	Proteobacteria	3294.0	1	Neisseriales	2365.0	3	Neisseriaceae	2365.0	3	Snodgrassella	2071.0	5	Snodgrassella alvi	2071.0	5
+SRR957081_15_length_203_cov_54.3706	203	0.5369	0	54.371	Bacteria	3164.0	0	Proteobacteria	3164.0	0	Rhizobiales	3164.0	0	Brucellaceae	2835.0	1	Brucella	2835.0	1	Brucella abortus	1575.0	2
+SRR957081_16_length_201_cov_107.601	201	0.5473	0	107.601	Bacteria	3411.0	0	Proteobacteria	3069.0	1	Neisseriales	1581.0	2	Neisseriaceae	1581.0	2	Proteobacteria-undef	1488.0	4	uncultured beta proteobacterium	1488.0	5
+SRR957081_17_length_198_cov_70.1515	198	0.5303	0	70.151	Bacteria	3324.0	0	Firmicutes	2724.0	1	Lactobacillales	2724.0	1	Lactobacillaceae	2724.0	1	Lactobacillus	2724.0	1	uncultured bacterium	600.0	8
+SRR957081_18_length_181_cov_115.696	181	0.5083	0	115.696	Bacteria	3223.0	0	Proteobacteria	3223.0	0	Neisseriales	2888.0	1	Neisseriaceae	2888.0	1	Kingella	939.0	5	Kingella kingae	939.0	6
+SRR957081_19_length_161_cov_11.7031	161	0.5839	0	11.703	Bacteria	2870.0	0	Actinobacteria	2870.0	0	Bifidobacteriales	2870.0	0	Bifidobacteriaceae	2870.0	0	Bifidobacterium	2870.0	0	uncultured Bifidobacterium sp.	1380.0	4
+SRR957081_20_length_152_cov_191.782	152	0.4803	0	191.782	Bacteria	2597.0	0	Proteobacteria	2597.0	0	Neisseriales	1754.0	1	Neisseriaceae	1754.0	1	Neisseria	1192.0	3	Neisseria meningitidis	948.0	4
+SRR957081_21_length_144_cov_44.6036	144	0.5278	0	44.604	Bacteria	2590.0	0	Proteobacteria	2351.0	1	Proteobacteria-undef	1068.0	4	Proteobacteria-undef	1068.0	4	Proteobacteria-undef	1068.0	5	uncultured gamma proteobacterium	1068.0	5
+SRR957081_22_length_143_cov_117.273	143	0.5524	0	117.273	Bacteria	2317.0	0	Proteobacteria	2317.0	0	Neisseriales	1179.0	2	Neisseriaceae	1179.0	2	unresolved	522.0	5	unresolved	522.0	5
+SRR957081_23_length_138_cov_38.581	138	0.529	0	38.581	Bacteria	2488.0	0	Firmicutes	2249.0	1	Lactobacillales	2249.0	1	Lactobacillaceae	2249.0	1	Lactobacillus	2249.0	1	uncultured Lactobacillus sp.	1503.0	4
+SRR957081_24_length_104_cov_63.7887	104	0.5769	0	63.789	Bacteria	1890.0	0	Proteobacteria	1890.0	0	Rhodospirillales	1890.0	0	Acetobacteraceae	1890.0	0	Gluconobacter	1701.0	1	Gluconobacter oxydans	1134.0	3
+SRR957081_25_length_100_cov_102.254	100	0.56	0	102.254	Bacteria	1641.0	1	Firmicutes	740.0	3	Lactobacillales	740.0	3	Lactobacillaceae	740.0	3	Lactobacillus	740.0	3	uncultured Lactobacillus sp.	555.0	7
+SRR957081_26_length_85_cov_79.0769	85	0.5647	0	79.077	Bacteria	1580.0	0	Firmicutes	1264.0	1	Lactobacillales	1106.0	2	Lactobacillaceae	1106.0	2	Lactobacillus	948.0	3	Lactobacillus salivarius	632.0	5
+SRR957081_27_length_74_cov_37.4146	74	0.6351	0	37.415	Bacteria	1198.0	1	Proteobacteria	1198.0	1	Rhodospirillales	1198.0	1	Acetobacteraceae	1198.0	1	Gluconacetobacter	929.0	3	Gluconacetobacter diazotrophicus	792.0	4
+SRR957081_28_length_61_cov_154.5	61	0.4918	0	154.5	Bacteria	1017.0	1	Proteobacteria	1017.0	1	Rhizobiales	452.0	4	unresolved	339.0	5	Legionella	339.0	6	unresolved	113.0	9
+SRR957081_29_length_56_cov_18.3043	56	0.4464	0	18.304	Bacteria	609.8	0	Firmicutes	609.8	0	Lactobacillales	401.8	1	Lactobacillaceae	401.8	1	Lactobacillus	401.8	1	unresolved	208.0	3
+SRR957081_30_length_52_cov_181.895	52	0.6154	0	181.895	Bacteria	873.9	1	Proteobacteria	873.9	1	unresolved	194.2	6	unresolved	194.2	6	unresolved	194.2	7	unresolved	97.1	9
+SRR957081_31_length_52_cov_138.737	52	0.5769	0	138.737	Bacteria	971.0	0	Proteobacteria	971.0	0	Burkholderiales	971.0	0	Comamonadaceae	485.5	2	Comamonadaceae-undef	485.5	2	Alcaligenes sp.	388.4	6
+SRR957081_32_length_49_cov_159.062	49	0.6122	0	159.062	Bacteria	916.0	0	Proteobacteria	458.0	2	Rhizobiales	366.4	3	Bradyrhizobiaceae	366.4	4	unresolved	183.2	6	Candidatus Phytoplasma australiense	183.2	8
+SRR957081_33_length_49_cov_20.5	49	0.4898	0	20.5	Bacteria	458.0	0	Firmicutes	458.0	0	Lactobacillales	274.8	1	Lactobacillaceae	274.8	1	Lactobacillus	274.8	1	uncultured Lactobacillus sp.	274.8	1
+SRR957081_34_length_48_cov_59.9333	48	0.5	0	59.933	Bacteria	875.6	0	Firmicutes	875.6	0	Lactobacillales	785.8	1	Lactobacillaceae	449.0	2	Lactobacillus	449.0	2	Streptococcus salivarius	168.4	8
+SRR957081_35_length_48_cov_52.9333	48	0.4583	0	52.933	Bacteria	538.8	0	Firmicutes	538.8	0	Lactobacillales	449.0	1	Lactobacillaceae	449.0	1	Lactobacillus	449.0	1	unresolved	89.8	5
+SRR957081_36_length_42_cov_52.7778	42	0.5714	0	52.778	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957081_37_length_41_cov_63.875	41	0.5122	0	63.875	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957081_38_length_34_cov_53	34	0.6176	0	53.0	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957082_1_length_1004_cov_219.709	1004	0.489	0	219.709	Bacteria	17255.0	0	Tenericutes	17255.0	0	Entomoplasmatales	17255.0	0	Spiroplasmataceae	17255.0	0	Spiroplasma	17255.0	0	Spiroplasma melliferum	1844.0	9
+SRR957083_1_length_739_cov_29.4065	739	0.4953	0	29.407	Bacteria	11999.0	0	Proteobacteria	11999.0	0	Orbales	8972.0	2	Orbaceae	8972.0	2	Frischella	6759.0	3	Frischella perrara	6759.0	3
+SRR957083_2_length_523_cov_37.2755	523	0.5239	0	37.276	Bacteria	8510.0	0	Proteobacteria	8510.0	0	Neisseriales	8510.0	0	Neisseriaceae	8510.0	0	Neisseriaceae-undef	4830.0	1	uncultured Neisseriaceae bacterium	4830.0	2
+SRR957083_3_length_412_cov_33.3852	412	0.5558	0	33.385	Bacteria	6118.0	0	Proteobacteria	6118.0	0	Neisseriales	6118.0	0	Neisseriaceae	6118.0	0	Snodgrassella	3070.0	2	Snodgrassella alvi	3070.0	2
+SRR957083_4_length_344_cov_11.1318	344	0.5174	0	11.132	Bacteria	6163.0	0	Firmicutes	6163.0	0	Lactobacillales	4283.0	1	Lactobacillaceae	4283.0	1	Lactobacillus	4283.0	1	uncultured Firmicutes bacterium	1880.0	5
+SRR957083_5_length_266_cov_34.3519	266	0.5526	0	34.352	Bacteria	4518.0	0	Proteobacteria	4518.0	0	Orbales	3215.0	1	Orbaceae	3215.0	1	Frischella	2375.0	3	Frischella perrara	2375.0	3
+SRR957083_6_length_232_cov_65.5628	232	0.5129	0	65.563	Bacteria	4118.0	0	Proteobacteria	4118.0	0	Neisseriales	4118.0	0	Neisseriaceae	4118.0	0	Kingella	1203.0	4	Kingella kingae	1203.0	5
+SRR957083_7_length_231_cov_31.101	231	0.5152	0	31.101	Bacteria	3599.0	0	Proteobacteria	3290.0	1	Neisseriales	2361.0	3	Neisseriaceae	2361.0	3	Snodgrassella	2067.0	5	Snodgrassella alvi	2067.0	5
+SRR957083_8_length_229_cov_4.93878	229	0.4891	0	4.939	Bacteria	3359.0	0	Firmicutes	3359.0	0	Lactobacillales	3359.0	0	Lactobacillaceae	3359.0	0	Lactobacillus	3359.0	0	uncultured Lactobacillus sp.	1254.0	4
+SRR957083_9_length_211_cov_34.1573	211	0.4929	0	34.157	Bacteria	3687.0	0	Proteobacteria	3687.0	0	Neisseriales	2127.0	1	Neisseriaceae	2127.0	1	Neisseria	1737.0	2	uncultured beta proteobacterium	1560.0	3
+SRR957083_10_length_211_cov_31.3146	211	0.5166	0	31.315	Bacteria	3815.0	0	Proteobacteria	3815.0	0	Proteobacteria-undef	1950.0	2	Proteobacteria-undef	1950.0	2	Proteobacteria-undef	1950.0	3	uncultured gamma proteobacterium	1950.0	3
+SRR957083_11_length_120_cov_64.1609	120	0.525	0	64.161	Bacteria	2220.0	0	Proteobacteria	1998.0	1	Neisseriales	1998.0	1	Neisseriaceae	1998.0	1	Neisseria	1998.0	1	Neisseria meningitidis	888.0	5
+SRR957085_1_length_826_cov_154.585	826	0.4988	0	154.585	Bacteria	13122.0	0	Proteobacteria	13122.0	0	Orbales	9717.0	2	Orbaceae	9717.0	2	Gilliamella	5589.0	3	Gilliamella apicola	5589.0	3
+SRR957085_2_length_663_cov_263.09	663	0.5113	0	263.09	Bacteria	11207.0	0	Proteobacteria	11207.0	0	Proteobacteria-undef	6113.0	1	Proteobacteria-undef	6113.0	1	Proteobacteria-undef	6113.0	2	uncultured beta proteobacterium	6113.0	2
+SRR957085_3_length_611_cov_303.061	611	0.5385	0	303.061	Bacteria	9619.0	0	Proteobacteria	9619.0	0	Neisseriales	9619.0	0	Neisseriaceae	9619.0	0	Snodgrassella	4880.0	2	Snodgrassella alvi	4880.0	2
+SRR957085_4_length_347_cov_104.137	347	0.5187	0	104.137	Bacteria	6210.0	0	Firmicutes	6210.0	0	Lactobacillales	4314.0	1	Lactobacillaceae	4314.0	1	Lactobacillus	4314.0	1	uncultured Firmicutes bacterium	1896.0	5
+SRR957085_5_length_273_cov_150.983	273	0.5238	0	150.983	Bacteria	4212.0	0	Proteobacteria	4212.0	0	Neisseriales	4212.0	0	Neisseriaceae	2397.0	1	Snodgrassella	2397.0	1	Snodgrassella alvi	2397.0	1
+SRR957085_6_length_266_cov_216.635	266	0.5526	0	216.635	Bacteria	4633.0	0	Proteobacteria	4633.0	0	Proteobacteria-undef	1900.0	2	Proteobacteria-undef	1900.0	2	Proteobacteria-undef	1900.0	2	uncultured gamma proteobacterium	1900.0	2
+SRR957085_7_length_231_cov_51.7626	231	0.4892	0	51.763	Bacteria	3415.0	0	Firmicutes	3415.0	0	Lactobacillales	3415.0	0	Lactobacillaceae	3415.0	0	Lactobacillus	3415.0	0	uncultured Lactobacillus sp.	1708.0	3
+SRR957085_8_length_191_cov_1.61392	191	0.5916	0	1.614	Bacteria	3481.0	0	Actinobacteria	2797.0	1	Bifidobacteriales	2797.0	1	Bifidobacteriaceae	2797.0	1	Bifidobacterium	2797.0	1	Bifidobacterium coryneforme	1412.0	6
+SRR957085_9_length_172_cov_163.504	172	0.5291	0	163.504	Bacteria	3103.0	0	Proteobacteria	3103.0	0	Proteobacteria-undef	1272.0	2	Proteobacteria-undef	1272.0	2	Proteobacteria-undef	1272.0	3	uncultured gamma proteobacterium	1272.0	3
+SRR957085_10_length_172_cov_155.417	172	0.5349	0	155.417	Bacteria	3070.0	0	Proteobacteria	3070.0	0	Proteobacteria-undef	1590.0	2	Proteobacteria-undef	1590.0	3	Proteobacteria-undef	1590.0	4	uncultured gamma proteobacterium	1590.0	4
+SRR957085_11_length_172_cov_151.259	172	0.5291	0	151.259	Bacteria	3087.0	0	Proteobacteria	3087.0	0	Proteobacteria-undef	1272.0	2	Proteobacteria-undef	1272.0	3	Proteobacteria-undef	1272.0	5	uncultured gamma proteobacterium	1272.0	5
+SRR957085_12_length_158_cov_116.872	158	0.538	0	116.872	Bacteria	2669.0	0	Firmicutes	2428.0	1	Lactobacillales	2428.0	1	Lactobacillaceae	2428.0	1	Lactobacillus	2428.0	1	Lactobacillus acidophilus	738.0	7
+SRR957085_13_length_138_cov_89.5429	138	0.529	0	89.543	Bacteria	2488.0	0	Firmicutes	2249.0	1	Lactobacillales	2249.0	1	Lactobacillaceae	2249.0	1	Lactobacillus	2249.0	1	uncultured Lactobacillus sp.	1503.0	4
+SRR957085_14_length_132_cov_314.475	132	0.5833	0	314.475	Bacteria	2330.0	0	Proteobacteria	2330.0	0	Proteobacteria-undef	2086.0	1	Proteobacteria-undef	2086.0	1	Proteobacteria-undef	1864.0	2	uncultured beta proteobacterium	1864.0	2
+SRR957085_15_length_106_cov_179.959	106	0.5755	0	179.959	Bacteria	1928.0	0	Proteobacteria	1928.0	0	Orbales	980.0	2	Orbaceae	980.0	2	Gilliamella	784.0	3	Gilliamella apicola	784.0	3
+SRR957085_16_length_63_cov_188.9	63	0.5714	0	188.9	Bacteria	997.0	0	Proteobacteria	585.0	1	Bacteria-undef	412.0	2	Bacteria-undef	412.0	2	Bacteria-undef	412.0	3	uncultured bacterium	412.0	3
+SRR957085_17_length_58_cov_195.48	58	0.5172	0	195.48	Bacteria	540.0	0	Proteobacteria	540.0	0	Neisseriales	324.0	1	Neisseriaceae	324.0	1	unresolved	216.0	2	unresolved	216.0	2
+SRR957086_1_length_1571_cov_3.85826	1571	0.5334	0	3.858	Bacteria	31006.0	0	Proteobacteria	31006.0	0	Rhizobiales	31006.0	0	Bartonellaceae	15710.0	2	Bartonella	15710.0	3	uncultured Rhizobiales bacterium	10620.0	7
+SRR957087_1_length_921_cov_179.137	921	0.5168	0	179.137	Bacteria	15481.0	0	Proteobacteria	15481.0	0	Rhizobiales	15481.0	0	Bartonellaceae	9068.0	1	Bartonella	9068.0	1	uncultured Rhizobiales bacterium	6413.0	4
+SRR957087_2_length_613_cov_203.471	613	0.5204	0	203.471	Bacteria	10159.0	0	Firmicutes	10159.0	0	Lactobacillales	10159.0	0	Lactobacillaceae	10159.0	0	Lactobacillus	10159.0	0	Lactobacillus amylovorus	1818.0	8
+SRR957087_3_length_598_cov_87.0708	598	0.51	0	87.071	Bacteria	10090.0	0	Proteobacteria	10090.0	0	Orbales	4157.0	3	Orbaceae	4157.0	3	Proteobacteria-undef	3286.0	5	uncultured gamma proteobacterium	3286.0	5
+SRR957087_4_length_466_cov_37.5982	466	0.6137	0	37.598	Bacteria	8013.0	0	Actinobacteria	8013.0	0	Bifidobacteriales	8013.0	0	Bifidobacteriaceae	8013.0	0	Bifidobacterium	8013.0	0	Bifidobacterium thermophilum	3068.0	4
+SRR957087_5_length_440_cov_26.9509	440	0.5955	0	26.951	Bacteria	7935.0	0	Actinobacteria	7935.0	0	Bifidobacteriales	7935.0	0	Bifidobacteriaceae	7935.0	0	Bifidobacterium	7935.0	0	Bifidobacterium kashiwanohense	3096.0	4
+SRR957087_6_length_380_cov_104.265	380	0.5447	0	104.265	Bacteria	4980.0	0	Firmicutes	4859.0	1	Lactobacillales	4859.0	1	Lactobacillaceae	4859.0	1	Lactobacillus	4859.0	1	uncultured Lactobacillus sp.	3104.0	2
+SRR957087_7_length_355_cov_26.9099	355	0.6	0	26.91	Bacteria	5732.0	0	Actinobacteria	5732.0	0	Bifidobacteriales	5732.0	0	Bifidobacteriaceae	5732.0	0	Bifidobacterium	5732.0	0	Bifidobacterium bifidum	2615.0	3
+SRR957087_8_length_323_cov_14.5	323	0.5666	0	14.5	Bacteria	5324.0	0	Proteobacteria	4394.0	1	Proteobacteria-undef	2985.0	3	Proteobacteria-undef	2985.0	3	Proteobacteria-undef	2985.0	3	uncultured beta proteobacterium	2985.0	3
+SRR957087_9_length_318_cov_164.354	318	0.5252	0	164.354	Bacteria	4531.0	1	Proteobacteria	4531.0	1	Enterobacterales	1958.0	4	Enterobacteriaceae	1958.0	4	Cronobacter	1437.0	5	Cronobacter dublinensis	1437.0	6
+SRR957087_10_length_301_cov_17.2015	301	0.5083	0	17.201	Bacteria	5200.0	0	Proteobacteria	4716.0	1	Neisseriales	4716.0	1	Neisseriaceae	4716.0	1	Neisseriaceae-undef	2224.0	4	uncultured Neisseriaceae bacterium	2224.0	4
+SRR957087_11_length_250_cov_308.668	250	0.532	0	308.668	Bacteria	3849.0	0	Bacteria-undef	2313.0	2	Bacteria-undef	2313.0	4	Bacteria-undef	2313.0	4	Bacteria-undef	2313.0	4	uncultured bacterium	1169.0	7
+SRR957087_12_length_250_cov_119.318	250	0.484	0	119.318	Bacteria	3244.0	0	Proteobacteria	3244.0	0	Orbales	1707.0	2	Orbaceae	1707.0	2	Gilliamella	1407.0	3	Gilliamella apicola	1407.0	3
+SRR957087_13_length_231_cov_91.7273	231	0.4978	0	91.727	Bacteria	3383.0	0	Firmicutes	3383.0	0	Lactobacillales	3383.0	0	Lactobacillaceae	3383.0	0	Lactobacillus	3383.0	0	uncultured Lactobacillus sp.	1672.0	3
+SRR957087_14_length_210_cov_390.429	210	0.5762	0	390.429	Bacteria	3763.0	0	Proteobacteria	3763.0	0	Rhizobiales	2987.0	1	Bartonellaceae	1823.0	2	Bartonella	1823.0	2	Bartonella quintana	1823.0	2
+SRR957087_15_length_203_cov_177.671	203	0.532	0	177.671	Bacteria	3164.0	0	Proteobacteria	3164.0	0	Rhizobiales	3164.0	0	Brucellaceae	2835.0	1	Brucella	2835.0	1	Brucella abortus	1575.0	2
+SRR957087_16_length_201_cov_14.4702	201	0.5473	0	14.47	Bacteria	3411.0	0	Proteobacteria	3069.0	1	Neisseriales	1581.0	2	Neisseriaceae	1581.0	2	Proteobacteria-undef	1488.0	4	uncultured beta proteobacterium	1488.0	5
+SRR957087_17_length_180_cov_77.2721	180	0.55	0	77.272	Bacteria	2948.0	0	Proteobacteria	2948.0	0	Orbales	2396.0	1	Orbaceae	2396.0	1	Gilliamella	1220.0	2	Gilliamella apicola	1220.0	2
+SRR957087_18_length_168_cov_181.711	168	0.5655	0	181.711	Bacteria	3080.0	0	Proteobacteria	2769.0	1	Rhizobiales	2147.0	2	Rhizobiaceae	1525.0	3	Rhizobium	1525.0	3	Rhizobium tropici	1525.0	3
+SRR957087_19_length_168_cov_150.889	168	0.5536	0	150.889	Bacteria	2915.0	0	Proteobacteria	2915.0	0	Rhizobiales	2327.0	1	Rhizobiaceae	1739.0	2	Rhizobium	1739.0	2	Rhizobium tropici	1445.0	3
+SRR957087_20_length_161_cov_29.6328	161	0.5776	0	29.633	Bacteria	2840.0	0	Actinobacteria	2840.0	0	Bifidobacteriales	2840.0	0	Bifidobacteriaceae	2840.0	0	Bifidobacterium	2840.0	0	uncultured Bifidobacterium sp.	1648.0	3
+SRR957087_21_length_160_cov_189.764	160	0.5188	0	189.764	Bacteria	2804.0	0	Proteobacteria	2804.0	0	Neisseriales	1916.0	1	Neisseriaceae	1916.0	1	Proteobacteria-undef	888.0	4	uncultured beta proteobacterium	888.0	5
+SRR957087_22_length_131_cov_176	131	0.5573	0	176.0	Bacteria	2418.0	0	Proteobacteria	2418.0	0	Rhizobiales	2175.0	1	Hyphomicrobiaceae	1701.0	2	Blastochloris	1701.0	2	Blastochloris viridis	1701.0	2
+SRR957087_23_length_116_cov_315.783	116	0.5517	0	315.783	Bacteria	2146.0	0	Proteobacteria	1716.0	1	Rhizobiales	1716.0	1	Bartonellaceae	1071.0	3	Bartonella	1071.0	3	unresolved	430.0	6
+SRR957087_24_length_114_cov_180.704	114	0.5175	0	180.704	Bacteria	2039.0	0	Proteobacteria	1023.0	2	Bacteria-undef	805.0	3	Bacteria-undef	805.0	3	Bacteria-undef	805.0	3	Gilliamella apicola	606.0	6
+SRR957087_25_length_100_cov_326.537	100	0.56	0	326.537	Bacteria	1641.0	1	Firmicutes	740.0	3	Lactobacillales	740.0	3	Lactobacillaceae	740.0	3	Lactobacillus	740.0	3	uncultured Lactobacillus sp.	555.0	7
+SRR957087_26_length_100_cov_223.537	100	0.53	0	223.537	Bacteria	1850.0	0	Proteobacteria	1850.0	0	Rhizobiales	1850.0	0	Bartonellaceae	1295.0	2	Bartonella	1295.0	3	Bartonella sp.	925.0	4
+SRR957087_27_length_71_cov_49.1842	71	0.5775	0	49.184	Bacteria	1320.0	0	Actinobacteria	1056.0	1	Propionibacteriales	660.0	4	Nocardioidaceae	528.0	5	Nocardioides	528.0	5	unresolved	132.0	9
+SRR957087_28_length_52_cov_510.895	52	0.6154	0	510.895	Bacteria	873.9	1	Proteobacteria	776.8	2	Aeromonadales	194.2	8	Aeromonadaceae	194.2	8	Aeromonas	194.2	8	unresolved	97.1	9
+SRR957087_29_length_49_cov_351.688	49	0.6122	0	351.688	Bacteria	916.0	0	Proteobacteria	549.6	2	Rhizobiales	366.4	4	Bradyrhizobiaceae	366.4	4	unresolved	183.2	6	unresolved	91.6	9
+SRR957087_30_length_48_cov_145.533	48	0.5625	0	145.533	Bacteria	898.0	0	Proteobacteria	898.0	0	Burkholderiales	628.6	2	Comamonadaceae	538.8	3	Comamonadaceae-undef	449.0	4	unresolved	89.8	9
+SRR957087_31_length_45_cov_178.167	45	0.5778	0	178.167	Bacteria	757.8	1	Actinobacteria	421.0	3	Corynebacteriales	336.8	5	Mycobacteriaceae	252.6	6	Mycobacterium	252.6	7	unresolved	84.2	9
+SRR957087_32_length_41_cov_23	41	0.6341	0	23.0	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957087_33_length_39_cov_561	39	0.5385	0	561.0	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957087_34_length_35_cov_5.5	35	0.5143	0	5.5	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957093_1_length_614_cov_13.2943	614	0.5147	0	13.294	Bacteria	10436.0	0	Proteobacteria	10436.0	0	Proteobacteria-undef	5590.0	2	Proteobacteria-undef	5590.0	2	Proteobacteria-undef	5590.0	3	uncultured gamma proteobacterium	5590.0	3
+SRR957093_2_length_596_cov_9.75666	596	0.5856	0	9.757	Bacteria	10580.0	0	Actinobacteria	10580.0	0	Bifidobacteriales	10580.0	0	Bifidobacteriaceae	10580.0	0	Bifidobacterium	10580.0	0	Bifidobacterium asteroides	4384.0	3
+SRR957093_3_length_487_cov_10.6718	487	0.6099	0	10.672	Bacteria	8454.0	0	Actinobacteria	8454.0	0	Bifidobacteriales	8454.0	0	Bifidobacteriaceae	8454.0	0	Bifidobacterium	8454.0	0	Bifidobacterium thermophilum	3244.0	4
+SRR957093_4_length_470_cov_14.984	470	0.5298	0	14.984	Bacteria	7054.0	0	Proteobacteria	7054.0	0	Enterobacterales	3400.0	3	Enterobacteriaceae	3400.0	3	Cronobacter	3400.0	3	Cronobacter sakazakii	3400.0	4
+SRR957093_5_length_346_cov_7.98083	346	0.604	0	7.981	Bacteria	5650.0	0	Actinobacteria	5650.0	0	Bifidobacteriales	5650.0	0	Bifidobacteriaceae	5650.0	0	Bifidobacterium	5650.0	0	Bifidobacterium bifidum	2580.0	4
+SRR957093_6_length_270_cov_28.9241	270	0.5407	0	28.924	Bacteria	4108.0	0	Firmicutes	3354.0	1	Lactobacillales	2919.0	2	Lactobacillaceae	2919.0	2	Lactobacillus	2919.0	2	uncultured bacterium	754.0	8
+SRR957093_7_length_243_cov_9.07143	243	0.5103	0	9.071	Bacteria	3880.0	0	Proteobacteria	3481.0	1	Rhizobiales	3082.0	2	Bartonellaceae	3082.0	2	Bartonella	3082.0	2	uncultured Bartonella sp.	1197.0	5
+SRR957093_8_length_219_cov_6.46774	219	0.4795	0	6.468	Bacteria	3611.0	0	Proteobacteria	3611.0	0	Orbales	3075.0	1	Orbaceae	3075.0	1	Gilliamella	2724.0	2	Gilliamella apicola	2724.0	2
+SRR957093_9_length_210_cov_2.42938	210	0.4571	0	2.429	Bacteria	3331.0	0	Firmicutes	3331.0	0	Lactobacillales	3331.0	0	Lactobacillaceae	3331.0	0	Lactobacillus	3331.0	0	Lactobacillus kunkeei	2755.0	2
+SRR957093_10_length_201_cov_5.27976	201	0.5323	0	5.28	Bacteria	3248.0	0	Firmicutes	2256.0	1	Lactobacillales	1596.0	3	Lactobacillaceae	1596.0	3	Lactobacillus	1596.0	3	Lactobacillus backii	1272.0	4
+SRR957093_11_length_182_cov_44.0201	182	0.522	0	44.02	Bacteria	3249.0	0	Proteobacteria	2575.0	1	Rhodospirillales	2575.0	1	Acetobacteraceae	2575.0	1	Acetobacter	1575.0	2	Acetobacter ghanensis	1260.0	5
+SRR957093_12_length_178_cov_6.28966	178	0.5506	0	6.29	Bacteria	2916.0	0	Proteobacteria	2916.0	0	Orbales	2372.0	1	Orbaceae	2372.0	1	Gilliamella	1208.0	2	Gilliamella apicola	1208.0	2
+SRR957093_13_length_141_cov_44.4444	141	0.5674	0	44.444	Bacteria	2521.0	0	Proteobacteria	2003.0	1	Rhodospirillales	2003.0	1	Acetobacteraceae	2003.0	1	Commensalibacter	1220.0	2	uncultured Commensalibacter sp.	1220.0	4
+SRR957093_14_length_120_cov_44.8736	120	0.5167	0	44.874	Bacteria	2180.0	0	Proteobacteria	2180.0	0	Rhodospirillales	2180.0	0	Acetobacteraceae	2180.0	0	Commensalibacter	1736.0	1	uncultured Commensalibacter sp.	1736.0	2
+SRR957093_15_length_84_cov_37.9216	84	0.6071	0	37.922	Bacteria	1518.0	0	Proteobacteria	1362.0	1	Rhodospirillales	1362.0	1	Acetobacteraceae	1362.0	1	Acetobacter	1062.0	3	Acetobacter pasteurianus	750.0	5
+SRR957093_16_length_56_cov_32.2609	56	0.5179	0	32.261	Bacteria	1015.0	0	Proteobacteria	807.0	1	Rhodospirillales	807.0	1	Acetobacteraceae	807.0	1	Commensalibacter	495.0	2	uncultured Commensalibacter sp.	495.0	2
+SRR957093_17_length_52_cov_66.4211	52	0.6154	0	66.421	Bacteria	873.9	1	Proteobacteria	679.7	2	unresolved	194.2	7	unresolved	194.2	7	unresolved	194.2	7	unresolved	97.1	9
+SRR957093_18_length_47_cov_74.7143	47	0.5532	0	74.714	Bacteria	527.4	1	undef	351.6	3	undef	351.6	6	undef	351.6	6	undef	351.6	6	unresolved	87.9	9
+SRR957093_19_length_41_cov_63.125	41	0.6098	0	63.125	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None	no-hit	0.0	None
+SRR957095_1_length_241_cov_132.279	241	0.5062	0	132.279	Eukaryota	4088.0	0	Eukaryota-undef	2084.0	1	Eukaryota-undef	2084.0	4	Eukaryota-undef	2084.0	4	Eukaryota-undef	2084.0	4	uncultured fungus	1668.0	5
+SRR989672_1_length_186_cov_17.9935	186	0.6075	0	17.994	Bacteria	3440.0	0	Actinobacteria	2408.0	1	Propionibacteriales	1376.0	2	Propionibacteriaceae	1376.0	3	unresolved	1032.0	4	Cutibacterium acnes	1032.0	6
+SRR989672_2_length_184_cov_8.78146	184	0.5707	0	8.781	Bacteria	2897.0	0	Firmicutes	1676.0	2	Lactobacillales	1380.0	3	Lactobacillaceae	1380.0	3	Lactobacillus	1380.0	3	Lactobacillus sakei	1380.0	4
+SRR989673_1_length_184_cov_7.69536	184	0.5435	0	7.695	Bacteria	3400.0	0	Bacteria-undef	3400.0	0	Bacteria-undef	3400.0	0	Bacteria-undef	3400.0	0	Bacteria-undef	3400.0	0	uncultured bacterium	3400.0	0
+SRR989673_2_length_119_cov_72.1744	119	0.5798	0	72.174	Eukaryota	2106.0	0	Arthropoda	1893.0	1	Hymenoptera	1065.0	2	Apidae	1065.0	3	Plebeia	426.0	8	unresolved	213.0	9
+SRR989673_3_length_119_cov_52.7326	119	0.563	0	52.733	Eukaryota	2142.0	0	Arthropoda	1936.0	1	Diptera	1936.0	1	Drosophilidae	1496.0	3	Drosophila	1496.0	3	Drosophila melanogaster	1276.0	4
+SRR989673_4_length_87_cov_34.1111	87	0.6092	0	34.111	Eukaryota	1610.0	0	Arthropoda	1449.0	1	Hemiptera	966.0	4	Cicadellidae	322.0	8	unresolved	161.0	9	unresolved	161.0	9
