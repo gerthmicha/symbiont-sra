@@ -14,21 +14,21 @@ This guide lists the steps we used to screen short read sequencing data from hon
 ---
 
 ## Workflow
-The following description explains how we extracted symbiont data from Apis *DNA* reads, but the general precedure was identical for screening RNA data. All files mentioned here can be found in the examples folder. All of the steps listed here assume a directory layout as follows:
+The following description explains how we extracted symbiont data from *Apis* DNA reads, but the general precedure was identical for screening RNA data. All files mentioned here can be found in the '[example](https://github.com/gerthmicha/symbiont-sra/tree/master/example)' folder. All of the steps listed here assume a directory layout as follows:
 + working_directory
   + reads (this is where the downloaded reads are stored)
   + mapping (this is where the mapping results are written)
   + mapped_reads (this is where the reads extracted from the mapping files are stored)
   + mapped_reads_assembled (this is where SPades assembly folders are created)
 
-The following files should be in working_directory (all can be found in the example folder):
-+ sra_accession_list_dna.txt (list of SRA experiments to analyse)
-+ reference_path_symb.fas (reference sequences from taxa which will be targeted in the screen)
+The following files should be in working_directory (all can be found in the [example](https://github.com/gerthmicha/symbiont-sra/tree/master/example) folder):
++ [sra_accession_list_dna.txt](https://github.com/gerthmicha/symbiont-sra/blob/master/example/sra_accession_list_dna.txt) (list of SRA experiments to analyse)
++ [reference_path_symb.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/example/reference_path_symb.fas) (reference sequences from taxa which will be targeted in the screen)
 
 This directory layout is mostly for orientation in following this guide and not essential for the analyses as such.
 
 #### Compile list of SRA experiments
-+ Search NCBI's short read archive (http://www.ncbi.nlm.nih.gov/sra) for experiments of interest and download summary files. E.g., WGS studies from *Apis*, targeting DNA.
++ Search NCBI's short read archive <http://www.ncbi.nlm.nih.gov/sra> for experiments of interest and download summary files. E.g., WGS studies from *Apis*, targeting DNA.
 + Retrieve run accession numbers associated with each experiment from this file.
 
 #### Download of short read files
@@ -36,13 +36,13 @@ This directory layout is mostly for orientation in following this guide and not 
 ```shell
 cat sra_accession_list.txt | xargs -n 1 -P 6 -I{} fastq-dump -O reads --gzip --split-3 {}
 ```
-Alternatively, access NCBI's or ENA's ftp servers via wget directly, which is much faster. Please see tutorials here on how to do this: https://www.ncbi.nlm.nih.gov/books/NBK158899/
+Alternatively, access NCBI's or ENA's ftp servers via wget directly, which is much faster. Please see tutorials here on how to do this: <https://www.ncbi.nlm.nih.gov/books/NBK158899/>
 & here: 
-http://www.ebi.ac.uk/ena/browse/read-download
+<http://www.ebi.ac.uk/ena/browse/read-download>
 
 
 #### Compile reference sequences
-+ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: reference_path_symb.fas – all other references can be found in the reference folder).
++ For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: [reference_path_symb.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/example/reference_path_symb.fas) – all other references can be found in the [references](https://github.com/gerthmicha/symbiont-sra/tree/master/references) folder).
 
 #### Mapping
 + Map all downloaded reads to reference sequences.
