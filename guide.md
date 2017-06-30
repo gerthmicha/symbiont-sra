@@ -1,4 +1,4 @@
-# Guide to replicate data retrieval and analyses from [Gerth & Hurst 2017](https://github.com/gerthmicha/symbiont-sra)
+# Guide to replicate data retrieval and analyses from [Gerth & Hurst 2017](http://dx.doi.org/10.7717/peerj.3529)
 
 This guide lists the steps we used to screen short read sequencing data from honey bees (*Apis* ssp.) for genomic data of their associated microbes. In general, this is also transferable to retrieving symbiont data from other Eukaryote sequencing projects. All intermediate files mentioned can be accessed via https://github.com/gerthmicha/symbiont-sra. The following tools were used (alternatives in brackets):
 
