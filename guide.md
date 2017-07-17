@@ -40,6 +40,9 @@ Alternatively, access NCBI's or ENA's ftp servers via wget directly, which is mu
 & here: 
 <http://www.ebi.ac.uk/ena/browse/read-download>
 
+_UPDATE_:
+I wrote a [script](https://github.com/gerthmicha/symbiont-sra/tree/master/sra_download.pl) that automates the download of fastq files from the European Nuleaotide archive. This should be much faster than using sra-tools. 
+
 
 #### Compile reference sequences
 + For each symbiont/microbe to be searched for, include a single signature sequence into a fasta file (e.g., bacterial 16S, here: [reference_path_symb.fas](https://github.com/gerthmicha/symbiont-sra/blob/master/example/reference_path_symb.fas) – all other references can be found in the [references](https://github.com/gerthmicha/symbiont-sra/tree/master/references) folder).
